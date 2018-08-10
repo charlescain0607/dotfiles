@@ -1,0 +1,15 @@
+# Rofi Config File
+
+# Dark theme 1d1f21.
+rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+
+# rofi.case-sensitive: no
+rofi.width: 50
+rofi.lines: 5 
+rofi.columns: 1
+rofi.font: DejaVu Sans Mono 12
+rofi.bw: 2
+rofi.padding: 40
+rofi.eh: 2
+!rofi.separator-style: solid
+rofi.hide-scrollbar: true
