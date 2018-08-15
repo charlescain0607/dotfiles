@@ -13,7 +13,7 @@
 set $mod Mod4
 
 # Set fonts
-font pango:SauceCodePro Nerd Font Black 14
+font pango:SauceCodePro Nerd Font Black 13
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -25,19 +25,14 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+q kill
 
 #add gaps
-for_window [class="^.*"] border pixel 3
-gaps inner 50
-gaps outer 10
+for_window [class="^.*"] border pixel 2
+gaps inner 30
+gaps outer 0
 smart_gaps on
 hide_edge_borders smart
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id j4-dmenu-desktop --dmenu='rofi -dmenu -i -config ~/.config/rofi/config'
-
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -i -config ~/.config/rofi/config'
 
 # change focus
 bindsym $mod+j focus left
@@ -52,12 +47,6 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
-
-# alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -103,34 +92,37 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 2 # increase screen brightness
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 2 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 3 # increase screen brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 3 # decrease screen brightness
 
 # Touchpad controls
-exec_always --no-startup-id xinput set-prop 11 277 1
+exec_always --no-startup-id xinput set-prop 11 276 1
 
 #-------------------
 #	Colors
 #-------------------
 
-set $bg-color #FFFFFF
+set $bg-color #AAAAAA
 set $text-color #00FF00
 set $indicator #FFFFFF
 
 
-#window			#border		#background	#text		#indicator
-client.focused 		$bg-color 	$bg-color 	$text-color 	$indicator
-#client.focused_inactive #333333 	#333333 	#CCCCCC 	#333333
-#client.unfocused 	#333333 	#333333 	#CCCCCC 	#333333
-#client.urgent 		#be5046 	#be5046 	#98c379 	#98c379
+#window			 #border	#background	#text		#indicator
+client.focused 		 #bg-color 	$bg-color 	$text-color 	$indicator
+client.focused_inactive  #000000 	#000000 	#CCCCCC 	#000000
+client.unfocused 	 #000000 	#000000 	#CCCCCC 	#000000
+#client.urgent 		 #be5046 	#be5046 	#98c379 	#98c379
 
+#-------------------
+#    Workspaces
+#-------------------
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 " code"
-set $ws2 " pdf"
-set $ws3 " firefox"
-set $ws4 " jupyter"
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
 set $ws5 "5"
 set $ws6 "6"
 set $ws7 "7"
@@ -162,11 +154,12 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-
 #application workspaces
 assign [class="Sublime_text"] $ws1
 assign [class="Evince"] $ws2
 assign [class="Firefox"] $ws3
+assign [class="Zathura"] $ws2
+
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -204,12 +197,15 @@ bindsym $mod+r mode "resize"
 
 
 #exec_always commands
-exec_always --no-startup-id feh --bg-scale /home/chase/Downloads/wallhaven-18662.png
+#exec_always --no-startup-id feh --bg-scale ~/dotfiles/dotfiles/Wallpapers/Set1/wallhaven-13623.jpg
 exec_always --no-startup-id compton -f
+exec_always --no-startup-id wal -R
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-	status_command i3blocks
-	position top
-} # I dont have to specify a font like FontAwesome since SauceCodePro at the beginning includes it
+#bar {
+#	status_command i3blocks
+#	position top
+#} # I dont have to specify a font like FontAwesome since SauceCodePro at the beginning includes it

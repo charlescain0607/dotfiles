@@ -4,12 +4,13 @@
 rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
 
 # rofi.case-sensitive: no
-rofi.width: 50
-rofi.lines: 5 
-rofi.columns: 1
-rofi.font: DejaVu Sans Mono 12
-rofi.bw: 2
+rofi.width: 70
+rofi.lines: 10
+rofi.columns: 3
+rofi.font: Monofurbold Nerd Font bold 12
+rofi.bw: 0
 rofi.padding: 40
-rofi.eh: 2
-!rofi.separator-style: solid
-rofi.hide-scrollbar: true
+rofi.eh: 1
+rofi.separator-style: solid
+rofi.location: 2
+rofi.yoffset: 60
