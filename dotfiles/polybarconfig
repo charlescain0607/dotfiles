@@ -10,72 +10,77 @@
 
 
 [colors]
-	background = ${xrdb:color0:#222}
+	background = ${xrdb:background:#222}
 	background-alt = ${xrdb:color0:#222}
-	foreground = ${xrdb:color7:#222}
+	foreground = ${xrdb:foreground:#222}
 	foreground-alt = ${xrdb:color7:#222}
 	primary = ${xrdb:color1:#222}
-	secondary = ${xrdb:color2:#222}
-	alert = ${xrdb:color3:#222}
-
+	polybar = ${xrdb:color4:#222}
+	alert = ${xrdb:color2:#222}
+	
+	wal0 = ${xrdb:color0:#222}
+	wal1 = ${xrdb:color1:#222}
+	wal2 = ${xrdb:color2:#222}
+	wal3 = ${xrdb:color3:#222}
+	wal4 = ${xrdb:color4:#222}
+	wal5 = ${xrdb:color5:#222}
+	wal6 = ${xrdb:color6:#222}
+	wal7 = ${xrdb:color7:#222}
 
 
 [bar/example]
-;	override-redirect = true
-;	wm-restack = i3
 	width = 100%
-	height = 45
+	height = 50
 	radius = 0.0
-	offset-x = 30%
 ;	bottom = true
 	fixed-center = true
 
-
-	background = ${colors.background}
+;	background = ${colors.background}
+	background = #0000000
 	foreground = ${colors.foreground}
 
-;	line-size = 3
-;	line-color = ${colors.primary}
+	line-size = 3
+	line-color = ${colors.primary}
 
 	border-size = 5
-	border-color = #3f000000
+;	border-color = #3f000000
+	border-color = #0000000
 
 	padding = 2
-
 	module-margin = 2
 
-	font-0 = Monofurbold Nerd Font:style=Bold:pixelsize=14;2
+	font-0 = Hasklug Nerd Font:style=Black:pixelsize=16;2
 
-	modules-left = i3
-	modules-center = memory manjarosymb cpu
-	modules-right = pulseaudio xbacklight wlan temperature battery date 
-
-;	tray-position = right
-;	tray-padding = 2
-;	tray-transparent = true
-;	tray-background = #0063ff
-
-;	scroll-up = i3wm-wsnext
-;	scroll-down = i3wm-wsprev
+	modules-left = manjarosymb memory cpu filesystem 
+	modules-center = i3 
+	modules-right = pulseaudio xbacklight wlan battery date 
 
 	cursor-click = pointer
 	cursor-scroll = ns-resize
 
 
 
-;[module/filesystem]
-;	type = internal/fs
-;	interval = 25
+[module/filesystem]
+	type = internal/fs
+	interval = 600
 
-;	mount-0 = /home/chase/
+	mount-0 = /
 
-;	label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%
-;	label-unmounted = %mountpoint% not mounted
-;	label-unmounted-foreground = ${colors.foreground-alt}
+	format-mounted = <label-mounted>
+	format-unmounted = <label-unmounted>
+
+	label-mounted =  %mountpoint%: %percentage_used%%
+	label-unmounted = %mountpoint% not mounted
+	label-unmounted-foreground = ${colors.alert}
+
+
 
 [module/manjarosymb]
 	type = custom/text
 	content = 
+	content-foreground = ${colors.polybar}
+
+
 
 [module/i3]
 	type = internal/i3
@@ -88,37 +93,34 @@
 
 	label-mode-padding = 2
 	label-mode-foreground = #000
-	label-mode-background = ${colors.primary}
+	label-mode-background = ${colors.background}
 
 ;	focused = Active workspace on focused monitor
 	label-focused = %icon%
-	label-focused-background = ${colors.foreground}
-	label-focused-foreground = ${colors.primary}
-	label-focused-underline = ${colors.primary}
+;	label-focused-background = ${colors.background}
+	label-focused-background = #0000000	
+	label-focused-foreground = ${colors.polybar}
+	label-focused-underline = ${colors.polybar}
 	label-focused-padding = 2
 
 ;	unfocused = Inactive workspace on any monitor
 	label-unfocused = %icon%
 	label-unfocused-padding = 2
 
-;	visible = Active workspace on unfocused monitor
-	label-visible = %icon%
-	label-visible-background = ${colors.background}
-	label-visible-underline = ${colors.primary}
-	label-visible-padding = 2
-
 ;	urgent = Workspace with urgency hint set
 	label-urgent = %icon%
-	label-urgent-background = ${colors.background}
+	label-urgent-foreground = ${colors.alert}
+;	label-urgent-background = ${colors.background}
+	label-urgent-background = #0000000
+	label-urgent-underline = ${colors.alert}
 	label-urgent-padding = 2
 
-;	ws-icon-[0-9]+ = label;icon
 ;	NOTE: The label needs to match the name of the i3 workspace
-	ws-icon-0 = 1;
+	ws-icon-0 = 1;
 	ws-icon-1 = 2;
 	ws-icon-2 = 3;
 	ws-icon-3 = 4;
-	ws-icon-4 = 5;裡
+	ws-icon-4 = 5;
 	ws-icon-5 = 6;裡
 	ws-icon-6 = 7;裡
 	ws-icon-7 = 8;
@@ -127,16 +129,15 @@
 	ws-icon-default = 裡
 
 ;	Separator in between workspaces
-;	label-separator = |
+;	label-separator = >
 
 
 
 [module/xbacklight]
 	type = internal/xbacklight
 
-	format = <ramp> <label>
-	format-underline = ${colors.primary}
-	label = %percentage%
+	format = <label>
+	label = ﯧ %percentage%
 
 ;	Only applies if <ramp> is used
 	ramp-0 = 
@@ -152,8 +153,7 @@
 	interval = 1
 	format-prefix = " "
 	format-prefix-foreground = ${colors.foreground-alt}
-	format-underline = ${colors.primary}
-	label = ﬙ %percentage-cores%
+	label =  %percentage-cores%
 
 
 
@@ -162,7 +162,6 @@
 	interval = 1
 	format-prefix = " "
 	format-prefix-foreground = ${colors.foreground-alt}
-	format-underline = ${colors.primary}
 	label =  %mb_used%
 
 
@@ -170,25 +169,14 @@
 [module/wlan]
 	type = internal/network
 	interface = wlp1s0
-	interval = 3.0
+	interval = 5.0
 
 	format-connected = <label-connected>
-	format-connected-underline = ${colors.primary}
-	label-connected =  %signal%%
+	label-connected = 直 %signal%%
 
-	format-disconnected =
-;	format-disconnected = <label-disconnected>
-;	format-disconnected-underline = ${self.format-connected-underline}
-;	label-disconnected = %ifname% disconnected
-;	label-disconnected-foreground = ${colors.foreground-alt}
-
-;	add <ramp-signal>
-;	ramp-signal-0 = 
-;	ramp-signal-1 = 
-;	ramp-signal-2 = 
-;	ramp-signal-3 = 
-;	ramp-signal-4 = 
-;	ramp-signal-foreground = ${colors.foreground-alt}
+	format-disconnected = <label-disconnected>
+	label-disconnected = 睊
+	label-disconnected-foreground = ${colors.alert}
 
 
 
@@ -202,11 +190,8 @@
 	time = %l:%M %P
 	time-alt = %l:%M %P
 
-	format-prefix =
-	format-prefix-foreground = ${colors.foreground-alt}
-	format-underline = ${colors.primary}
-
 	label = %time% %date%
+	label-foreground = ${colors.polybar}
 
 
 
@@ -218,7 +203,7 @@
 ;	label-volume-foreground = ${colors.foreground}
 
 	label-muted = 婢 muted
-	label-muted-foreground = #666
+	label-muted-foreground = ${colors.alert}
 
 
 
@@ -226,34 +211,14 @@
 	type = internal/battery
 	battery = BAT1
 	adapter = ADP1
-	full-at = 98
+	full-at = 100
 
-	format-charging = <animation-charging> <label-charging>
-	format-charging-underline = ${colors.primary}
+	format-charging = <label-charging>
+	label-charging =  %percentage%%
+	label-charging-foreground = ${colors.alert}
 
-	format-discharging = <animation-discharging> <label-discharging>
-	format-discharging-underline = ${colors.primary}
-
-	format-full-prefix = ""
-	format-full-prefix-foreground = ${colors.foreground-alt}
-	format-full-underline = ${colors.primary}
-
-;	ramp-capacity-0 = 
-;	ramp-capacity-1 = 
-;	ramp-capacity-2 = 
-;	ramp-capacity-foreground = ${colors.foreground-alt}
-
-	animation-charging-0 = 
-	animation-charging-1 = 
-	animation-charging-2 = 
-;	animation-charging-foreground = ${colors.foreground-alt}
-	animation-charging-framerate = 1000
-
-	animation-discharging-0 = 
-	animation-discharging-1 = 
-	animation-discharging-2 = 
-;	animation-discharging-foreground = ${colors.foreground-alt}
-	animation-discharging-framerate = 1000
+	format-discharging = <label-discharging>
+	label-discharging =  %percentage%%
 
 
 
@@ -261,16 +226,15 @@
 	type = internal/temperature
 	interval = 5
 	thermal-zone = 3
-	warn-temperature = 60
+	warn-temperature = 50
 
 	format = <label>
-	format-underline = ${colors.primary}
 	format-warn = <label-warn>
-	format-warn-underline = ${colors.primary}
+;	format-warn-underline = ${colors.primary}
 
 	label =  %temperature-c%
 	label-warn = ! %temperature-c%
-	label-warn-foreground = ${colors.secondary}
+	label-warn-foreground = ${colors.alert}
 
 
 

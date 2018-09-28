@@ -1,16 +1,16 @@
 # Rofi Config File
 
 # Dark theme 1d1f21.
-rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
+rofi.theme: ~/.cache/wal/colors-rofi-light.rasi
 
-# rofi.case-sensitive: no
-rofi.width: 70
-rofi.lines: 10
-rofi.columns: 3
-rofi.font: Monofurbold Nerd Font bold 12
+rofi.width: 50
+rofi.lines: 12
+rofi.columns: 1
+rofi.font: Hasklug Nerd Font Bold 11
 rofi.bw: 0
-rofi.padding: 40
+rofi.padding: 0
 rofi.eh: 1
 rofi.separator-style: solid
-rofi.location: 2
-rofi.yoffset: 60
+rofi.location: 1
+rofi.yoffset: 65
+rofi.xoffset: 25
