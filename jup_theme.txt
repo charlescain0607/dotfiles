@@ -1,0 +1,1 @@
+jt -f hasklig -t gruvboxd -tfs 12 -nfs 12 -ofs 12 -T -N -kl -fs 12 -altp
