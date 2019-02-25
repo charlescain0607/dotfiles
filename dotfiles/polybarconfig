@@ -15,18 +15,17 @@
 	foreground = ${xrdb:foreground:#222}
 	foreground-alt = ${xrdb:color7:#222}
 	primary = ${xrdb:color1:#222}
-	polybar = ${xrdb:color4:#222}
-	alert = ${xrdb:color2:#222}
+	polybar = ${xrdb:color2:#222}
+	alert = ${xrdb:color3:#222}
 	
-	wal0 = ${xrdb:color0:#222}
-	wal1 = ${xrdb:color1:#222}
-	wal2 = ${xrdb:color2:#222}
-	wal3 = ${xrdb:color3:#222}
-	wal4 = ${xrdb:color4:#222}
-	wal5 = ${xrdb:color5:#222}
-	wal6 = ${xrdb:color6:#222}
-	wal7 = ${xrdb:color7:#222}
-
+	mem = ${xrdb:color7:#222}
+	cpu = ${xrdb:color7:#222}
+	disk = ${xrdb:color7:#222}
+	audio = ${xrdb:color7:#222}
+	bright  = ${xrdb:color7:#222}
+	wifi = ${xrdb:color7:#222}
+	bat = ${xrdb:color7:#222}
+	i3 = ${xrdb:color2:#222}
 
 [bar/example]
 	width = 100%
@@ -39,21 +38,49 @@
 	background = #0000000
 	foreground = ${colors.foreground}
 
-	line-size = 3
+	line-size = 0
 	line-color = ${colors.primary}
 
-	border-size = 5
+	border-size = 0
 ;	border-color = #3f000000
+;	border-color = #0000000
+	border-color = ${colors.background}
+
+	padding = 2
+	module-margin = 2
+
+	font-0 = Lekton Nerd Font:style=Bold:pixelsize=18;2
+
+	modules-left = manjarosymb memory cpu filesystem 
+;	modules-left = manjarosymb i3
+;	modules-center = i3 
+	modules-right = pulseaudio xbacklight wlan battery date 
+
+	cursor-click = pointer
+	cursor-scroll = ns-resize
+
+[bar/tray]
+	width = 100%
+	height = 65
+	radius = 0.0
+	bottom = true
+	fixed-center = true
+
+	background = #0000000
+	foreground = ${colors.foreground}
+
+	line-size = 0
+	line-color = ${colors.primary}
+
+	border-size = 0
 	border-color = #0000000
 
 	padding = 2
 	module-margin = 2
 
-	font-0 = Hasklug Nerd Font:style=Black:pixelsize=16;2
+	font-0 = Lekton Nerd Font:style=Bold:pixelsize=30;2
 
-	modules-left = manjarosymb memory cpu filesystem 
 	modules-center = i3 
-	modules-right = pulseaudio xbacklight wlan battery date 
 
 	cursor-click = pointer
 	cursor-scroll = ns-resize
@@ -71,7 +98,7 @@
 
 	label-mounted =  %mountpoint%: %percentage_used%%
 	label-unmounted = %mountpoint% not mounted
-	label-unmounted-foreground = ${colors.alert}
+	label-mounted-foreground = ${colors.disk}
 
 
 
@@ -99,13 +126,14 @@
 	label-focused = %icon%
 ;	label-focused-background = ${colors.background}
 	label-focused-background = #0000000	
-	label-focused-foreground = ${colors.polybar}
-	label-focused-underline = ${colors.polybar}
+	label-focused-foreground = ${colors.i3}
+	label-focused-underline = ${colors.i3}
 	label-focused-padding = 2
 
 ;	unfocused = Inactive workspace on any monitor
 	label-unfocused = %icon%
 	label-unfocused-padding = 2
+	label-unfocused-foreground = ${colors.foreground-alt}
 
 ;	urgent = Workspace with urgency hint set
 	label-urgent = %icon%
@@ -116,16 +144,16 @@
 	label-urgent-padding = 2
 
 ;	NOTE: The label needs to match the name of the i3 workspace
-	ws-icon-0 = 1;
-	ws-icon-1 = 2;
-	ws-icon-2 = 3;
-	ws-icon-3 = 4;
-	ws-icon-4 = 5;
-	ws-icon-5 = 6;裡
+	ws-icon-0 = 1; 
+	ws-icon-1 = 2; 
+	ws-icon-2 = 3; 
+	ws-icon-3 = 4; 
+	ws-icon-4 = 5; 
+	ws-icon-5 = 6;
 	ws-icon-6 = 7;裡
-	ws-icon-7 = 8;
-	ws-icon-8 = 9;
-	ws-icon-9 = 10;
+	ws-icon-7 = 8; 
+	ws-icon-8 = 9; 
+	ws-icon-9 = 10; 
 	ws-icon-default = 裡
 
 ;	Separator in between workspaces
@@ -138,6 +166,7 @@
 
 	format = <label>
 	label = ﯧ %percentage%
+	label-foreground = ${colors.bright}
 
 ;	Only applies if <ramp> is used
 	ramp-0 = 
@@ -152,7 +181,8 @@
 	type = internal/cpu
 	interval = 1
 	format-prefix = " "
-	format-prefix-foreground = ${colors.foreground-alt}
+	label-foreground = ${colors.cpu}
+;	label-foreground = ${colors.foreground-alt}
 	label =  %percentage-cores%
 
 
@@ -161,18 +191,19 @@
 	type = internal/memory
 	interval = 1
 	format-prefix = " "
-	format-prefix-foreground = ${colors.foreground-alt}
 	label =  %mb_used%
-
+	label-foreground = ${colors.mem}
+;	label-foreground = ${colors.foreground-alt}
 
 
 [module/wlan]
 	type = internal/network
 	interface = wlp1s0
-	interval = 5.0
+	interval = 2.0
 
 	format-connected = <label-connected>
 	label-connected = 直 %signal%%
+	label-connected-foreground = ${colors.wifi}
 
 	format-disconnected = <label-disconnected>
 	label-disconnected = 睊
@@ -190,7 +221,7 @@
 	time = %l:%M %P
 	time-alt = %l:%M %P
 
-	label = %time% %date%
+	label =  %time% %date%
 	label-foreground = ${colors.polybar}
 
 
@@ -200,7 +231,7 @@
 
 	format-volume = <label-volume> 
 	label-volume = 墳 %percentage%%
-;	label-volume-foreground = ${colors.foreground}
+	label-volume-foreground = ${colors.audio}
 
 	label-muted = 婢 muted
 	label-muted-foreground = ${colors.alert}
@@ -212,13 +243,15 @@
 	battery = BAT1
 	adapter = ADP1
 	full-at = 100
+	label-full = 100%
 
 	format-charging = <label-charging>
-	label-charging =  %percentage%%
+	label-charging =  %percentage%%
 	label-charging-foreground = ${colors.alert}
 
 	format-discharging = <label-discharging>
 	label-discharging =  %percentage%%
+	label-discharging-foreground = ${colors.bat}
 
 
 
