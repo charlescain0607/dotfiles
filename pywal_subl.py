@@ -92,42 +92,32 @@ with open('/home/chase/.config/sublime-text-3/Cache/UserColors/UserColor.tmTheme
     f.close()
 
 
-#def main():
-#    """Main function."""
-#    # Validate image and pick a random image if a
-#    # directory is given below.
-#    image = pywal.image.get("/home/chase/dotfiles/dotfiles/Wallpapers/simple/")
-#    print(image)
-#
-#    # Return a dict with the palette.
-#    # Set quiet to 'True' to disable notifications.
-#    colors = pywal.colors.get(image)
-#    print(colors)
-#
-#    # Apply the palette to all open terminals.
-#    # Second argument is a boolean for VTE terminals.
-#    # Set it to true if the terminal you're using is
-#    # VTE based. (xfce4-terminal, termite, gnome-terminal.)
-#    pywal.sequences.send(colors)
-#
-#    # Export all template files.
-#    #pywal.export.every(colors, "~/.cache/wal/schemes/")
-#
-#    # Export individual template files.
-#    #pywal.export.color(colors, "xresources", "/home/chase/.Xresources")
-#    #pywal.export.color(colors, "shell", "/home/dylan/colors.sh")
-#
-#    # Reload xrdb, i3 and polybar.
-#    pywal.reload.env()
-#
-#    # Reload individual programs.
-#    pywal.reload.i3()
-#    pywal.reload.xrdb()
-#    pywal.reload.polybar()
-#
-#    # Set the wallpaper.
-#    pywal.wallpaper.change(image)
-#
-#
-#main()
-#
+# change jupyter colors
+with open('/home/chase/.jupyter/custom/custom.css','w') as f:
+    # write in the variables
+    f.write(':root { \n')
+    f.write('\t --bg: '+bg+'; \n')
+    f.write('\t --fg: '+fg+'; \n')
+    f.write('\t --color0: '+color[0]+'; \n')
+    f.write('\t --color1: '+color[1]+'; \n')
+    f.write('\t --color2: '+color[2]+'; \n')
+    f.write('\t --color3: '+color[3]+'; \n')
+    f.write('\t --color4: '+color[4]+'; \n')
+    f.write('\t --color5: '+color[5]+'; \n')
+    f.write('\t --color6: '+color[6]+'; \n')
+    f.write('\t --color7: '+color[7]+'; \n')
+    f.write('\t --color8: '+color[8]+'; \n')
+    f.write('\t --color9: '+color[9]+'; \n')
+    f.write('\t --color10: '+color[10]+'; \n')
+    f.write('\t --color11: '+color[11]+'; \n')
+    f.write('\t --color12: '+color[12]+'; \n')
+    f.write('\t --color13: '+color[13]+'; \n')
+    f.write('\t --color14: '+color[14]+'; \n')
+    f.write('\t --color15: '+color[15]+'; \n')
+    f.write('} \n')
+    
+    with open('/home/chase/.jupyter/custom/templatecustom.css') as g:
+        f.write(g.read())
+
+
+# change homepage colors
