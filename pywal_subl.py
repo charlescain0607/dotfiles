@@ -5,7 +5,23 @@
 #------------------------------------------------------------------------------------------
 
 import pywal
+import numpy as np
 from lxml import etree
+
+# rgb and hex functions
+def rgb_to_hex(r,g,b):
+    h='#'
+    for c in [r,g,b]:
+        h += hex( int(min(255,c)) )[2:].zfill(2)
+    return h
+
+def hex_to_rgb(hex):
+    h = hex.lstrip('#')
+    h_rgb = np.array([int(h[i:i+2], 16) for i in (0, 2 ,4)])
+    return h_rgb
+
+def brighten_hex(hex,scale):
+    return rgb_to_hex(*(hex_to_rgb(hex)*scale).astype(int))
 
 # get image and colors
 image = pywal.wallpaper.get('/home/chase/.cache/wal/')
@@ -14,6 +30,7 @@ image = pywal.wallpaper.get('/home/chase/.cache/wal/')
 colors = pywal.colors.get(image)
 bg = colors['special']['background']
 fg = colors['special']['foreground']
+input_color = brighten_hex(bg,1.5)
 cursor = colors['special']['cursor']
 color = [ colors['colors']['color'+str(i)] for i in range(16) ] 
 
@@ -98,6 +115,7 @@ with open('/home/chase/.jupyter/custom/custom.css','w') as f:
     f.write(':root { \n')
     f.write('\t --bg: '+bg+'; \n')
     f.write('\t --fg: '+fg+'; \n')
+    f.write('\t --input_color: '+input_color+'; \n')
     f.write('\t --color0: '+color[0]+'; \n')
     f.write('\t --color1: '+color[1]+'; \n')
     f.write('\t --color2: '+color[2]+'; \n')

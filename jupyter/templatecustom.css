@@ -1625,7 +1625,7 @@ div.prompt,
 }
 div.prompt.input_prompt {
  font-size: 9pt !important;
- background-color: var(--color0); /* inputcolormark */
+ background-color: var(--input_color); /* inputarea */
  border-top: 0px;
  border-top-right-radius: 0px;
  border-bottom-left-radius: 0px;
@@ -3011,10 +3011,10 @@ div.tooltiptext.bigtooltip {
  height: 400px;
  max-width: 800px;
 }
-.cm-s-ipython.CodeMirror {
+.cm-s-ipython.CodeMirror { /* inputarea */
  font-family: "Ubuntu Mono", monospace, monospace;
  font-size: 12pt;
- background: var(--color0);
+ background: var(--input_color);
  color: var(--fg);
  border-radius: 2px;
  font-style: normal;
