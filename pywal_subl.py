@@ -25,12 +25,11 @@ def brighten_hex(hex,scale):
 
 # get image and colors
 image = pywal.wallpaper.get('/home/chase/.cache/wal/')
-#image = pywal.image.get("/home/chase/dotfiles/dotfiles/Wallpapers/simple/wallhaven-440.jpg")
 #colors = pywal.colors.file('')
 colors = pywal.colors.get(image)
 bg = colors['special']['background']
 fg = colors['special']['foreground']
-input_color = brighten_hex(bg,1.5)
+input_color = brighten_hex(bg,1.5) # brighten bg for input areas
 cursor = colors['special']['cursor']
 color = [ colors['colors']['color'+str(i)] for i in range(16) ] 
 
