@@ -1,11 +1,9 @@
 #
 # ~/.bashrc
-# 
+#
 
-#Default PS1
 #PS1='\[\033[01;32m\][\u@\h\[\033[01;37m\] \W\[\033[01;32m\]]\$\[\033[00m\] '
 
-NT_PROMPT_SYMBOL=
 
 [[ $- != *i* ]] && return
 
@@ -77,7 +75,7 @@ if ${use_color} ; then
 	if [[ ${EUID} == 0 ]] ; then
 		PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
 	else
-		PS1='\[\033[01;32m\]${NT_PROMPT_SYMBOL}\[\033[01;37m\]  \W\[\033[01;32m\]\[\033[00m\] '
+		PS1='\[\033[01;32m\]\u@\h\[\033[01;37m\] \W\[\033[01;32m\]\[\033[00m\] '
 	fi
 
 	alias ls='ls --color=auto'
@@ -100,7 +98,15 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
-alias jn=jupyter\ notebook
+alias jn="jupyter notebook"
+alias onedarkjupyter="jt -t onedork -cellw 88% -f iosevka -fs 11 -nf iosevka -nfs 11 -tf iosevka -tfs 11 -ofs 11 -T -N -kl"
+alias gruvdjupyter="jt -t gruvboxd -cellw 88% -f iosevka -fs 11 -nf iosevka -nfs 11 -tf iosevka -tfs 11 -ofs 11 -T -N -kl"
+alias gruvljupyter="jt -t gruvboxl -cellw 88% -f iosevka -fs 11 -nf iosevka -nfs 11 -tf iosevka -tfs 11 -ofs 11 -T -N -kl"
+alias daymode="wal -i '/home/chase/dotfiles/Wallpapers/simple/wallhaven-179391.jpg'"
+alias nightmode="wal -i '/home/chase/dotfiles/Wallpapers/simple/wallhaven-118264.png'"
+alias walnight="wal -i '/home/chase/dotfiles/Wallpapers/night' --iterative"
+alias adaptcolors="python3 ~/dotfiles/pywal_ext.py"
+alias bonsai="bash ~/.local/bin/bonsai -T"
 
 xhost +local:root > /dev/null 2>&1
 
@@ -146,17 +152,3 @@ ex ()
 
 # better yaourt colors
 export YAOURT_COLORS="nb=1:pkg=1:ver=1;32:lver=1;45:installed=1;42:grp=1;34:od=1;41;5:votes=1;44:dsc=0:other=1;35"
-
-# Import colorscheme from 'wal' asynchronously
-# &   # Run the process in the background.
-# ( ) # Hide shell job control messages.
-(cat ~/.cache/wal/sequences &)
-
-# Alternative (blocks terminal for 0-3ms)
-cat ~/.cache/wal/sequences
-
-# To add support for TTYs this line can be optionally added.
-source ~/.cache/wal/colors-tty.sh
-
-# added by Anaconda3 installer
-export PATH="/home/chase/anaconda3/bin:$PATH"
