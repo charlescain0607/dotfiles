@@ -4,7 +4,7 @@ rofi.theme: ~/.cache/wal/colors-rofi-light.rasi
 rofi.width: 30
 rofi.lines: 25
 rofi.columns: 1
-rofi.font: InconsolataGo Nerd Font Bold 12
+rofi.font: Iosevka Custom Bold 10
 rofi.eh: 1
 rofi.location: 0
 rofi.yoffset: 0

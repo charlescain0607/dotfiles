@@ -27,6 +27,11 @@
 	bat = ${xrdb:color7:#222}
 	i3 = ${xrdb:color4:#222}
 
+[symbols]
+	rightsep = %{T3}%{T-}	
+	leftsep = %{T3}%{T-}	
+;	leftsep = %{T3}%{T-}	
+
 [bar/example]
 	width = 100%
 ;	offset-x = i5%
@@ -49,15 +54,14 @@
 	border-color = ${colors.background}
 
 	padding = 0
-	module-margin = 2
+	module-margin = 0
 
-	font-0 = InconsolataGo Nerd Font:style=Bold:pixelsize=13;3
-	font-1 = mononoki Nerd Font:style=Bold:pixelsize=13;3
+	font-0 = Iosevka Custom:style=Bold:pixelsize=12;3
+	font-1 = Iosevka Nerd Font:style=Bold:pixelsize=13;3
+	font-2 = Powerline Extra Symbols:style=Bold:pixelsize=27;7
 
-
-	modules-center = memory cpu filesystem
-;	modules-left = manjarosymb i3
-	modules-left = manjarosymb i3
+	modules-center = i3
+	modules-left = manjarosymb memory cpu filesystem
 	modules-right = pulseaudio xbacklight wlan battery date 
 
 	cursor-click = pointer
@@ -92,27 +96,11 @@
 
 
 
-[module/filesystem]
-	type = internal/fs
-	interval = 600
-
-	mount-0 = /
-
-	format-mounted = <label-mounted>
-	format-unmounted = <label-unmounted>
-	
-	label-mounted =  %mountpoint%: %percentage_used%%
-	label-unmounted = %mountpoint% not mounted
-	label-mounted-foreground = ${colors.disk}
 
 
 
-[module/manjarosymb]
-	type = custom/text
-	content = 
-	content-foreground = ${colors.background}
-	content-background = ${colors.polybar}
-	content-padding = 2
+
+
 
 
 [module/i3]
@@ -166,100 +154,72 @@
 	format-padding = 0  
 
 
-[module/xbacklight]
-	type = internal/xbacklight
-
-	format = <label>
-	label = ﯧ %percentage%
-	label-foreground = ${colors.bright}
-
-;	Only applies if <ramp> is used
-	ramp-0 = 
-	ramp-1 = 
-	ramp-2 = 
-	ramp-3 = 
-	ramp-4 = 
 
 
+[module/manjarosymb]
+	type = custom/text
+	content =  Manjaro
+	content-foreground = ${colors.background}
+	content-background = ${xrdb:color1:#222}
+	content-padding = 2
 
-[module/cpu]
-	type = internal/cpu
-	interval = 1
-	format-prefix = " "
-	label-foreground = ${colors.cpu}
-;	label-background = ${colors.polybar}
-	label =  %percentage-cores%
+	format-suffix = ${symbols.leftsep}
+	format-suffix-foreground = ${xrdb:color2:#222}
+	format-suffix-background = ${colors.background}
 
 
 
 [module/memory]
 	type = internal/memory
 	interval = 1
-	format-prefix = " "
+;	format-prefix = " "
 	label =  %mb_used%
-	label-foreground = ${colors.mem}
-;	label-foreground = ${colors.foreground-alt}
-
-
-[module/wlan]
-	type = internal/network
-	interface = wlp1s0
-	interval = 2.0
-
-	format-connected = <label-connected>
-	label-connected = 直 %signal%%
-	label-connected-foreground = ${colors.wifi}
-
-	format-disconnected = <label-disconnected>
-	label-disconnected = 睊
-	label-disconnected-foreground = ${colors.alert}
-
-
-
-[module/date]
-	type = internal/date
-	interval = 5
-
-	date =
-	date-alt = %A %b %d
-
-	time = %l:%M %P
-	time-alt = %l:%M %P
-
-	label =  %time% %date%
 	label-foreground = ${colors.background}
-	label-background = ${colors.polybar}
-	label-padding = 2
+	label-background = ${xrdb:color2:#222}
+;	label-foreground = ${colors.foreground-alt}
+	label-padding = 1
+
+	format-prefix = ${symbols.leftsep}
+	format-prefix-foreground = ${xrdb:color1:#222}
+	format-prefix-background = ${xrdb:color2:#222}
+
+	format-suffix = ${symbols.leftsep}
+	format-suffix-foreground = ${xrdb:color2:#222}
+	format-suffix-background = ${xrdb:color3:#222}
 
 
+[module/cpu]
+	type = internal/cpu
+	interval = 1
+	label-foreground = ${colors.background}
+	label-background = ${xrdb:color3:#222}
+	label =  %percentage-cores%
+	label-padding = 1
 
-[module/pulseaudio]
-	type = internal/pulseaudio
-
-	format-volume = <label-volume> 
-	label-volume = 墳 %percentage%%
-	label-volume-foreground = ${colors.audio}
-
-	label-muted = 婢 muted
-	label-muted-foreground = ${colors.alert}
+	format-suffix = ${symbols.leftsep}
+	format-suffix-foreground = ${xrdb:color3:#222}
+	format-suffix-background = ${xrdb:color4:#222}
 
 
+[module/filesystem]
+	type = internal/fs
+	interval = 600
 
-[module/battery]
-	type = internal/battery
-	battery = BAT1
-	adapter = ADP1
-	full-at = 100
-	label-full = 100%
+	mount-0 = /
 
-	format-charging = <label-charging>
-	label-charging =  %percentage%%
-	label-charging-foreground = ${colors.alert}
+	format-mounted = <label-mounted>
+	format-unmounted = <label-unmounted>
+	
+	label-mounted =  %mountpoint%: %percentage_used%%
+	label-mounted-foreground = ${colors.background}
+	label-mounted-background = ${xrdb:color4:#222}
+	label-mounted-padding = 1
 
-	format-discharging = <label-discharging>
-	label-discharging =  %percentage%%
-	label-discharging-foreground = ${colors.bat}
+	format-mounted-suffix = ${symbols.leftsep}
+	format-mounted-suffix-foreground = ${xrdb:color4:#222}
+	format-mounted-suffix-background = ${colors.background}
 
+	label-unmounted = %mountpoint% not mounted
 
 
 [module/temperature]
@@ -286,11 +246,129 @@
 ;	compositing-border = over
 
 
+[module/pulseaudio]
+	type = internal/pulseaudio
+
+	format-volume = <label-volume> 
+	label-volume = 墳 %percentage%%
+	label-volume-foreground = ${colors.background}
+	label-volume-background = ${xrdb:color2:#222}
+	label-volume-padding = 1
+
+	format-volume-prefix = ${symbols.rightsep}
+	format-volume-prefix-foreground = ${xrdb:color2:#222}
+	format-volume-prefix-background = ${colors.background}
+
+	label-muted = 婢 muted
+	label-muted-padding = 1
+	label-muted-foreground = ${colors.background}
+	label-muted-background = ${xrdb:color2:#222}
+
+	format-muted-prefix = ${symbols.rightsep}
+	format-muted-prefix-foreground = ${xrdb:color2:#222}
+	format-muted-prefix-background = ${colors.background}
+
+
+
+[module/xbacklight]
+	type = internal/xbacklight
+
+	format = <label>
+	label = ﯧ %percentage%
+	label-foreground = ${colors.background}
+	label-background = ${xrdb:color3:#222}
+	label-padding = 1
+
+	format-prefix = ${symbols.rightsep}
+	format-prefix-foreground = ${xrdb:color3:#222}
+	format-prefix-background = ${xrdb:color2:#222}
+
+;	Only applies if <ramp> is used
+	ramp-0 = 
+	ramp-1 = 
+	ramp-2 = 
+	ramp-3 = 
+	ramp-4 = 
+
+
+
+[module/wlan]
+	type = internal/network
+	interface = wlp1s0
+	interval = 2.0
+
+	format-connected = <label-connected>
+	label-connected = 直 %signal%%
+	label-connected-padding = 1
+	label-connected-foreground = ${colors.background}
+	label-connected-background = ${xrdb:color4:#222}
+
+	format-connected-prefix = ${symbols.rightsep}
+	format-connected-prefix-foreground = ${xrdb:color4:#222}
+	format-connected-prefix-background = ${xrdb:color3:#222}
+
+	format-disconnected = <label-disconnected>
+	label-disconnected = 睊
+	label-disconnected-padding = 1
+	label-disconnected-foreground = ${colors.alert}
+
+	format-disconnected-prefix = ${symbols.rightsep}
+	format-disconnected-prefix-foreground = ${xrdb:color4:#222}
+	format-disconnected-prefix-background = ${xrdb:color3:#222}
+
+
+
+[module/battery]
+	type = internal/battery
+	battery = BAT1
+	adapter = ADP1
+	full-at = 100
+	label-full = 100%
+	label-discharging-padding = 1
+	label-charging-padding = 1
+
+	format-charging = <label-charging>
+	label-charging =  %percentage%%
+	label-charging-foreground = ${colors.background}
+	label-charging-background = ${xrdb:color5:#222}
+
+	format-charging-prefix = ${symbols.rightsep}
+	format-charging-prefix-foreground = ${xrdb:color5:#222}
+	format-charging-prefix-background = ${xrdb:color4:#222}
+
+	format-discharging = <label-discharging>
+	label-discharging =  %percentage%%
+	label-discharging-foreground = ${colors.background}
+	label-discharging-background = ${xrdb:color5:#222}
+
+	format-discharging-prefix = ${symbols.rightsep}
+	format-discharging-prefix-foreground = ${xrdb:color5:#222}
+	format-discharging-prefix-background = ${xrdb:color4:#222}
+
+
+
+[module/date]
+	type = internal/date
+	interval = 5
+
+	date =
+	date-alt = %A %b %d
+
+	time = %l:%M %P
+	time-alt = %l:%M %P
+
+	label =  %time% %date%
+	label-foreground = ${colors.background}
+	label-background = ${xrdb:color6:#222}
+	label-padding = 1
+
+	format-prefix = ${symbols.rightsep}
+	format-prefix-foreground = ${xrdb:color6:#222}
+	format-prefix-background = ${xrdb:color5:#222}
+	format-background = ${xrdb:color6:#222}
 
 [global/wm]
 	margin-top = 5
 	margin-bottom = 5
-
-
 
 ; vim:ft=dosini

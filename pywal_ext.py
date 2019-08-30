@@ -1,7 +1,9 @@
+#!/bin/sh
+
 #------------------------------------------------------------------------------------------
 # This is a python script designed to extract the color scheme for a wallpaper from pywal
 # and apply the scheme to several applications: zathura, sublime text, jupyter notebooks,
-# and others. 
+# firefox, and others. 
 #------------------------------------------------------------------------------------------
 
 import pywal
@@ -20,19 +22,61 @@ def hex_to_rgb(hex):
     h_rgb = np.array([int(h[i:i+2], 16) for i in (0, 2 ,4)])
     return h_rgb
 
-def brighten_hex(hex,scale):
+def shift_hex(hex,scale):
     return rgb_to_hex(*(hex_to_rgb(hex)*scale).astype(int))
 
-# get image and colors
-image = pywal.wallpaper.get('/home/chase/.cache/wal/')
-#colors = pywal.colors.file('')
-colors = pywal.colors.get(image)
+# helpful file strings
+dark = 'dark_None_None_1.1.0.json'
+light = 'light_None_None_1.1.0.json'
+u = '_'
+
+# get the json color file
+def get_color_file(image,color):
+    s = image.split('/')
+    W = s[-1].split('.')
+    name = W[0]
+    pic = W[1]
+    
+    file = u
+    for i in range(1,len(s)-1):
+        file+=s[i]+u
+    file = file+name+u+pic+u
+    if color == 'd':
+        return file+dark
+    elif color == 'l':
+        return file+light
+
+# start color change
+condition = str(input('Enter "wallpaper" or "theme": '))
+
+while condition not in {'wallpaper','theme'}:
+    condition = str(input('Enter "wallpaper" or "theme": '))
+
+if condition == 'wallpaper':
+    # get image and colors
+    image = pywal.wallpaper.get('/home/chase/.cache/wal/')
+    T = str(input('Enter l (light) or d (dark): '))
+    file = get_color_file(image,T)
+    colors = pywal.colors.file('/home/chase/.cache/wal/schemes/'+file)
+
+if condition == 'theme':
+    T = str(input('Enter l (light) or d (dark): '))
+    while T not in {'d','l'}:
+        T = str(input('Enter l (light) or d (dark): '))
+    theme = str(input('Enter a theme: '))
+    if T == 'l':
+        colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/light/'+theme+'.json')
+    if T == 'd':
+        colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/dark/'+theme+'.json')
+
+# get specific colors from dictionary
 bg = colors['special']['background']
 fg = colors['special']['foreground']
-input_color = brighten_hex(bg,1.5) # brighten bg for input areas
+input_color = shift_hex(bg,1.30) # shift bg for input areas
+bg_dark = shift_hex(bg,.75) # shift bg for darker areas
+fg_dark = shift_hex(fg,.75) # shift bg for darker areas
 cursor = colors['special']['cursor']
 color = [ colors['colors']['color'+str(i)] for i in range(16) ] 
-
 
 # change zathura colors
 with open('/home/chase/.config/zathura/zathurarc','w') as z:
@@ -41,8 +85,8 @@ with open('/home/chase/.config/zathura/zathurarc','w') as z:
     z.write('set recolor-lightcolor "'+bg+'" \n')
     z.close()
 
-# change sublime colors
-with open('/home/chase/.config/sublime-text-3/Cache/UserColors/TemplateUserColor.tmTheme') as f:
+# change sublime colors !!this needs the ColorSchemeEditor package from bobef
+with open('/home/chase/dotfiles/sublime/TemplateUserColor.tmTheme') as f:
     # import xml
     t = etree.fromstring(f.read().encode('utf-8'))
     f.close()
@@ -107,9 +151,8 @@ with open('/home/chase/.config/sublime-text-3/Cache/UserColors/UserColor.tmTheme
     f.write(etree.tostring(t).decode('utf-8'))
     f.close()
 
-
-# change jupyter colors
-with open('/home/chase/.jupyter/custom/custom.css','w') as f:
+# change jupyter colors !!this needs the jupyterthemes package
+with open('/home/chase/dotfiles/jupyter/custom.css','w') as f:
     # write in the variables
     f.write(':root { \n')
     f.write('\t --bg: '+bg+'; \n')
@@ -135,6 +178,68 @@ with open('/home/chase/.jupyter/custom/custom.css','w') as f:
     
     with open('/home/chase/.jupyter/custom/templatecustom.css') as g:
         f.write(g.read())
+        f.close()
+
+# change firefox colors
+with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userChrome.css','w') as f:
+    # write in the variables
+    f.write(':root { \n')
+    f.write('\t --bg: '+bg+'; \n')
+    f.write('\t --fg: '+fg+'; \n')
+    f.write('\t --color0: '+bg_dark+'; \n')
+    f.write('\t --input_color: '+input_color+'; \n')
+    f.write('\t --color1: '+color[1]+'; \n')
+    f.write('\t --color2: '+color[2]+'; \n')
+    f.write('\t --color3: '+color[3]+'; \n')
+    f.write('\t --color4: '+color[4]+'; \n')
+    f.write('\t --color5: '+color[5]+'; \n')
+    f.write('\t --color6: '+color[6]+'; \n')
+    f.write('\t --color7: '+color[7]+'; \n')
+    f.write('\t --color8: '+color[8]+'; \n')
+    f.write('\t --color9: '+color[9]+'; \n')
+    f.write('\t --color10: '+color[10]+'; \n')
+    f.write('\t --color11: '+color[11]+'; \n')
+    f.write('\t --color12: '+color[12]+'; \n')
+    f.write('\t --color13: '+color[13]+'; \n')
+    f.write('\t --color14: '+color[14]+'; \n')
+    f.write('\t --color15: '+color[15]+'; \n')
+    f.write('} \n')
+    
+    with open('/home/chase/dotfiles/userChromeTemplate.css') as g:
+        f.write(g.read())
+        f.close()
 
 
-# change homepage colors
+with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userContent.css','w') as f:
+    # write in the variables
+    f.write(':root { \n')
+    f.write('\t --bg: '+bg+'; \n')
+    f.write('\t --fg: '+fg+'; \n')
+    f.write('\t --fg_dark: '+fg_dark+'; \n')
+    f.write('\t --color0: '+bg_dark+'; \n')
+    f.write('\t --input_color: '+input_color+'; \n')
+    f.write('\t --color1: '+color[1]+'; \n')
+    f.write('\t --color2: '+color[2]+'; \n')
+    f.write('\t --color3: '+color[3]+'; \n')
+    f.write('\t --color4: '+color[4]+'; \n')
+    f.write('\t --color5: '+color[5]+'; \n')
+    f.write('\t --color6: '+color[6]+'; \n')
+    f.write('\t --color7: '+color[7]+'; \n')
+    f.write('\t --color8: '+color[8]+'; \n')
+    f.write('\t --color9: '+color[9]+'; \n')
+    f.write('\t --color10: '+color[10]+'; \n')
+    f.write('\t --color11: '+color[11]+'; \n')
+    f.write('\t --color12: '+color[12]+'; \n')
+    f.write('\t --color13: '+color[13]+'; \n')
+    f.write('\t --color14: '+color[14]+'; \n')
+    f.write('\t --color15: '+color[15]+'; \n')
+    f.write('} \n')
+    
+    with open('/home/chase/dotfiles/userContentTemplate.css') as g:
+        f.write(g.read())
+        f.close()
+
+
+
+
+print('Done!')

@@ -204,7 +204,7 @@ bindsym $mod+r mode "resize"
 
 #exec_always commands
 exec_always --no-startup-id xset -b #no more beeps
-exec_always --no-startup-id feh --bg-fill ~/dotfiles/Wallpapers/gruvbox/wallhaven-ey3pkl.jpg
+exec_always --no-startup-id feh --bg-fill ~/dotfiles/Wallpapers/best/wallhaven-wym19x.jpg
 exec_always --no-startup-id wal -R
 exec_always --no-startup-id compton
 exec_always --no-startup-id bash ~/.config/polybar/launch.sh
