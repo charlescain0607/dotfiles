@@ -1,23 +1,23 @@
 :root { 
-	 --bg: #281c25; 
-	 --fg: #c7b3b7; 
-	 --input_color: #342430; 
-	 --color0: #281c25; 
-	 --color1: #A24A42; 
-	 --color2: #8D5969; 
-	 --color3: #A2656C; 
-	 --color4: #D36F6B; 
-	 --color5: #C99F71; 
-	 --color6: #EA9475; 
-	 --color7: #c7b3b7; 
-	 --color8: #8b7d80; 
-	 --color9: #A24A42; 
-	 --color10: #8D5969; 
-	 --color11: #A2656C; 
-	 --color12: #D36F6B; 
-	 --color13: #C99F71; 
-	 --color14: #EA9475; 
-	 --color15: #c7b3b7; 
+	 --bg: #1e221f; 
+	 --fg: #afc6b7; 
+	 --input_color: #272c28; 
+	 --color0: #1e221f; 
+	 --color1: #8A6733; 
+	 --color2: #957053; 
+	 --color3: #608668; 
+	 --color4: #AE973C; 
+	 --color5: #9B9854; 
+	 --color6: #7B7A83; 
+	 --color7: #afc6b7; 
+	 --color8: #7a8a80; 
+	 --color9: #8A6733; 
+	 --color10: #957053; 
+	 --color11: #608668; 
+	 --color12: #AE973C; 
+	 --color13: #9B9854; 
+	 --color14: #7B7A83; 
+	 --color15: #afc6b7; 
 } 
 @font-face {
  font-family: "Iosevka";

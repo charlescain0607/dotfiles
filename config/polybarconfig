@@ -54,9 +54,10 @@
 	border-color = ${colors.background}
 
 	padding = 0
-	module-margin = 0
+	module-margin = 2
 
-	font-0 = Iosevka Custom:style=Bold:pixelsize=12;3
+;	font-0 = Scientifica:style=Regular:pixelsize=12;3
+	font-0 = cherry:style=Regular:pixelsize=13;3
 	font-1 = Iosevka Nerd Font:style=Bold:pixelsize=13;3
 	font-2 = Powerline Extra Symbols:style=Bold:pixelsize=27;7
 
@@ -137,17 +138,29 @@
 	label-urgent-padding = 2
 
 ;	NOTE: The label needs to match the name of the i3 workspace
-	ws-icon-0 = 1; 
-	ws-icon-1 = 2; 
-	ws-icon-2 = 3; 
-	ws-icon-3 = 4;嗢 
-	ws-icon-4 = 5; 
-	ws-icon-5 = 6;
-	ws-icon-6 = 7;裡
-	ws-icon-7 = 8; 
-	ws-icon-8 = 9; 
-	ws-icon-9 = 10; 
-	ws-icon-default = 裡
+;	ws-icon-0 = 1; 
+;	ws-icon-1 = 2; 
+;	ws-icon-2 = 3; 
+;	ws-icon-3 = 4;嗢 
+;	ws-icon-4 = 5; 
+;	ws-icon-5 = 6;
+;	ws-icon-6 = 7;裡
+;	ws-icon-7 = 8; 
+;	ws-icon-8 = 9; 
+;	ws-icon-9 = 10; 
+;	ws-icon-default = 裡
+
+	ws-icon-0 = 1;1 
+	ws-icon-1 = 2;2 
+	ws-icon-2 = 3;3 
+	ws-icon-3 = 4;4 
+	ws-icon-4 = 5;5 
+	ws-icon-5 = 6;6
+	ws-icon-6 = 7;7
+	ws-icon-7 = 8;8 
+	ws-icon-8 = 9;9 
+	ws-icon-9 = 10;10 
+	ws-icon-default = 0
 
 ;	Separator in between workspaces
 ;	label-separator = >
@@ -159,13 +172,16 @@
 [module/manjarosymb]
 	type = custom/text
 	content =  Manjaro
-	content-foreground = ${colors.background}
-	content-background = ${xrdb:color1:#222}
+	content-foreground = ${xrdb:color1:#222}
 	content-padding = 2
 
-	format-suffix = ${symbols.leftsep}
-	format-suffix-foreground = ${xrdb:color2:#222}
-	format-suffix-background = ${colors.background}
+
+;	content-foreground = ${colors.background}
+;	content-background = ${xrdb:color1:#222}
+
+;	format-suffix = ${symbols.leftsep}
+;	format-suffix-foreground = ${xrdb:color2:#222}
+;	format-suffix-background = ${colors.background}
 
 
 
@@ -174,31 +190,35 @@
 	interval = 1
 ;	format-prefix = " "
 	label =  %mb_used%
-	label-foreground = ${colors.background}
-	label-background = ${xrdb:color2:#222}
-;	label-foreground = ${colors.foreground-alt}
+	label-foreground = ${xrdb:color2:#222}
 	label-padding = 1
 
-	format-prefix = ${symbols.leftsep}
-	format-prefix-foreground = ${xrdb:color1:#222}
-	format-prefix-background = ${xrdb:color2:#222}
 
-	format-suffix = ${symbols.leftsep}
-	format-suffix-foreground = ${xrdb:color2:#222}
-	format-suffix-background = ${xrdb:color3:#222}
+;	label-foreground = ${colors.background}
+;	label-background = ${xrdb:color2:#222}
+
+;	format-prefix = ${symbols.leftsep}
+;	format-prefix-foreground = ${xrdb:color1:#222}
+;	format-prefix-background = ${xrdb:color2:#222}
+
+;	format-suffix = ${symbols.leftsep}
+;	format-suffix-foreground = ${xrdb:color2:#222}
+;	format-suffix-background = ${xrdb:color3:#222}
 
 
 [module/cpu]
 	type = internal/cpu
 	interval = 1
-	label-foreground = ${colors.background}
-	label-background = ${xrdb:color3:#222}
+	label-foreground = ${xrdb:color3:#222}
 	label =  %percentage-cores%
 	label-padding = 1
 
-	format-suffix = ${symbols.leftsep}
-	format-suffix-foreground = ${xrdb:color3:#222}
-	format-suffix-background = ${xrdb:color4:#222}
+;	label-foreground = ${colors.background}
+;	label-background = ${xrdb:color3:#222}
+
+;	format-suffix = ${symbols.leftsep}
+;	format-suffix-foreground = ${xrdb:color3:#222}
+;	format-suffix-background = ${xrdb:color4:#222}
 
 
 [module/filesystem]
@@ -211,15 +231,17 @@
 	format-unmounted = <label-unmounted>
 	
 	label-mounted =  %mountpoint%: %percentage_used%%
-	label-mounted-foreground = ${colors.background}
-	label-mounted-background = ${xrdb:color4:#222}
+	label-unmounted = %mountpoint% not mounted
+
+	label-mounted-foreground = ${xrdb:color4:#222}
 	label-mounted-padding = 1
 
-	format-mounted-suffix = ${symbols.leftsep}
-	format-mounted-suffix-foreground = ${xrdb:color4:#222}
-	format-mounted-suffix-background = ${colors.background}
+;	label-mounted-foreground = ${colors.background}
+;	label-mounted-background = ${xrdb:color4:#222}
 
-	label-unmounted = %mountpoint% not mounted
+;	format-mounted-suffix = ${symbols.leftsep}
+;	format-mounted-suffix-foreground = ${xrdb:color4:#222}
+;	format-mounted-suffix-background = ${colors.background}
 
 
 [module/temperature]
@@ -251,22 +273,27 @@
 
 	format-volume = <label-volume> 
 	label-volume = 墳 %percentage%%
-	label-volume-foreground = ${colors.background}
-	label-volume-background = ${xrdb:color2:#222}
+	label-volume-foreground = ${xrdb:color2:#222}
 	label-volume-padding = 1
-
-	format-volume-prefix = ${symbols.rightsep}
-	format-volume-prefix-foreground = ${xrdb:color2:#222}
-	format-volume-prefix-background = ${colors.background}
 
 	label-muted = 婢 muted
 	label-muted-padding = 1
-	label-muted-foreground = ${colors.background}
-	label-muted-background = ${xrdb:color2:#222}
+	label-muted-foreground = ${xrdb:color2:#222}
 
-	format-muted-prefix = ${symbols.rightsep}
-	format-muted-prefix-foreground = ${xrdb:color2:#222}
-	format-muted-prefix-background = ${colors.background}
+
+;	label-volume-foreground = ${colors.background}
+;	label-volume-background = ${xrdb:color2:#222}
+
+;	label-muted-foreground = ${colors.background}
+;	label-muted-background = ${xrdb:color2:#222}
+
+;	format-volume-prefix = ${symbols.rightsep}
+;	format-volume-prefix-foreground = ${xrdb:color2:#222}
+;	format-volume-prefix-background = ${colors.background}
+
+;	format-muted-prefix = ${symbols.rightsep}
+;	format-muted-prefix-foreground = ${xrdb:color2:#222}
+;	format-muted-prefix-background = ${colors.background}
 
 
 
@@ -275,13 +302,10 @@
 
 	format = <label>
 	label = ﯧ %percentage%
-	label-foreground = ${colors.background}
-	label-background = ${xrdb:color3:#222}
+	label-foreground = ${xrdb:color3:#222}
 	label-padding = 1
 
-	format-prefix = ${symbols.rightsep}
-	format-prefix-foreground = ${xrdb:color3:#222}
-	format-prefix-background = ${xrdb:color2:#222}
+	
 
 ;	Only applies if <ramp> is used
 	ramp-0 = 
@@ -290,6 +314,11 @@
 	ramp-3 = 
 	ramp-4 = 
 
+;	label-foreground = ${colors.background}
+;	label-background = ${xrdb:color3:#222}
+;	format-prefix = ${symbols.rightsep}
+;	format-prefix-foreground = ${xrdb:color3:#222}
+;	format-prefix-background = ${xrdb:color2:#222}
 
 
 [module/wlan]
@@ -300,21 +329,23 @@
 	format-connected = <label-connected>
 	label-connected = 直 %signal%%
 	label-connected-padding = 1
-	label-connected-foreground = ${colors.background}
-	label-connected-background = ${xrdb:color4:#222}
-
-	format-connected-prefix = ${symbols.rightsep}
-	format-connected-prefix-foreground = ${xrdb:color4:#222}
-	format-connected-prefix-background = ${xrdb:color3:#222}
+	label-connected-foreground = ${xrdb:color4:#222}
 
 	format-disconnected = <label-disconnected>
 	label-disconnected = 睊
 	label-disconnected-padding = 1
 	label-disconnected-foreground = ${colors.alert}
 
-	format-disconnected-prefix = ${symbols.rightsep}
-	format-disconnected-prefix-foreground = ${xrdb:color4:#222}
-	format-disconnected-prefix-background = ${xrdb:color3:#222}
+;	label-connected-foreground = ${colors.background}
+;	label-connected-background = ${xrdb:color4:#222}
+
+;	format-connected-prefix = ${symbols.rightsep}
+;	format-connected-prefix-foreground = ${xrdb:color4:#222}
+;	format-connected-prefix-background = ${xrdb:color3:#222}
+;
+;	format-disconnected-prefix = ${symbols.rightsep}
+;	format-disconnected-prefix-foreground = ${xrdb:color4:#222}
+;	format-disconnected-prefix-background = ${xrdb:color3:#222}
 
 
 
@@ -329,21 +360,27 @@
 
 	format-charging = <label-charging>
 	label-charging =  %percentage%%
-	label-charging-foreground = ${colors.background}
-	label-charging-background = ${xrdb:color5:#222}
-
-	format-charging-prefix = ${symbols.rightsep}
-	format-charging-prefix-foreground = ${xrdb:color5:#222}
-	format-charging-prefix-background = ${xrdb:color4:#222}
+	label-charging-foreground = ${xrdb:color5:#222}
 
 	format-discharging = <label-discharging>
 	label-discharging =  %percentage%%
-	label-discharging-foreground = ${colors.background}
-	label-discharging-background = ${xrdb:color5:#222}
+	label-discharging-foreground = ${xrdb:color5:#222}
 
-	format-discharging-prefix = ${symbols.rightsep}
-	format-discharging-prefix-foreground = ${xrdb:color5:#222}
-	format-discharging-prefix-background = ${xrdb:color4:#222}
+;	label-charging-foreground = ${colors.background}
+;	label-charging-background = ${xrdb:color5:#222}
+
+;	label-discharging-foreground = ${colors.background}
+;	label-discharging-background = ${xrdb:color5:#222}
+
+;	format-full-prefix = ${symbols.rightsep}
+;	format-full-prefix-foreground = ${xrdb:color5:#222}
+;	format-full-prefix-background = ${xrdb:color4:#222}
+;	format-charging-prefix = ${symbols.rightsep}
+;	format-charging-prefix-foreground = ${xrdb:color5:#222}
+;	format-charging-prefix-background = ${xrdb:color4:#222}
+;	format-discharging-prefix = ${symbols.rightsep}
+;	format-discharging-prefix-foreground = ${xrdb:color5:#222}
+;	format-discharging-prefix-background = ${xrdb:color4:#222}
 
 
 
@@ -358,14 +395,17 @@
 	time-alt = %l:%M %P
 
 	label =  %time% %date%
-	label-foreground = ${colors.background}
-	label-background = ${xrdb:color6:#222}
 	label-padding = 1
 
-	format-prefix = ${symbols.rightsep}
-	format-prefix-foreground = ${xrdb:color6:#222}
-	format-prefix-background = ${xrdb:color5:#222}
-	format-background = ${xrdb:color6:#222}
+	label-foreground = ${xrdb:color6:#222}
+
+
+;	label-foreground = ${colors.background}
+;	label-background = ${xrdb:color6:#222}
+;	format-prefix = ${symbols.rightsep}
+;	format-prefix-foreground = ${xrdb:color6:#222}
+;	format-prefix-background = ${xrdb:color5:#222}
+;	format-background = ${xrdb:color6:#222}
 
 [global/wm]
 	margin-top = 5

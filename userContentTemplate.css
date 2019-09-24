@@ -84,6 +84,7 @@
 @-moz-document domain(google.com){
 	.g, body, html, input, .std, h1 {
 	    font-family: Iosevka Custom !important;
+	}
 }
 
 

@@ -1,14 +1,34 @@
 #!/bin/sh
-
-#------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------------------------------
 # This is a python script designed to extract the color scheme for a wallpaper from pywal
 # and apply the scheme to several applications: zathura, sublime text, jupyter notebooks,
 # firefox, and others. 
-#------------------------------------------------------------------------------------------
+#
+# Here is a dictionary of the colors applied:
+# 
+# color0 | color8:  black  | grey
+# color1 | color9:  red    | light red
+# color2 | color10: green  | light green
+# color3 | color11: yellow | light yellow
+# color4 | color12: blue   | light blue
+# color5 | color13: purple | light purple
+# color6 | color14: aqua   | light aqua
+# color7 | color15: silver | light silver
+#--------------------------------------------------------------------------------------------------------
 
-import pywal
-import numpy as np
-from lxml import etree
+
+
+# required libraries
+#--------------------------------------------------------------------------------------------------------
+import pywal # for generating colors
+import numpy as np # rgb fiddling
+from lxml import etree # for assigning colors
+#--------------------------------------------------------------------------------------------------------
+
+
+
+# helpful functions
+#--------------------------------------------------------------------------------------------------------
 
 # rgb and hex functions
 def rgb_to_hex(r,g,b):
@@ -21,6 +41,9 @@ def hex_to_rgb(hex):
     h = hex.lstrip('#')
     h_rgb = np.array([int(h[i:i+2], 16) for i in (0, 2 ,4)])
     return h_rgb
+
+def hex_to_rgb_str(hex_color):
+    return str(hex_to_rgb(hex_color)[0])+','+str(hex_to_rgb(hex_color)[1])+','+str(hex_to_rgb(hex_color)[2])
 
 def shift_hex(hex,scale):
     return rgb_to_hex(*(hex_to_rgb(hex)*scale).astype(int))
@@ -45,8 +68,12 @@ def get_color_file(image,color):
         return file+dark
     elif color == 'l':
         return file+light
+#--------------------------------------------------------------------------------------------------------
 
-# start color change
+
+
+# generate required colors
+#--------------------------------------------------------------------------------------------------------
 condition = str(input('Enter "wallpaper" or "theme": '))
 
 while condition not in {'wallpaper','theme'}:
@@ -74,18 +101,28 @@ bg = colors['special']['background']
 fg = colors['special']['foreground']
 input_color = shift_hex(bg,1.30) # shift bg for input areas
 bg_dark = shift_hex(bg,.75) # shift bg for darker areas
+bg_light = shift_hex(bg,1.25) # shift bg for darker areas
 fg_dark = shift_hex(fg,.75) # shift bg for darker areas
+fg_light = shift_hex(fg,1.25) # shift bg for darker areas
 cursor = colors['special']['cursor']
 color = [ colors['colors']['color'+str(i)] for i in range(16) ] 
+#--------------------------------------------------------------------------------------------------------
+
+
 
 # change zathura colors
+#--------------------------------------------------------------------------------------------------------
 with open('/home/chase/.config/zathura/zathurarc','w') as z:
     z.write('set recolor true'+'\n')
     z.write('set recolor-darkcolor "'+fg+'" \n')
     z.write('set recolor-lightcolor "'+bg+'" \n')
     z.close()
+#--------------------------------------------------------------------------------------------------------
+
+
 
 # change sublime colors !!this needs the ColorSchemeEditor package from bobef
+#--------------------------------------------------------------------------------------------------------
 with open('/home/chase/dotfiles/sublime/TemplateUserColor.tmTheme') as f:
     # import xml
     t = etree.fromstring(f.read().encode('utf-8'))
@@ -150,8 +187,12 @@ with open('/home/chase/dotfiles/sublime/TemplateUserColor.tmTheme') as f:
 with open('/home/chase/.config/sublime-text-3/Cache/UserColors/UserColor.tmTheme','w') as f:
     f.write(etree.tostring(t).decode('utf-8'))
     f.close()
+#--------------------------------------------------------------------------------------------------------
+
+
 
 # change jupyter colors !!this needs the jupyterthemes package
+#--------------------------------------------------------------------------------------------------------
 with open('/home/chase/dotfiles/jupyter/custom.css','w') as f:
     # write in the variables
     f.write(':root { \n')
@@ -179,8 +220,12 @@ with open('/home/chase/dotfiles/jupyter/custom.css','w') as f:
     with open('/home/chase/.jupyter/custom/templatecustom.css') as g:
         f.write(g.read())
         f.close()
+#--------------------------------------------------------------------------------------------------------
+
+
 
 # change firefox colors
+#--------------------------------------------------------------------------------------------------------
 with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userChrome.css','w') as f:
     # write in the variables
     f.write(':root { \n')
@@ -238,6 +283,140 @@ with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userContent.css'
     with open('/home/chase/dotfiles/userContentTemplate.css') as g:
         f.write(g.read())
         f.close()
+#--------------------------------------------------------------------------------------------------------
+
+
+
+# change kde colors
+#--------------------------------------------------------------------------------------------------------
+with open('/home/chase/.local/share/color-schemes/pywal_colors.colors','w') as f:
+    # write in the variables
+    f.write('[ColorEffects:Disabled] \n')
+    f.write('Color=56,56,56 \n')
+    f.write('ColorAmount=0 \n')
+    f.write('ColorEffect=0 \n')
+    f.write('ContrastAmount=0.65 \n')
+    f.write('ContrastEffect=1 \n')
+    f.write('IntensityAmount=0.1 \n')
+    f.write('IntensityEffect=2 \n')
+    
+    f.write('\n')
+    
+    f.write('[ColorEffects:Inactive] \n')
+    f.write('ChangeSelectionColor=true \n')
+    f.write('Color=112,111,110 \n')
+    f.write('ColorAmount=0.025 \n')
+    f.write('ColorEffect=2 \n')
+    f.write('ContrastAmount=0.1 \n')
+    f.write('ContrastEffect=2 \n')
+    f.write('Enable=true \n')
+    f.write('IntensityAmount=0 \n')
+    f.write('IntensityEffect=0 \n')
+
+    f.write('\n')
+
+    f.write('[Colors:Button] \n')
+    f.write('BackgroundAlternate='+hex_to_rgb_str(bg)+'\n')
+    f.write('BackgroundNormal='+hex_to_rgb_str(bg)+'\n')
+    f.write('DecorationFocus='+hex_to_rgb_str(color[6])+'\n')
+    f.write('DecorationHover='+hex_to_rgb_str(color[6])+'\n')
+    f.write('ForegroundActive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundInactive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundLink='+hex_to_rgb_str(color[4])+'\n')
+    f.write('ForegroundNegative='+hex_to_rgb_str(color[1])+'\n')
+    f.write('ForegroundNeutral='+hex_to_rgb_str(color[3])+'\n')
+    f.write('ForegroundNormal='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundPositive='+hex_to_rgb_str(color[2])+'\n')
+    f.write('ForegroundVisited='+hex_to_rgb_str(color[5])+'\n')
+
+    f.write('\n')
+
+    f.write('[Colors:Selection] \n')
+    f.write('BackgroundAlternate='+hex_to_rgb_str(bg_light)+'\n')
+    f.write('BackgroundNormal='+hex_to_rgb_str(bg_light)+'\n')
+    f.write('DecorationFocus='+hex_to_rgb_str(color[6])+'\n')
+    f.write('DecorationHover='+hex_to_rgb_str(color[6])+'\n')
+    f.write('ForegroundActive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundInactive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundLink='+hex_to_rgb_str(color[4])+'\n')
+    f.write('ForegroundNegative='+hex_to_rgb_str(color[1])+'\n')
+    f.write('ForegroundNeutral='+hex_to_rgb_str(color[3])+'\n')
+    f.write('ForegroundNormal='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundPositive='+hex_to_rgb_str(color[2])+'\n')
+    f.write('ForegroundVisited='+hex_to_rgb_str(color[5])+'\n')
+
+    f.write('\n')
+
+    f.write('[Colors:Tooltip] \n')
+    f.write('BackgroundAlternate='+hex_to_rgb_str(bg)+'\n')
+    f.write('BackgroundNormal='+hex_to_rgb_str(bg)+'\n')
+    f.write('DecorationFocus='+hex_to_rgb_str(color[6])+'\n')
+    f.write('DecorationHover='+hex_to_rgb_str(color[6])+'\n')
+    f.write('ForegroundActive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundInactive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundLink='+hex_to_rgb_str(color[4])+'\n')
+    f.write('ForegroundNegative='+hex_to_rgb_str(color[1])+'\n')
+    f.write('ForegroundNeutral='+hex_to_rgb_str(color[3])+'\n')
+    f.write('ForegroundNormal='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundPositive='+hex_to_rgb_str(color[2])+'\n')
+    f.write('ForegroundVisited='+hex_to_rgb_str(color[5])+'\n')
+
+    f.write('\n')
+
+    f.write('[Colors:View] \n')
+    f.write('BackgroundAlternate='+hex_to_rgb_str(bg)+'\n')
+    f.write('BackgroundNormal='+hex_to_rgb_str(bg)+'\n')
+    f.write('DecorationFocus='+hex_to_rgb_str(color[6])+'\n')
+    f.write('DecorationHover='+hex_to_rgb_str(color[6])+'\n')
+    f.write('ForegroundActive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundInactive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundLink='+hex_to_rgb_str(color[4])+'\n')
+    f.write('ForegroundNegative='+hex_to_rgb_str(color[1])+'\n')
+    f.write('ForegroundNeutral='+hex_to_rgb_str(color[3])+'\n')
+    f.write('ForegroundNormal='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundPositive='+hex_to_rgb_str(color[2])+'\n')
+    f.write('ForegroundVisited='+hex_to_rgb_str(color[5])+'\n')
+
+    f.write('\n')
+
+    f.write('[Colors:Window] \n')
+    f.write('BackgroundAlternate='+hex_to_rgb_str(bg_light)+'\n')
+    f.write('BackgroundNormal='+hex_to_rgb_str(bg_light)+'\n')
+    f.write('DecorationFocus='+hex_to_rgb_str(color[6])+'\n')
+    f.write('DecorationHover='+hex_to_rgb_str(color[6])+'\n')
+    f.write('ForegroundActive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundInactive='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundLink='+hex_to_rgb_str(color[4])+'\n')
+    f.write('ForegroundNegative='+hex_to_rgb_str(color[1])+'\n')
+    f.write('ForegroundNeutral='+hex_to_rgb_str(color[3])+'\n')
+    f.write('ForegroundNormal='+hex_to_rgb_str(fg)+'\n')
+    f.write('ForegroundPositive='+hex_to_rgb_str(color[2])+'\n')
+    f.write('ForegroundVisited='+hex_to_rgb_str(color[5])+'\n')
+
+    f.write('\n')
+
+    f.write('[General] \n')
+    f.write('ColorScheme=pywal_custom \n')
+    f.write('Name=pywal_custom \n')
+    f.write('shadeSortColumn=true \n')
+
+    f.write('\n')
+
+    f.write('[KDE] \n')
+    f.write('contrast=4 \n')
+
+    f.write('\n')
+
+    f.write('[WM] \n')
+    f.write('activeBackground='+hex_to_rgb_str(bg)+'\n')
+    f.write('activeBlend=235,219,178 \n')
+    f.write('activeForeground='+hex_to_rgb_str(fg)+'\n')
+    f.write('inactiveBackground='+hex_to_rgb_str(bg)+'\n')
+    f.write('inactiveBlend=60,56,54 \n')
+    f.write('inactiveForeground='+hex_to_rgb_str(fg)+'\n')
+
+    f.close()
+#--------------------------------------------------------------------------------------------------------
 
 
 
