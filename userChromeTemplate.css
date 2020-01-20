@@ -1,6 +1,13 @@
 
 :root{
-	--font-choice: "Iosevka Custom";
+	--font-choice: "Iosevka Term";
+}
+
+#content browser{
+  margin-right:-17px!important;
+  margin-bottom:-17px!important;
+  overflow-y:hidden;
+  overflow-x:hidden;
 }
 
 /* universal font choice */
@@ -8,7 +15,6 @@
     font-family: var(--font-choice) !important;
     font-weight: bold !important;
 }
-
 
 /* moamenk's responsive minimal firefox tweaks */
 :root:not([customizing]) #nav-bar toolbarbutton
@@ -91,7 +97,7 @@ Remove borders everywhere, some code copied from edge style for firefox
 	border-top: none !important;
 }
 .tabs-newtab-button, #new-tab-button, #alltabs-button {
-	color: rgba(240, 240, 240, 1);
+	color: var(--color2) !important;
 	border-top: 0px !important;
 	margin-bottom: 0px !important;
 }
@@ -109,16 +115,26 @@ toolbarbutton.bookmark-item:hover {
 .titlebar-placeholder[type="post-tabs"] {
 	width: 50px !important;
 }
+
 #TabsToolbar {
 	margin-bottom: 0px !important;
 }
-#navigator-toolbox::after {
+#TabsToolbar .tab-background {
+    border-right: 0px !important;
+    border-left: 0px !important;
+}
+#TabsToolbar[movingtab] {
+    padding-bottom: 0px !important;
+}
+#TabsToolbar[movingtab] > .tabbrowser-tabs {
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+#navigator-toolbox {
 	border-bottom: 0px !important;
 }
-#TabsToolbar .tab-background {
-	border-right: 0px !important;
-	border-left: 0px !important;
-}
+
 .scrollbutton-up, .scrollbutton-down {
 	margin-bottom: 0px !important;
 }
@@ -137,13 +153,7 @@ toolbarbutton.bookmark-item:hover {
 .close-icon > .toolbarbutton-icon {
 	border-radius: 0px !important;
 }
-#TabsToolbar[movingtab] {
-	padding-bottom: 0px !important;
-}
-#TabsToolbar[movingtab] > .tabbrowser-tabs {
-	padding-bottom: 0px !important;
-	margin-bottom: 0px !important;
-}
+
 #new-tab-button > .toolbarbutton-icon, #alltabs-button > .toolbarbutton-icon {
 	background-color: transparent;
 }
@@ -169,13 +179,16 @@ toolbarbutton.bookmark-item:hover {
 }
 .tabbrowser-tab:not([selected]):not([pinned]) .tab-close-button {
 	display: none !important;
+    color: var(--color1) !important;
 }
 .tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
 	display: -moz-box !important;
 }
+
 .tabbrowser-tab[pending] {
 	font-style: italic;
 }
+
 toolbarspring {
     min-width: 8px;
     max-width: 8px;
@@ -262,8 +275,19 @@ textbox {
 /* active tab */
 #tabbrowser-tabs > .tabbrowser-tab > .tab-stack > .tab-background[selected="true"] {
   background-color: var(--bg) !important;
+  color: var(--fg) !important;
   background-image: none !important;
 }
+
+#tabbrowser-tabs .tabbrowser-tab[selected] .tab-content { 
+    background: var(--bg) !important;
+    color: var(--fg) !important;
+}
+
+.tab-background[selected="true"] {
+  background-color: var(--bg) !important;
+}
+
 element {
     --tab-min-width: 76px;
     --tab-loading-fill: rgb(51, 56, 66);
@@ -277,6 +301,15 @@ element {
     background-color: var(--bg) !important;
     border-top: none;
     border-bottom: none;
+}
+
+.close-icon {
+    -moz-appearance: none;
+    -moz-context-properties: fill, fill-opacity;
+    list-style-image: url(chrome://global/skin/icons/close.svg);
+    color: var(--color1) !important;
+    fill: currentColor;
+    fill-opacity: 0;
 }
 
 /* toolbar hover */

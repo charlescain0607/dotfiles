@@ -1,3 +1,10 @@
+set font "Iosevka Term Bold 9"
 set recolor true
-set recolor-darkcolor "#d5c4a1" 
-set recolor-lightcolor "#282828" 
+set recolor-darkcolor "#cbd6e2" 
+set recolor-lightcolor "#0b1c2c" 
+set inputbar-fg "#bf8b56" 
+set inputbar-bg "#0b1c2c" 
+set default-fg "#cbd6e2" 
+set default-bg "#0b1c2c" 
+set statusbar-fg "#568bbf" 
+set statusbar-bg "#0b1c2c" 

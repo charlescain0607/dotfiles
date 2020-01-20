@@ -35,6 +35,7 @@ gaps outer 0
 smart_gaps on
 hide_edge_borders smart
 
+
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -dmenu -i -config ~/.config/rofi/config'
 bindsym $mod+d exec --no-startup-id rofi -show drun
@@ -67,9 +68,9 @@ bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+#bindsym $mod+s layout stacking
+#bindsym $mod+w layout tabbed
+#bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
@@ -91,14 +92,10 @@ bindsym $mod+a focus parent
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +6% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -6% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
-#bindsym XF86AudioRaiseVolume exec --no-startup-id "amixer -q sset Master,0 5+ unmute"
-#bindsym XF86AudioLowerVolume exec --no-startup-id "amixer -q sset Master,0 5- unmute"
-#bindsym XF86AudioMute exec --no-startup-id "amixer -q sset Master,0 toggle"
-
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 3 # increase screen brightness
-bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 3 # decrease screen brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 # increase screen brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 # decrease screen brightness
 
 # Touchpad controls
 exec_always --no-startup-id xinput set-prop 11 281 1
@@ -107,15 +104,28 @@ exec_always --no-startup-id xinput set-prop 11 281 1
 #	Colors
 #-------------------
 
-set_from_resource $fg i3wm.color6 #f0f0f0
+set_from_resource $fg i3wm.color7 #f0f0f0
 set_from_resource $bg i3wm.color0 #f0f0f0
-set_from_resource $ig i3wm.color7 #f0f0f0
+set_from_resource $color0 i3wm.color0 #f0f0f0
+set_from_resource $color1 i3wm.color1 #f0f0f0
+set_from_resource $color2 i3wm.color2 #f0f0f0
+set_from_resource $color3 i3wm.color3 #f0f0f0
+set_from_resource $color4 i3wm.color4 #f0f0f0
+set_from_resource $color5 i3wm.color5 #f0f0f0
+set_from_resource $color6 i3wm.color6 #f0f0f0
+set_from_resource $color7 i3wm.color7 #f0f0f0
 
-# class                 border  backgr. text indicator child_border
-client.focused          $fg     $fg     $fg  $ig       $ig
-client.focused_inactive $bg     $bg     $fg  $bg       $bg
-client.unfocused        $bg     $bg     $fg  $bg       $bg
-client.urgent           $bg     $bg     $fg  $bg       $bg
+
+
+
+
+
+
+# class                 border  backgr  text indicator child_border
+#client.focused          $fg     $fg     $fg  $ig       $ig
+#client.focused_inactive $bg     $bg     $fg  $bg       $bg
+#client.unfocused        $bg     $bg     $fg  $bg       $bg
+#client.urgent           $bg     $bg     $fg  $bg       $bg
 
 
 #-------------------
@@ -165,6 +175,7 @@ assign [class="Evince"] $ws2
 assign [class="Firefox"] $ws3
 assign [class="Zathura"] $ws2
 assign [class="vlc"] $ws4
+assign [class="Mindustry"] $ws5
 
 
 # reload the configuration file
@@ -172,7 +183,7 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'WOAH WOAH WOAH YOU PRESSED THE EXIT SHORTCUT. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec --no-startup-id "i3-nagbar -t warning -m 'Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -204,11 +215,12 @@ bindsym $mod+r mode "resize"
 
 #exec_always commands
 exec_always --no-startup-id xset -b #no more beeps
-exec_always --no-startup-id feh --bg-fill ~/dotfiles/Wallpapers/pixel/daniel-riise-fall-river-export.jpg
+#exec_always --no-startup-id feh --bg-fill ~/dotfiles/Wallpapers/solid/sunset.png #current wallpaper
+#exec_always --no-startup-id hsetroot -add "$bg" -add "$fg" -gradient 0
 exec_always --no-startup-id wal -R
+exec_always --no-startup-id hsetroot -solid "$bg"
 exec_always --no-startup-id compton
 exec_always --no-startup-id bash ~/.config/polybar/launch.sh
-exec_always --no-startup-id xsetroot -solid "#EBDBB2"
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status

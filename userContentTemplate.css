@@ -1,6 +1,6 @@
 
 :root{
-	--font-choice: "Iosevka Custom";
+	--font-choice: "Iosevka Term";
 }
 
 /* make new tabs not a white flash */
@@ -52,7 +52,7 @@
 	    background: var(--input_color) !important;
 	    color: var(--fg) !important;
 	    border: none;
-	    font-family: Iosevka Custom;
+	    font-family: Iosevka Term;
 	    font-size: 18px;
 	    font-weight: bold;
 	    height: 25px;
@@ -83,7 +83,7 @@
 
 @-moz-document domain(google.com){
 	.g, body, html, input, .std, h1 {
-	    font-family: Iosevka Custom !important;
+	    font-family: Iosevka Term !important;
 	}
 }
 
@@ -311,7 +311,7 @@
 	    min-height: 100%;
 	    display: flex;
 	    flex-direction: column;
-	    background-color: var(--color0) !important;
+	    background-color: var(--bg) !important;
 	    background-image: none;
 	    background-position: top left;
 	    background-repeat: repeat;
@@ -330,9 +330,9 @@
 	#content {
 	    max-width: 1100px;
 	    width: 100% !important;
-	    background-color: var(--color0) !important;
+	    background-color: var(--bg) !important;
 	    border-radius: 0;
-	    border: 1px solid var(--color0) !important;
+	    border: 1px solid var(--bg) !important;
 	        border-top-width: 1px;
 	        border-right-width: 1px;
 	        border-bottom-width: 1px;
@@ -370,7 +370,7 @@
 	.top-bar .searchbar .s-input {
 		border-radius: 15px !important;
 	    border-color: var(--bg) !important;
-	    background-color: var(--color0) !important;
+	    background-color: var(--bg) !important;
 	    box-shadow: none;
 	    color: var(--fg) !important;
 	}
@@ -397,7 +397,7 @@
 	    display: flex;
 	    align-items: center;
 	    justify-content: space-between;
-	    background-color: var(--color0) !important;
+	    background-color: var(--bg) !important;
 	    background-image: none;
 	    background-position: bottom right;
 	    background-repeat: no-repeat;
@@ -412,7 +412,7 @@
 	    position: relative;
 	    box-shadow: 0 0 0 rgba(12,13,14,0.05);
 	    transition: box-shadow ease-in-out .1s,transform ease-in-out .1s;
-	    background: var(--color0) !important;
+	    background: var(--bg) !important;
 	}
 	.nav-links .nav-links--link, .nav-links .nav-links--link:visited {
 	    color: var(--fg) !important;
@@ -713,7 +713,7 @@
 	}
 	.d-block {
 	    display: block !important;
-	    background: var(--color0) !important;
+	    background: var(--bg) !important;
 	}
 	.item-multiplier-count {
 	    font-size: 11px;

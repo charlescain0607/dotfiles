@@ -87,19 +87,31 @@ if condition == 'wallpaper':
     colors = pywal.colors.file('/home/chase/.cache/wal/schemes/'+file)
 
 if condition == 'theme':
-    T = str(input('Enter l (light) or d (dark): '))
-    while T not in {'d','l'}:
-        T = str(input('Enter l (light) or d (dark): '))
+    print('Available choices: \n')
+    print('1. Dark theme')
+    print('2. Light theme')
+    print('3. Dark-dkeg theme')
+    print('4. Light-dkeg theme')
+    print('5. Custom theme\n')
+    T = str(input('Enter a number: '))
+    while T not in {'1','2','3','4','5'}:
+        T = str(input('Enter number: '))
     theme = str(input('Enter a theme: '))
-    if T == 'l':
-        colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/light/'+theme+'.json')
-    if T == 'd':
+    if T == '1':
         colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/dark/'+theme+'.json')
+    if T == '2':
+        colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/light/'+theme+'.json')
+    if T == '3':
+        colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/dkeg_fixed/dkeg-'+theme+'.json')
+    if T == '4':
+        colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/dkeg_fixed_light/dkeg-'+theme+'_light.json')
+    if T == '5':
+        colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/custom/'+theme+'.json')    
 
 # get specific colors from dictionary
 bg = colors['special']['background']
 fg = colors['special']['foreground']
-input_color = shift_hex(bg,1.30) # shift bg for input areas
+input_color = shift_hex(bg,1.15) # shift bg for input areas
 bg_dark = shift_hex(bg,.75) # shift bg for darker areas
 bg_light = shift_hex(bg,1.25) # shift bg for darker areas
 fg_dark = shift_hex(fg,.75) # shift bg for darker areas
@@ -113,9 +125,16 @@ color = [ colors['colors']['color'+str(i)] for i in range(16) ]
 # change zathura colors
 #--------------------------------------------------------------------------------------------------------
 with open('/home/chase/.config/zathura/zathurarc','w') as z:
+    z.write('set font '+'"Iosevka Term Bold 9"'+'\n')
     z.write('set recolor true'+'\n')
     z.write('set recolor-darkcolor "'+fg+'" \n')
     z.write('set recolor-lightcolor "'+bg+'" \n')
+    z.write('set inputbar-fg "'+color[1]+'" \n')
+    z.write('set inputbar-bg "'+bg+'" \n')
+    z.write('set default-fg "'+fg+'" \n')
+    z.write('set default-bg "'+bg+'" \n')
+    z.write('set statusbar-fg "'+color[6]+'" \n')
+    z.write('set statusbar-bg "'+bg+'" \n')
     z.close()
 #--------------------------------------------------------------------------------------------------------
 
@@ -146,7 +165,7 @@ with open('/home/chase/dotfiles/sublime/TemplateUserColor.tmTheme') as f:
     t[0][11][4][5][1].text = color[5]
     t[0][11][5][5][1].text = color[5]
     t[0][11][6][5][1].text = color[14]
-    t[0][11][7][5][1].text = color[8]
+    t[0][11][7][5][1].text = color[2]
     t[0][11][8][5][1].text = color[13]
     t[0][11][9][5][1].text = color[10]
     t[0][11][10][5][1].text = color[7]
@@ -158,7 +177,7 @@ with open('/home/chase/dotfiles/sublime/TemplateUserColor.tmTheme') as f:
     t[0][11][16][5][1].text = color[9]
     t[0][11][17][5][1].text = color[9]
     t[0][11][18][5][1].text = color[9]
-    t[0][11][19][5][1].text = color[8]
+    t[0][11][19][5][1].text = color[2]
     t[0][11][20][5][1].text = color[9]
     t[0][11][21][5][1].text = color[13]
     t[0][11][22][5][1].text = color[14]
@@ -168,20 +187,20 @@ with open('/home/chase/dotfiles/sublime/TemplateUserColor.tmTheme') as f:
     t[0][11][26][5][3].text = color[10]
     t[0][11][27][5][3].text = color[14]
     t[0][11][28][5][1].text = color[11]
-    t[0][11][29][5][1].text = color[8]
+    t[0][11][29][5][1].text = color[2]
     t[0][11][30][5][1].text = color[9]
-    t[0][11][31][5][1].text = color[8]
+    t[0][11][31][5][1].text = color[2]
     t[0][11][32][5][1].text = color[9]
     t[0][11][33][5][1].text = color[2]
     t[0][11][33][5][3].text = color[5]
     t[0][11][34][5][1].text = color[11]
-    t[0][11][35][5][1].text = color[8]
+    t[0][11][35][5][1].text = color[2]
     t[0][11][36][5][1].text = color[14]
     t[0][11][37][5][1].text = color[12]
     t[0][11][38][5][1].text = color[12]
     t[0][11][39][5][1].text = color[12]
     t[0][11][40][5][1].text = fg
-    t[0][11][41][5][1].text = color[8]
+    t[0][11][41][5][1].text = color[2]
     t[0][11][41][5][3].text = color[0]
 
 with open('/home/chase/.config/sublime-text-3/Cache/UserColors/UserColor.tmTheme','w') as f:
@@ -193,7 +212,7 @@ with open('/home/chase/.config/sublime-text-3/Cache/UserColors/UserColor.tmTheme
 
 # change jupyter colors !!this needs the jupyterthemes package
 #--------------------------------------------------------------------------------------------------------
-with open('/home/chase/dotfiles/jupyter/custom.css','w') as f:
+with open('/home/chase/.jupyter/custom/custom.css','w') as f:
     # write in the variables
     f.write(':root { \n')
     f.write('\t --bg: '+bg+'; \n')
@@ -217,7 +236,7 @@ with open('/home/chase/dotfiles/jupyter/custom.css','w') as f:
     f.write('\t --color15: '+color[15]+'; \n')
     f.write('} \n')
     
-    with open('/home/chase/.jupyter/custom/templatecustom.css') as g:
+    with open('/home/chase/dotfiles/jupyter/templatecustom.css') as g:
         f.write(g.read())
         f.close()
 #--------------------------------------------------------------------------------------------------------
@@ -332,8 +351,8 @@ with open('/home/chase/.local/share/color-schemes/pywal_colors.colors','w') as f
     f.write('\n')
 
     f.write('[Colors:Selection] \n')
-    f.write('BackgroundAlternate='+hex_to_rgb_str(bg_light)+'\n')
-    f.write('BackgroundNormal='+hex_to_rgb_str(bg_light)+'\n')
+    f.write('BackgroundAlternate='+hex_to_rgb_str(bg)+'\n')
+    f.write('BackgroundNormal='+hex_to_rgb_str(bg)+'\n')
     f.write('DecorationFocus='+hex_to_rgb_str(color[6])+'\n')
     f.write('DecorationHover='+hex_to_rgb_str(color[6])+'\n')
     f.write('ForegroundActive='+hex_to_rgb_str(fg)+'\n')
@@ -380,8 +399,8 @@ with open('/home/chase/.local/share/color-schemes/pywal_colors.colors','w') as f
     f.write('\n')
 
     f.write('[Colors:Window] \n')
-    f.write('BackgroundAlternate='+hex_to_rgb_str(bg_light)+'\n')
-    f.write('BackgroundNormal='+hex_to_rgb_str(bg_light)+'\n')
+    f.write('BackgroundAlternate='+hex_to_rgb_str(bg)+'\n')
+    f.write('BackgroundNormal='+hex_to_rgb_str(bg)+'\n')
     f.write('DecorationFocus='+hex_to_rgb_str(color[6])+'\n')
     f.write('DecorationHover='+hex_to_rgb_str(color[6])+'\n')
     f.write('ForegroundActive='+hex_to_rgb_str(fg)+'\n')

@@ -1,0 +1,61 @@
+% This goes in: /usr/share/texmf-dist/tex/latex/beamer
+
+% gruvbox color scheme
+\definecolor{gruvbg}{HTML}{EBDBB2}
+\definecolor{gruvfg}{HTML}{282828}
+\definecolor{gruvred}{HTML}{FB4934}
+\definecolor{gruvorange}{HTML}{FE8019}
+\definecolor{gruvyellow}{HTML}{FABD2F}
+\definecolor{gruvgreen}{HTML}{B8BB26}
+\definecolor{gruvaqua}{HTML}{8EC07C}
+\definecolor{gruvblue}{HTML}{83A598}
+\definecolor{gruvpurple}{HTML}{D3869B}
+
+\setbeamercolor*{normal text}{fg=gruvfg,bg=gruvbg}
+
+\DeclareOption{overlystylish}
+{
+  \def\beamer@cta@do{
+    \setbeamertemplate{background canvas}[vertical shading][bottom=black,top=black,middle=blue!50!black]
+  }
+}
+\ProcessOptions
+
+\@ifundefined{beamer@cta@do}{}{\beamer@cta@do}
+
+\mode<presentation>
+
+
+
+\setbeamercolor*{title}{fg=gruvblue,bg=gruvfg}
+\setbeamercolor*{example text}{fg=gruvblue,bg=gruvbg}
+\setbeamercolor*{alerted text}{fg=gruvred,bg=gruvbg}
+\setbeamercolor*{structure}{fg=gruvaqua,bg=gruvbg}
+
+\setbeamercolor{palette primary}{use={structure,normal text},fg=normal text.fg,bg=gruvblue}
+\setbeamercolor{palette secondary}{use={structure,normal text},fg=structure.fg,bg=gruvgreen}
+\setbeamercolor{palette tertiary}{use={structure,normal text},fg=structure.fg,bg=gruvyellow}
+\setbeamercolor{palette quaternary}{use={structure,normal text},fg=structure.bg,bg=gruvfg}
+
+\setbeamercolor*{block body}{bg=normal text.fg!75!black,fg=normal text.bg}
+\setbeamercolor*{block body alerted}{bg=normal text.fg!75!black,fg=normal text.bg}
+\setbeamercolor*{block body example}{bg=normal text.fg!75!black,fg=normal text.bg}
+\setbeamercolor*{block title}{parent=structure,bg=normal text.fg!75!black,fg=structure.fg}
+\setbeamercolor*{block title alerted}{use={normal text,alerted text},fg=alerted text.fg!75,bg=normal text.fg!75!black}
+\setbeamercolor*{block title example}{use={normal text,example text},fg=example text.fg!75,bg=normal text.fg!75!black}
+
+\setbeamercolor{item projected}{fg=black}
+
+\setbeamercolor*{sidebar}{parent=palette primary}
+
+\setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
+\setbeamercolor{palette sidebar secondary}{use=structure,fg=structure.fg}
+\setbeamercolor{palette sidebar tertiary}{use=normal text,fg=normal text.fg}
+\setbeamercolor{palette sidebar quaternary}{use=structure,fg=structure.fg}
+
+\setbeamercolor*{separation line}{}
+\setbeamercolor*{fine separation line}{}
+
+
+\mode
+<all>

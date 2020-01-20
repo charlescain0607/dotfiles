@@ -2,9 +2,9 @@
 rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
 #rofi.theme: ~/.config/rofi/flat-orange.rasi
 rofi.width: 30
-rofi.lines: 25
+rofi.lines: 15
 rofi.columns: 1
-rofi.font: cherry 8
+rofi.font: Iosevka Nerd Font Bold 13
 rofi.eh: 1
 rofi.location: 0
 rofi.yoffset: 0
