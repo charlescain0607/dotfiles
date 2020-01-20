@@ -104,10 +104,11 @@ alias jn="jupyter notebook"
 alias onedarkjupyter="jt -t onedork -cellw 88% -f iosevka -fs 11 -nf iosevka -nfs 11 -tf iosevka -tfs 11 -ofs 11 -T -N -kl"
 alias gruvdjupyter="jt -t gruvboxd -cellw 88% -f iosevka -fs 11 -nf iosevka -nfs 11 -tf iosevka -tfs 11 -ofs 11 -T -N -kl"
 alias gruvljupyter="jt -t gruvboxl -cellw 88% -f iosevka -fs 11 -nf iosevka -nfs 11 -tf iosevka -tfs 11 -ofs 11 -T -N -kl"
-alias adaptcolors="python3 ~/dotfiles/pywal_ext.py"
+alias adaptcolors="python3 ~/dotfiles/pywal_extend/pywal_ext.py"
 alias algtop="ranger ~/library/math/books/geometry_and_topology/algebraic_topology"
 alias papers="ranger ~/library/math/papers"
 alias bonsai="bash ~/.local/bin/bonsai -T"
+alias update-configs="bash /home/chase/dotfiles/update_configs.sh"
 
 xhost +local:root > /dev/null 2>&1
 

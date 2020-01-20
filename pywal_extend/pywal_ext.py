@@ -142,7 +142,7 @@ with open('/home/chase/.config/zathura/zathurarc','w') as z:
 
 # change sublime colors !!this needs the ColorSchemeEditor package from bobef
 #--------------------------------------------------------------------------------------------------------
-with open('/home/chase/dotfiles/sublime/TemplateUserColor.tmTheme') as f:
+with open('/home/chase/dotfiles/pywal_extend/templates/sublime/TemplateUserColor.tmTheme') as f:
     # import xml
     t = etree.fromstring(f.read().encode('utf-8'))
     f.close()
@@ -236,7 +236,7 @@ with open('/home/chase/.jupyter/custom/custom.css','w') as f:
     f.write('\t --color15: '+color[15]+'; \n')
     f.write('} \n')
     
-    with open('/home/chase/dotfiles/jupyter/templatecustom.css') as g:
+    with open('/home/chase/dotfiles/pywal_extend/templates/jupyter/templatecustom.css') as g:
         f.write(g.read())
         f.close()
 #--------------------------------------------------------------------------------------------------------
@@ -269,7 +269,7 @@ with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userChrome.css',
     f.write('\t --color15: '+color[15]+'; \n')
     f.write('} \n')
     
-    with open('/home/chase/dotfiles/userChromeTemplate.css') as g:
+    with open('/home/chase/dotfiles/pywal_extend/templates/firefox/userChromeTemplate.css') as g:
         f.write(g.read())
         f.close()
 
@@ -299,7 +299,7 @@ with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userContent.css'
     f.write('\t --color15: '+color[15]+'; \n')
     f.write('} \n')
     
-    with open('/home/chase/dotfiles/userContentTemplate.css') as g:
+    with open('/home/chase/dotfiles/pywal_extend/templates/firefox/userContentTemplate.css') as g:
         f.write(g.read())
         f.close()
 #--------------------------------------------------------------------------------------------------------

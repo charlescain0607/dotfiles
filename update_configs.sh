@@ -20,10 +20,12 @@ echo 'zathura copied'
 cp ~/.config/compton/compton.conf /home/chase/dotfiles/config/compton.conf # compton
 echo 'compton copied'
 
+# latex sty files
 cp -r /usr/share/texmf-dist/tex/latex/style_EHT /home/chase/dotfiles/latex_sty_files/
 cp  /usr/share/texmf-dist/tex/latex/beamer/beamercolorthemegruvbox.sty /home/chase/dotfiles/latex_sty_files/beamercolorthemegruvbox.sty
 echo 'latex sty files copied'
 
+# push to git
 cd /home/chase/dotfiles/
 git add . -v
 git commit -m 'Add existing file' -v
