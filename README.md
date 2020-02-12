@@ -1,2 +1,3 @@
 # dotfiles
-Ricing config files and wallpapers
+
+config files, colorschemes and wallpapers, latex class files, and scripts

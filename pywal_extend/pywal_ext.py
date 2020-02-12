@@ -14,6 +14,14 @@
 # color5 | color13: purple | light purple
 # color6 | color14: aqua   | light aqua
 # color7 | color15: silver | light silver
+#
+# Here are the required packages for this to work:
+# Sublime:
+# - ColorSchemeEditor package from bobef
+#
+# Jupyter
+# - jupyterthemes (install via pip)
+#
 #--------------------------------------------------------------------------------------------------------
 
 
@@ -125,7 +133,7 @@ color = [ colors['colors']['color'+str(i)] for i in range(16) ]
 # change zathura colors
 #--------------------------------------------------------------------------------------------------------
 with open('/home/chase/.config/zathura/zathurarc','w') as z:
-    z.write('set font '+'"Iosevka Term Bold 9"'+'\n')
+    z.write('set font '+'"FuraCode Nerd Font Bold 9"'+'\n')
     z.write('set recolor true'+'\n')
     z.write('set recolor-darkcolor "'+fg+'" \n')
     z.write('set recolor-lightcolor "'+bg+'" \n')

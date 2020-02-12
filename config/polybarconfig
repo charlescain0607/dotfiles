@@ -36,7 +36,7 @@
 	width = 100%
 ;	offset-x = i5%
 ;	offset-y = 1%
-	height = 40
+	height = 50
 ;	wm-restack = i3
 	radius = 0.0
 	fixed-center = true
@@ -54,14 +54,14 @@
 	border-color = ${colors.background}
 
 	padding = 0
-	module-margin = 2
+	module-margin = 1
 
-	font-0 = Iosevka Nerd Font:style=Bold:pixelsize=14;3
-	font-1 = Iosevka Nerd Font:style=Bold:pixelsize=13;3
+	font-0 = furacode Nerd Font:style=bold:pixelsize=16;3
+	font-1 = furacode Nerd Font:style=bold:pixelsize=16;3
 	font-2 = Powerline Extra Symbols:style=Bold:pixelsize=27;7
 
 	modules-center = i3
-	modules-left = manjarosymb memory cpu filesystem
+	modules-left = manjarosymb memory cpu filesystem 
 	modules-right = pulseaudio xbacklight wlan battery date 
 
 	cursor-click = pointer
