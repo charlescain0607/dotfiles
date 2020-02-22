@@ -2,13 +2,13 @@
 rofi.theme: ~/.cache/wal/colors-rofi-dark.rasi
 #rofi.theme: ~/.config/rofi/flat-orange.rasi
 rofi.width: 30
-rofi.lines: 15
+rofi.lines: 10
 rofi.columns: 1
-rofi.font: FuraCode Nerd Font Bold 18
+rofi.font: Whyosevka Bold 15
 rofi.eh: 1
 rofi.location: 0
-rofi.yoffset: 0
+rofi.yoffset: -20
 rofi.xoffset: 0
 rofi.show-icons: true
-rofi.icon-theme: Papirus-Dark
+rofi.icon-theme: Flatery-Blue-Dark
 rofi.display-drun: run

@@ -20,6 +20,9 @@ echo 'zathura copied'
 cp ~/.config/compton/compton.conf /home/chase/dotfiles/config/compton.conf # compton
 echo 'compton copied'
 
+cp ~/.Xresources /home/chase/dotfiles/config/.Xresources
+echo 'Xresources cpoied'
+
 # latex sty files
 cp -r /usr/share/texmf-dist/tex/latex/style_EHT /home/chase/dotfiles/latex_sty_files/
 cp  /usr/share/texmf-dist/tex/latex/beamer/beamercolorthemegruvbox.sty /home/chase/dotfiles/latex_sty_files/beamercolorthemegruvbox.sty

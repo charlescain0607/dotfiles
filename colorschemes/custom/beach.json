@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/chase/dotfiles/wallpapers/new/wallhaven-lm7d22.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#413145",
+        "foreground": "#e7dbd4",
+        "cursor": "#e7dbd4"
+    },
+    "colors": {
+        "color0": "#413145",
+        "color1": "#7CB6C0",
+        "color2": "#9C9BA0",
+        "color3": "#AFAEAE",
+        "color4": "#C99D93",
+        "color5": "#D1B5AD",
+        "color6": "#DBC4B8",
+        "color7": "#e7dbd4",
+        "color8": "#a19994",
+        "color9": "#7CB6C0",
+        "color10": "#9C9BA0",
+        "color11": "#AFAEAE",
+        "color12": "#C99D93",
+        "color13": "#D1B5AD",
+        "color14": "#DBC4B8",
+        "color15": "#e7dbd4"
+    }
+}

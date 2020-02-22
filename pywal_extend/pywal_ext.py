@@ -253,7 +253,7 @@ with open('/home/chase/.jupyter/custom/custom.css','w') as f:
 
 # change firefox colors
 #--------------------------------------------------------------------------------------------------------
-with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userChrome.css','w') as f:
+with open('/home/chase/.mozilla/firefox/wn5c0glq.default-release/chrome/userChrome.css','w') as f:
     # write in the variables
     f.write(':root { \n')
     f.write('\t --bg: '+bg+'; \n')
@@ -282,7 +282,7 @@ with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userChrome.css',
         f.close()
 
 
-with open('/home/chase/.mozilla/firefox/kdz5f94t.default/chrome/userContent.css','w') as f:
+with open('/home/chase/.mozilla/firefox/wn5c0glq.default-release/chrome/userContent.css','w') as f:
     # write in the variables
     f.write(':root { \n')
     f.write('\t --bg: '+bg+'; \n')
