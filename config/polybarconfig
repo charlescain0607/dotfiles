@@ -36,6 +36,7 @@
 
 
 [bar/example]
+;	monitor = HDMI1
 	width = 100%
 ;	offset-x = i5%
 ;	offset-y = 1%
