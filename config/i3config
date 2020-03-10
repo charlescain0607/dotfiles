@@ -221,6 +221,9 @@ bindsym $mod+r mode "resize"
 exec_always --no-startup-id xset -b #no more beeps
 #exec_always --no-startup-id feh --bg-fill ~/dotfiles/Wallpapers/solid/sunset.png #current wallpaper
 #exec_always --no-startup-id hsetroot -add "$bg" -add "$fg" -gradient 0
+
+# Uncomment this for external monitor use
+#exec_always --no-startup-id xrandr --output HDMI1 --auto --left-of LVDS1
 exec_always --no-startup-id wal -R
 exec_always --no-startup-id hsetroot -solid "$bg"
 exec_always --no-startup-id compton
