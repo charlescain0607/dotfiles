@@ -133,7 +133,7 @@ color = [ colors['colors']['color'+str(i)] for i in range(16) ]
 # change zathura colors
 #--------------------------------------------------------------------------------------------------------
 with open('/home/chase/.config/zathura/zathurarc','w') as z:
-    z.write('set font '+'"FuraCode Nerd Font Bold 9"'+'\n')
+    z.write('set font '+'"Whyosevka Bold 9"'+'\n')
     z.write('set recolor true'+'\n')
     z.write('set recolor-darkcolor "'+fg+'" \n')
     z.write('set recolor-lightcolor "'+bg+'" \n')
@@ -145,7 +145,6 @@ with open('/home/chase/.config/zathura/zathurarc','w') as z:
     z.write('set statusbar-bg "'+bg+'" \n')
     z.close()
 #--------------------------------------------------------------------------------------------------------
-
 
 
 # change sublime colors !!this needs the ColorSchemeEditor package from bobef
@@ -211,9 +210,9 @@ with open('/home/chase/dotfiles/pywal_extend/templates/sublime/TemplateUserColor
     t[0][11][41][5][1].text = color[2]
     t[0][11][41][5][3].text = color[0]
 
-with open('/home/chase/.config/sublime-text-3/Cache/UserColors/UserColor.tmTheme','w') as f:
-    f.write(etree.tostring(t).decode('utf-8'))
-    f.close()
+    with open('/home/chase/.config/sublime-text-3/Cache/UserColors/UserColor.tmTheme','w') as f:
+        f.write(etree.tostring(t).decode('utf-8'))
+        f.close()
 #--------------------------------------------------------------------------------------------------------
 
 

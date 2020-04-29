@@ -10,5 +10,5 @@ rofi.location: 0
 rofi.yoffset: -20
 rofi.xoffset: 0
 rofi.show-icons: true
-rofi.icon-theme: Flatery-Blue-Dark
+rofi.icon-theme: Qogir-manjaro-dark 
 rofi.display-drun: run

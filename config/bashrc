@@ -107,7 +107,7 @@ alias open-jupyter="cd /home/chase/documents/jupyter_notebooks/ &&  jupyter note
 alias adaptcolors="python3 ~/dotfiles/pywal_extend/pywal_ext.py"
 alias algtop="ranger ~/library/math/books/geometry_and_topology/algebraic_topology"
 alias papers="ranger ~/library/math/papers"
-alias update-configs="bash /home/chase/dotfiles/update_configs.sh"
+alias update-configs="bash /home/chase/dotfiles/scripts/update_configs.sh"
 alias Xres-reset="xrdb ~/.Xresources && wal -R"
 
 xhost +local:root > /dev/null 2>&1

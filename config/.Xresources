@@ -1,5 +1,5 @@
-URxvt.font:xft:Whyosevka:Medium:size=13
-URxvt.boldFont:xft:Whyosevka:Bold:size=13
+URxvt.font:xft:lemon:size=15
+URxvt.boldFont:xft:lemon:bold:size=15
 URxvt.scrollBar: false
 URxvt.internalBorder: 60
 
@@ -7,5 +7,5 @@ URxvt.internalBorder: 60
 Xft.dpi:        96
 Xft.antialias:  true
 Xft.rgba:       rgb
-Xft.hinting:    true
+Xft.hinting:    false
 Xft.hintstyle:  hintfull

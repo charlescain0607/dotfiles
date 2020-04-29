@@ -23,7 +23,7 @@
 	cpu = ${xrdb:color7:#222}
 	disk = ${xrdb:color1:#222}
 	audio = ${xrdb:color4:#222}
-	bright  = ${xrdb:color3:#222}
+	bright  = ${xrdb:color6:#222}
 	wifi = ${xrdb:color5:#222}
 	bat = ${xrdb:color7:#222}
 	i3 = ${xrdb:color4:#222}
