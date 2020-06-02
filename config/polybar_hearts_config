@@ -38,7 +38,7 @@
 [bar/example]
 ;	monitor = HDMI1
 	width = 100%
-;	offset-x = 15%
+;	offset-x = i5%
 ;	offset-y = 1%
 	height = 50
 ;	wm-restack = i3
@@ -60,8 +60,9 @@
 	padding = 0
 	module-margin = 1
 
-	font-0 = cherry:style=regular:pixelsize=14;3
-	font-1 = Iosevka Nerd Font:style=bold:pixelsize=11;3
+	font-0 = Whyosevka:style=bold:pixelsize=15;3
+	font-1 = Iosevka Nerd Font:style=bold:pixelsize=16;3
+	font-2 = Powerline Extra Symbols:style=Bold:pixelsize=27;7
 
 	modules-left = manjarosymb memory cpu temperature
 	modules-center = i3
@@ -82,12 +83,13 @@
 ;	pin-workspaces = true
 
 	label-mode-padding = 2
-;	label-mode-foreground = #000
-;	label-mode-background = ${colors.background}
+	label-mode-foreground = #000
+	label-mode-background = ${colors.background}
 
 ;	focused = Active workspace on focused monitor
 	label-focused = %icon%
-;	label-focused-background = #0000000
+;	label-focused-background = ${colors.background}
+	label-focused-background = #0000000	
 	label-focused-foreground = ${colors.polybar}
 	label-focused-overline = ${colors.polybar}
 	label-focused-padding = 2
@@ -96,7 +98,6 @@
 	label-unfocused = %icon%
 	label-unfocused-padding = 2
 	label-unfocused-foreground = ${colors.foreground-alt}
-;	label-unfocused-background = ${colors.background-alt}
 
 ;	urgent = Workspace with urgency hint set
 	label-urgent = %icon%
@@ -106,10 +107,10 @@
 	label-urgent-padding = 2
 
 ;	NOTE: The label needs to match the name of the i3 workspace
-	ws-icon-0 = 1;
-	ws-icon-1 = 2;
-	ws-icon-2 = 3;
-	ws-icon-3 = 4;嗢
+	ws-icon-0 = 1; 
+	ws-icon-1 = 2; 
+	ws-icon-2 = 3; 
+	ws-icon-3 = 4;嗢 
 	ws-icon-4 = 5; 
 	ws-icon-5 = 6;
 	ws-icon-6 = 7; 
@@ -283,7 +284,7 @@
 	interval = 2.0
 
 	format-connected = <label-connected>
-	label-connected =   %essid%
+	label-connected = 
 	label-connected-padding = 2
 	label-connected-foreground = ${colors.wifi}
 
@@ -301,20 +302,21 @@
 	full-at = 100
 
 	format-full = <label-full><bar-capacity>
-	label-full = 100 | 
+	label-full = 100! |
 	label-full-padding-right = 1
 	label-full-padding-left = 2
 	label-full-foreground = ${colors.bat}
 
-	format-charging = <label-charging><animation-charging>
+	format-charging = <label-charging><bar-capacity>
 ;	label-charging =  %percentage%%
-	label-charging = %percentage%
+	label-charging =   |
 	label-charging-padding-right = 1
 	label-charging-padding-left = 2
 	label-charging-foreground = ${colors.bat}
 
-	format-discharging = <label-discharging><ramp-capacity>
-	label-discharging = %percentage%
+	format-discharging = <label-discharging><bar-capacity>
+;	label-discharging =  %percentage% 
+	label-discharging = %percentage% |
 	label-discharging-padding-right = 1
 	label-discharging-padding-left = 2
 	label-discharging-foreground = ${colors.bat}
@@ -332,61 +334,6 @@
 	bar-capacity-fill = 
 	bar-capacity-empty-foreground = ${xrdb:foreground:#222}
 
-	ramp-capacity-0 = | 
-	ramp-capacity-1 = | 
-	ramp-capacity-2 = | 
-	ramp-capacity-3 = | 
-	ramp-capacity-4 = | 
-	ramp-capacity-5 = | 
-	ramp-capacity-6 = | 
-	ramp-capacity-7 = | 
-	ramp-capacity-8 = | 
-	ramp-capacity-9 = |  
-
-	ramp-capacity-9-foreground = ${xrdb:color5:#222}
-	ramp-capacity-8-foreground = ${xrdb:color5:#222}
-	ramp-capacity-7-foreground = ${xrdb:color4:#222}
-	ramp-capacity-6-foreground = ${xrdb:color4:#222}
-	ramp-capacity-5-foreground = ${xrdb:color2:#222}
-	ramp-capacity-4-foreground = ${xrdb:color2:#222}
-	ramp-capacity-3-foreground = ${xrdb:color3:#222}
-	ramp-capacity-2-foreground = ${xrdb:color3:#222}
-	ramp-capacity-1-foreground = ${xrdb:color1:#222}
-	ramp-capacity-0-foreground = ${xrdb:color1:#222}
-
-	animation-charging-0 =  
-	animation-charging-1 =  
-	animation-charging-2 =  
-	animation-charging-3 =  
-	animation-charging-4 =  
-	animation-charging-5 =  
-	animation-charging-6 =  
-	animation-charging-7 =  
-	animation-charging-8 =  
-	animation-charging-9 =   
-
-	animation-charging-9-foreground = ${xrdb:color5:#222}
-	animation-charging-8-foreground = ${xrdb:color5:#222}
-	animation-charging-7-foreground = ${xrdb:color4:#222}
-	animation-charging-6-foreground = ${xrdb:color4:#222}
-	animation-charging-5-foreground = ${xrdb:color2:#222}
-	animation-charging-4-foreground = ${xrdb:color2:#222}
-	animation-charging-3-foreground = ${xrdb:color3:#222}
-	animation-charging-2-foreground = ${xrdb:color3:#222}
-	animation-charging-1-foreground = ${xrdb:color1:#222}
-	animation-charging-0-foreground = ${xrdb:color1:#222}
-
-;	animation-charging-0 = | 
-;	animation-charging-1 = | 
-;	animation-charging-2 = | 
-;	animation-charging-3 = | 
-;	animation-charging-4 = | 
-;
-;	animation-charging-4-foreground = ${xrdb:color5:#222}
-;	animation-charging-3-foreground = ${xrdb:color4:#222}
-;	animation-charging-2-foreground = ${xrdb:color2:#222}
-;	animation-charging-1-foreground = ${xrdb:color3:#222}
-;	animation-charging-0-foreground = ${xrdb:color1:#222}
 
 
 [module/date]

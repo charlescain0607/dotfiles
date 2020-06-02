@@ -21,7 +21,6 @@
 #
 # Jupyter
 # - jupyterthemes (install via pip)
-#
 #--------------------------------------------------------------------------------------------------------
 
 
@@ -71,7 +70,7 @@ def get_color_file(image,color):
     file = u
     for i in range(1,len(s)-1):
         file+=s[i]+u
-    file = file+name+u+pic+u
+    file = file + name + u + pic + u
     if color == 'd':
         return file+dark
     elif color == 'l':
@@ -133,7 +132,7 @@ color = [ colors['colors']['color'+str(i)] for i in range(16) ]
 # change zathura colors
 #--------------------------------------------------------------------------------------------------------
 with open('/home/chase/.config/zathura/zathurarc','w') as z:
-    z.write('set font '+'"Whyosevka Bold 9"'+'\n')
+    z.write('set font '+'"Whyosevka Bold 11"'+'\n')
     z.write('set recolor true'+'\n')
     z.write('set recolor-darkcolor "'+fg+'" \n')
     z.write('set recolor-lightcolor "'+bg+'" \n')
@@ -443,8 +442,5 @@ with open('/home/chase/.local/share/color-schemes/pywal_colors.colors','w') as f
 
     f.close()
 #--------------------------------------------------------------------------------------------------------
-
-
-
 
 print('Done!')

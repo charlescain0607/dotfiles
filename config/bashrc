@@ -105,6 +105,7 @@ alias gruvljupyter="jt -t gruvboxl -cellw 88% -f iosevka -fs 11 -nf iosevka -nfs
 
 alias open-jupyter="cd /home/chase/documents/jupyter_notebooks/ &&  jupyter notebook"
 alias adaptcolors="python3 ~/dotfiles/pywal_extend/pywal_ext.py"
+alias coolors_to_wal="python3 ~/dotfiles/pywal_extend/coolors_to_wal.py"
 alias algtop="ranger ~/library/math/books/geometry_and_topology/algebraic_topology"
 alias papers="ranger ~/library/math/papers"
 alias update-configs="bash /home/chase/dotfiles/scripts/update_configs.sh"

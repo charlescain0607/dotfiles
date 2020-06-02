@@ -101,7 +101,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 # increase sc
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 # decrease screen brightness
 
 # Touchpad controls
-exec_always --no-startup-id xinput set-prop 11 301 1
+exec_always --no-startup-id xinput set-prop 12 301 1
 
 #-------------------
 #	Colors
