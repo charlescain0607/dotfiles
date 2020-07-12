@@ -39,7 +39,7 @@ from lxml import etree # for assigning colors
 
 # rgb and hex functions
 def rgb_to_hex(r,g,b):
-    h='#'
+    h='#' 
     for c in [r,g,b]:
         h += hex( int(min(255,c)) )[2:].zfill(2)
     return h

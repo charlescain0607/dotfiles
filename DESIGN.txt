@@ -1,0 +1,63 @@
+--- Design Outline ---
+
+Here are the elements of design that I want to keep in mind while creating the desktop environment:
+
+1. Minimal - It should be very minimalistic, primarily to prevent distraction. To be specific:
+	> Packages - the environment should require a relatively small amount of packages, each performing a single job well, no multitaskers
+		>> Vim, Sublime Text, and Nano are all text editors, so only one of these should be installed. 
+	> Interface - no cluttered interface, should look good with solid color as background, or very minimal background
+	> File System - shouldn;t be multiple system folders for things like fonts, colorschemes, etc.
+2. Descriptive - all relevant system information should be displayed neatly somewhere in the interface
+	> Polybar - should include cpu, ram, temp, workspaces, wifi, vol, brightness, time, bat, package updates
+	> Vim - should display filename, location, file type via powerline
+	> Font - there should be a single font applied universally, which contains all relevant glyphs 
+	> Notifications - should select a single notification daemon which is easily configured, again not a multitasker
+3. Adaptive - since I'm never perfectly content with a single color scheme, there should be some kind of color management system that adapts the entire system to a color scheme
+	> Pywal - the functions of pywal should be expanded to any commonly used program/application
+	> CLI - the command line should have features like autocomplete
+4. Easy - the keyboard shortcuts should be plentiful and predictable
+	> Use applications with vim keybindings, so that only one set of keybindings needs to be used
+5. CLI-Focused
+	> If an application has a command line variation, like spotify, then it should be utilized
+6. Self-assembling
+	> Significant work should be put into creating and maintaining a script that installs the ENTIRE system from ground zero, placing the necessary config files in the correct places, etc. 
+	> github - required config files should be backed up to github 
+
+
+
+Options:
+
+- wm
+	1. i3 - *
+	2. awesome - **
+	3. xmonad - ***
+	4. openbox - 
+- bar
+	1. polybar - *
+- lock screen
+	1. i3lock
+- text-editor
+	1. vim - **
+	2. neovim - *
+	3. sublime - ***
+- notification daemon
+	1. dunst - *
+- pdf reader
+	1. zathura - *
+- terminal emulator
+	1. urxvt
+	2. suckless
+	3. kitty
+	4. 
+- shell
+	1. bash
+	2. zsh
+	3. fish
+
+
+
+Steps:
+
+- Download neovim and customize it
+- Download openbox and customize it
+- Download fish and zsh and experiment
