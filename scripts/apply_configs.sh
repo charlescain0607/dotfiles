@@ -18,6 +18,9 @@ echo 'rofi copied'
 mkdir ~/.config/zathura/ && cp /home/chase/dotfiles/config/zathurarc ~/.config/zathura/zathurarc # zathura
 echo 'zathura copied'
 
+mkdir ~/.config/neofetch/ && cp /home/chase/dotfiles/config/neofetch.conf ~/.config/neofetch/config.conf # neofetch
+echo 'neofetch copied'
+
 mkdir ~/.config/compton/ && cp /home/chase/dotfiles/config/compton.conf ~/.config/compton/compton.conf # compton
 echo 'compton copied'
 

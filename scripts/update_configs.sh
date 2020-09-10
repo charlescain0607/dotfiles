@@ -20,6 +20,9 @@ echo 'zathura copied'
 cp ~/.config/picom/picom.conf /home/chase/dotfiles/config/picom.conf # compton
 echo 'picom copied'
 
+cp ~/.config/neofetch/config.conf /home/chase/dotfiles/config/neofetch.conf # neofetch
+echo 'neofetch copied'
+
 cp ~/.Xresources /home/chase/dotfiles/config/.Xresources
 echo 'Xresources cpoied'
 
