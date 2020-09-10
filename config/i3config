@@ -101,7 +101,7 @@ bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5 # increase sc
 bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5 # decrease screen brightness
 
 # Touchpad controls
-exec_always --no-startup-id xinput set-prop 12 301 1
+exec_always --no-startup-id xinput set-prop 12 303 1
 
 #-------------------
 #	Colors
@@ -226,7 +226,7 @@ exec_always --no-startup-id xset -b #no more beeps
 #exec_always --no-startup-id xrandr --output HDMI1 --auto --left-of LVDS1
 exec_always --no-startup-id wal -R
 exec_always --no-startup-id hsetroot -solid "$bg"
-exec_always --no-startup-id compton
+exec_always --no-startup-id picom
 exec_always --no-startup-id bash ~/.config/polybar/launch.sh
 
 

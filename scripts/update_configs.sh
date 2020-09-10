@@ -17,8 +17,8 @@ echo 'rofi copied'
 cp ~/.config/zathura/zathurarc /home/chase/dotfiles/config/zathurarc # zathura
 echo 'zathura copied'
 
-cp ~/.config/compton/compton.conf /home/chase/dotfiles/config/compton.conf # compton
-echo 'compton copied'
+cp ~/.config/picom/picom.conf /home/chase/dotfiles/config/picom.conf # compton
+echo 'picom copied'
 
 cp ~/.Xresources /home/chase/dotfiles/config/.Xresources
 echo 'Xresources cpoied'
