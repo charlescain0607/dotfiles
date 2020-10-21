@@ -1,8 +1,8 @@
-!URxvt.font:xft:Whyosevka:style=bold:size=11
-!URxvt.boldFont:xft:Whyosevka:style=heavy:size=11
-!URxvt.scrollBar: false
-!URxvt.internalBorder: 60
-!URxvt.letterSpace: 0
+URxvt.font:xft:Whyosevka:style=bold:size=9
+URxvt.boldFont:xft:Whyosevka:style=heavy:size=9
+URxvt.scrollBar: false
+URxvt.internalBorder: 60
+URxvt.letterSpace: 0
 
 !URxvt.font:xft:mononoki Nerd Font:style=Bold:size=9
 !URxvt.boldFont:xft:mononoki Nerd Font:style=Bold:size=9
@@ -17,11 +17,11 @@
 !URxvt.internalBorder: 60
 !URxvt.letterSpace: 1
 
-URxvt.font:xft:Whyozette:style=regular:size=8
-URxvt.boldFont:xft:Whyozette:style=regular:size=8
-URxvt.scrollBar: false
-URxvt.internalBorder: 60
-URxvt.letterSpace: 1
+!URxvt.font:xft:Whyozette:style=regular:size=8
+!URxvt.boldFont:xft:Whyozette:style=regular:size=8
+!URxvt.scrollBar: false
+!URxvt.internalBorder: 60
+!URxvt.letterSpace: 1
 
 !URxvt.font:xft:cherry:style=regular:size=10
 !URxvt.boldFont:xft:cherry:style=regular:size=10

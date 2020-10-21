@@ -25,7 +25,7 @@
 	audio = ${xrdb:color4:#222}
 	bright  = ${xrdb:color6:#222}
 	wifi = ${xrdb:color5:#222}
-	bat = ${xrdb:color7:#222}
+	bat = ${xrdb:color6:#222}
 	i3 = ${xrdb:color4:#222}
 
 
@@ -34,17 +34,17 @@
 	sep = |
 
 
-
 [bar/example]
 ;	monitor = HDMI1
 	width = 100%
-;	offset-x = 15%
-;	offset-y = 1%
-	height = 50
-;	wm-restack = i3
-	radius = 0.0
-	fixed-center = true
-;	override-redirect = true
+;	offset-x = 5
+;	offset-y = 5
+
+	height = 40
+	radius = 0
+
+	wm-restack = i3
+	override-redirect = false
 
 	background = ${colors.background}
 ;	background = #0000000
@@ -53,19 +53,19 @@
 	line-size = 0
 	line-color = ${colors.primary}
 
-	border-size = 5
+	border-size = 10
 ;	border-color = #0000000
 	border-color = ${colors.background}
 
 	padding = 0
-	module-margin = 1
+	module-margin = 2
 
-	font-0 = gohufont:size=13;3
-	font-1 = Iosevka Nerd Font:style=bold:pixelsize=11;3
+	font-0 = whyosevka:style=bold:size=12;3
+	font-1 = Iosevka Nerd Font:style=bold:pixelsize=12;3
 
-	modules-left = manjarosymb memory cpu temperature
-	modules-center = i3
-	modules-right = xbacklight pulseaudio wlan battery date 
+;	modules-center = 
+	modules-left = i3
+	modules-right = memory cpu temperature xbacklight pulseaudio wlan battery date 
 
 	cursor-click = pointer
 	cursor-scroll = ns-resize
@@ -87,8 +87,8 @@
 
 ;	focused = Active workspace on focused monitor
 	label-focused = %icon%
-;	label-focused-background = #0000000
-	label-focused-foreground = ${colors.polybar}
+	label-focused-background = ${colors.foreground}
+	label-focused-foreground = ${colors.background}
 	label-focused-overline = ${colors.polybar}
 	label-focused-padding = 2
 
@@ -100,22 +100,22 @@
 
 ;	urgent = Workspace with urgency hint set
 	label-urgent = %icon%
-	label-urgent-foreground = ${colors.primary}
-	label-urgent-background = #0000000
-	label-urgent-overline = ${colors.primary}
+	label-urgent-foreground = ${colors.background}
+	label-urgent-background = ${colors.primary}
+;	label-urgent-overline = ${colors.primary}
 	label-urgent-padding = 2
 
 ;	NOTE: The label needs to match the name of the i3 workspace
-	ws-icon-0 = 1;
-	ws-icon-1 = 2;
-	ws-icon-2 = 3;
-	ws-icon-3 = 4;嗢
-	ws-icon-4 = 5; 
-	ws-icon-5 = 6;
-	ws-icon-6 = 7; 
-	ws-icon-7 = 8; 
-	ws-icon-8 = 9; 
-	ws-icon-9 = 10; 
+	ws-icon-0 = 1; .sublime
+	ws-icon-1 = 2; .pdf
+	ws-icon-2 = 3; .firefox
+	ws-icon-3 = 4;嗢 .vlc
+	ws-icon-4 = 5; .gaming
+	ws-icon-5 = 6; .terminal
+	ws-icon-6 = 7; .terminal
+	ws-icon-7 = 8; .terminal
+	ws-icon-8 = 9; .terminal
+	ws-icon-9 = 10; .terminal
 	ws-icon-default = 裡
 
 ;	Separator in between workspaces
@@ -140,7 +140,8 @@
 ;	label =  %mb_used%
 	label =  : 
 	label-foreground = ${colors.mem}
-	label-padding-left = 0
+	label-background = ${colors.background}
+	label-padding-left = 1
 	label-padding-right = 1
 
 	; Only applies if <bar-free> is used
@@ -164,11 +165,11 @@
 	label-foreground = ${colors.cpu}
 ;	label =  %percentage-cores%
 	label =  :
-	label-padding-left = 2
+	label-padding-left = 1
 	format = <label> <ramp-coreload>
 
 	; Spacing between individual per-core ramps
-	ramp-coreload-spacing = 1
+	ramp-coreload-spacing = 0
 	ramp-coreload-0 = ▁
 	ramp-coreload-1 = ▂
 	ramp-coreload-2 = ▃
@@ -212,8 +213,9 @@
 	thermal-zone = 3
 	warn-temperature = 50
 
-	format = <ramp><label>
-	format-warn = <label-warn>
+	format = <ramp>
+;	format = <ramp><label>
+;	format-warn = <label-warn>
 ;	format-warn-underline = ${colors.primary}
 
 	label =  %temperature-c%
@@ -223,16 +225,26 @@
 
 	ramp-padding-left=2
 	ramp-0=
-	ramp-1=
-	ramp-2=
-	ramp-3=
-	ramp-4=
+	ramp-1=
+	ramp-2=
+	ramp-3=
+	ramp-4=
+	ramp-5=
+	ramp-6=
+	ramp-7=
+	ramp-8=
+	ramp-9=
 
 	ramp-0-foreground = ${xrdb:color5:#222}
-	ramp-1-foreground = ${xrdb:color4:#222}
-	ramp-2-foreground = ${xrdb:color2:#222}
-	ramp-3-foreground = ${xrdb:color3:#222}
-	ramp-4-foreground = ${xrdb:color1:#222}
+	ramp-1-foreground = ${xrdb:color5:#222}
+	ramp-2-foreground = ${xrdb:color4:#222}
+	ramp-3-foreground = ${xrdb:color4:#222}
+	ramp-4-foreground = ${xrdb:color2:#222}
+	ramp-5-foreground = ${xrdb:color2:#222}
+	ramp-6-foreground = ${xrdb:color3:#222}
+	ramp-7-foreground = ${xrdb:color3:#222}
+	ramp-8-foreground = ${xrdb:color1:#222}
+	ramp-9-foreground = ${xrdb:color1:#222}
 
 
 
@@ -251,10 +263,10 @@
 	format-volume = <label-volume> 
 	label-volume = 蓼 %percentage%
 	label-volume-foreground = ${colors.audio}
-	label-volume-padding = 2
+	label-volume-padding = 1
 
 	label-muted = 遼
-	label-muted-padding = 2
+	label-muted-padding = 1
 	label-muted-foreground = ${colors.audio}
 
 
@@ -264,7 +276,7 @@
 	format = <ramp>
 	label = ﯧ %percentage%
 	label-foreground = ${colors.bright}
-	label-padding = 2
+	label-padding = 1
 
 ;	Only applies if <ramp> is used
 	ramp-0 = 
@@ -283,7 +295,8 @@
 	interval = 2.0
 
 	format-connected = <label-connected>
-	label-connected =   %essid%
+	label-connected = 
+;	label-connected =   %essid%
 	label-connected-padding = 2
 	label-connected-foreground = ${colors.wifi}
 
@@ -300,21 +313,22 @@
 	adapter = ADP1
 	full-at = 100
 
-	format-full = <label-full><bar-capacity>
-	label-full = 100 | 
+	format-full = <label-full>
+	label-full = 
 	label-full-padding-right = 1
-	label-full-padding-left = 2
+	label-full-padding-left = 1
 	label-full-foreground = ${colors.bat}
 
 	format-charging = <label-charging><animation-charging>
 ;	label-charging =  %percentage%%
 	label-charging = %percentage%
 	label-charging-padding-right = 1
-	label-charging-padding-left = 2
+	label-charging-padding-left = 1
 	label-charging-foreground = ${colors.bat}
 
 	format-discharging = <label-discharging><ramp-capacity>
-	label-discharging = %percentage%
+;	label-discharging = %percentage%
+	label-discharging = 
 	label-discharging-padding-right = 1
 	label-discharging-padding-left = 2
 	label-discharging-foreground = ${colors.bat}
@@ -332,16 +346,16 @@
 	bar-capacity-fill = 
 	bar-capacity-empty-foreground = ${xrdb:foreground:#222}
 
-	ramp-capacity-0 = | 
-	ramp-capacity-1 = | 
-	ramp-capacity-2 = | 
-	ramp-capacity-3 = | 
-	ramp-capacity-4 = | 
-	ramp-capacity-5 = | 
-	ramp-capacity-6 = | 
-	ramp-capacity-7 = | 
-	ramp-capacity-8 = | 
-	ramp-capacity-9 = |  
+	ramp-capacity-0 = 
+	ramp-capacity-1 = 
+	ramp-capacity-2 = 
+	ramp-capacity-3 = 
+	ramp-capacity-4 = 
+	ramp-capacity-5 = 
+	ramp-capacity-6 = 
+	ramp-capacity-7 = 
+	ramp-capacity-8 = 
+	ramp-capacity-9 =  
 
 	ramp-capacity-9-foreground = ${xrdb:color5:#222}
 	ramp-capacity-8-foreground = ${xrdb:color5:#222}
@@ -399,17 +413,18 @@
 	time = %l:%M %P
 	time-alt = %l:%M %P
 
-	label =  %time% %date%
+;	label =  %time% %date%
+	label =  %time% %date%
 	label-padding-right = 1
-	label-padding-left = 3
+	label-padding-left = 1
 
-	label-foreground = ${colors.symb}
+	label-foreground = ${colors.foreground}
 
 
 
 [global/wm]
-	margin-top = 5
-	margin-bottom = 5
+	margin-top = 0
+	margin-bottom = 0
 
 
 

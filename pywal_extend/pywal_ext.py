@@ -99,9 +99,10 @@ if condition == 'theme':
     print('2. Light theme')
     print('3. Dark-dkeg theme')
     print('4. Light-dkeg theme')
-    print('5. Custom theme\n')
+    print('5. Custom theme')
+    print('6. Mixed BG\n')
     T = str(input('Enter a number: '))
-    while T not in {'1','2','3','4','5'}:
+    while T not in {'1','2','3','4','5','6'}:
         T = str(input('Enter number: '))
     theme = str(input('Enter a theme: '))
     if T == '1':
@@ -114,6 +115,8 @@ if condition == 'theme':
         colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/dkeg_fixed_light/dkeg-'+theme+'_light.json')
     if T == '5':
         colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/custom/'+theme+'.json')    
+    if T == '6':
+        colors = pywal.colors.file('/home/chase/dotfiles/colorschemes/mixed_bg/'+theme+'.json')    
 
 # get specific colors from dictionary
 bg = colors['special']['background']
