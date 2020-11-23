@@ -1,0 +1,2767 @@
+<?xml version="1.0" ?>
+<fittings count="119">
+	<fitting name="Hull Tank Rail Algos">
+		<description value=""/>
+		<shipType value="Algos"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Mark I Compact Reinforced Bulkheads" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Stasis Webifier II" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 0"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 1"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 2"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 3"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 4"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead I"/>
+		<hardware qty="2000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="SAAR Rail Algos">
+		<description value=""/>
+		<shipType value="Algos"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 1"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 2"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 1"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 2"/>
+		<hardware type="125mm Railgun II" slot="hi slot 0"/>
+		<hardware type="125mm Railgun II" slot="hi slot 1"/>
+		<hardware type="125mm Railgun II" slot="hi slot 2"/>
+		<hardware type="125mm Railgun II" slot="hi slot 3"/>
+		<hardware type="125mm Railgun II" slot="hi slot 4"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 1"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1400" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Triple Tank Algos">
+		<description value=""/>
+		<shipType value="Algos"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 1"/>
+		<hardware type="Faint Epsilon Scoped Warp Scrambler" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 3"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 4"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="27" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="1600" slot="cargo" type="Hail S"/>
+		<hardware qty="1000" slot="cargo" type="Barrage S"/>
+		<hardware qty="1000" slot="cargo" type="Republic Fleet Depleted Uranium S"/>
+		<hardware qty="1000" slot="cargo" type="Republic Fleet EMP S"/>
+	</fitting>
+	<fitting name="Explorer hunter">
+		<description value=""/>
+		<shipType value="Astero"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 1"/>
+		<hardware type="Corpii A-Type Small Armor Repairer" slot="low slot 2"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Small F-RX Compact Capacitor Booster" slot="med slot 1"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 2"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 3"/>
+		<hardware type="Sisters Core Probe Launcher" slot="hi slot 0"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 1"/>
+		<hardware type="Small Auxiliary Nano Pump II" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 1"/>
+		<hardware type="Small Explosive Armor Reinforcer II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="1" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="8" slot="cargo" type="Sisters Core Scanner Probe"/>
+		<hardware qty="1" slot="cargo" type="Relic Analyzer I"/>
+		<hardware qty="1" slot="cargo" type="Mobile Depot"/>
+	</fitting>
+	<fitting name="Tristan Solo PvP Neutron">
+		<description value=""/>
+		<shipType value="Tristan"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="AE-K Compact Drone Damage Amplifier" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 2"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 1"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Warrior II"/>
+		<hardware qty="3" slot="drone bay" type="Warrior II"/>
+		<hardware qty="58" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+	</fitting>
+	<fitting name="Neutron Hull SAAR Catalyst">
+		<description value=""/>
+		<shipType value="Catalyst"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 5"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 6"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 7"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="2640" slot="cargo" type="Void S"/>
+		<hardware qty="2000" slot="cargo" type="Null S"/>
+	</fitting>
+	<fitting name="Maulus Washa">
+		<description value=""/>
+		<shipType value="Maulus"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Capacitor Power Relay II" slot="low slot 1"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Remote Sensor Dampener II" slot="med slot 2"/>
+		<hardware type="Remote Sensor Dampener II" slot="med slot 3"/>
+		<hardware type="125mm Railgun II" slot="hi slot 0"/>
+		<hardware type="125mm Railgun II" slot="hi slot 1"/>
+		<hardware type="Small Semiconductor Memory Cell II" slot="rig slot 0"/>
+		<hardware type="Small Semiconductor Memory Cell II" slot="rig slot 1"/>
+		<hardware type="Small Polycarbon Engine Housing I" slot="rig slot 2"/>
+		<hardware qty="4" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2" slot="cargo" type="Targeting Range Dampening Script"/>
+		<hardware qty="910" slot="cargo" type="Spike S"/>
+	</fitting>
+	<fitting name="MNI Scram Kite">
+		<description value=""/>
+		<shipType value="Maulus Navy Issue"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 0"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="400" slot="cargo" type="Barrage S"/>
+	</fitting>
+	<fitting name="LML Condor">
+		<description value="Designed for tackling. Cap stable at max skills"/>
+		<shipType value="Condor"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Parallel Enduring Target Painter" slot="med slot 2"/>
+		<hardware type="Small Shield Extender II" slot="med slot 3"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Bay Loading Accelerator I" slot="rig slot 0"/>
+		<hardware type="Small Polycarbon Engine Housing I" slot="rig slot 1"/>
+		<hardware type="Small Auxiliary Thrusters I" slot="rig slot 2"/>
+		<hardware qty="909" slot="cargo" type="Scourge Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Inferno Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Nova Fury Light Missile"/>
+	</fitting>
+	<fitting name="Gank Fit Catalyst">
+		<description value=""/>
+		<shipType value="Catalyst"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 0"/>
+		<hardware type="Sensor Booster I" slot="med slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 5"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 6"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 7"/>
+		<hardware type="Small Hybrid Burst Aerator I" slot="rig slot 0"/>
+		<hardware type="Small Processor Overclocking Unit I" slot="rig slot 1"/>
+		<hardware qty="1" slot="cargo" type="Scan Resolution Script"/>
+		<hardware qty="2640" slot="cargo" type="Void S"/>
+		<hardware qty="2000" slot="cargo" type="Null S"/>
+	</fitting>
+	<fitting name="Pulse Slicer">
+		<description value="DO NOT ORBIT. Use manual piloting to make opponents chase you, lowering their transversal. You will not hit anything on autopilot orbit as your transversal will be too high. If you get scrammed, turn on SAAR, switch to Gleam S, overheat and pray."/>
+		<shipType value="Imperial Navy Slicer"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 0"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 1"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 2"/>
+		<hardware type="Heat Sink II" slot="low slot 3"/>
+		<hardware type="Heat Sink II" slot="low slot 4"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Small Energy Locus Coordinator I" slot="rig slot 0"/>
+		<hardware type="Small Energy Locus Coordinator I" slot="rig slot 1"/>
+		<hardware type="Small Energy Collision Accelerator I" slot="rig slot 2"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="2" slot="cargo" type="Scorch S"/>
+		<hardware qty="2" slot="cargo" type="Imperial Navy Multifrequency S"/>
+	</fitting>
+	<fitting name="Chessur's Slicer">
+		<description value="DO NOT ORBIT. Use manual piloting to make opponents chase you, lowering their transversal. You will not hit anything on autopilot orbit as your transversal will be too high. If you get scrammed, turn on SAAR, switch to Gleam S, overheat and pray."/>
+		<shipType value="Imperial Navy Slicer"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 1"/>
+		<hardware type="Heat Sink II" slot="low slot 2"/>
+		<hardware type="Heat Sink II" slot="low slot 3"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 4"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small Focused Beam Laser II" slot="hi slot 0"/>
+		<hardware type="Small Focused Beam Laser II" slot="hi slot 1"/>
+		<hardware type="Small Energy Locus Coordinator II" slot="rig slot 0"/>
+		<hardware type="Small Energy Locus Coordinator II" slot="rig slot 1"/>
+		<hardware type="Small Energy Locus Coordinator I" slot="rig slot 2"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="2" slot="cargo" type="Imperial Navy Multifrequency S"/>
+	</fitting>
+	<fitting name="Punisher Pulse Brawl">
+		<description value=""/>
+		<shipType value="Punisher"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Heat Sink II" slot="low slot 1"/>
+		<hardware type="Heat Sink II" slot="low slot 2"/>
+		<hardware type="400mm Rolled Tungsten Compact Plates" slot="low slot 3"/>
+		<hardware type="Multispectrum Coating II" slot="low slot 4"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 2"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 3"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 1"/>
+		<hardware type="Small Energy Burst Aerator II" slot="rig slot 2"/>
+		<hardware qty="4" slot="cargo" type="Conflagration S"/>
+		<hardware qty="4" slot="cargo" type="Scorch S"/>
+	</fitting>
+	<fitting name="Autocannon Punisher">
+		<description value=""/>
+		<shipType value="Punisher"/>
+		<hardware type="IFFA Compact Damage Control" slot="low slot 0"/>
+		<hardware type="Counterbalanced Compact Gyrostabilizer" slot="low slot 1"/>
+		<hardware type="Counterbalanced Compact Gyrostabilizer" slot="low slot 2"/>
+		<hardware type="400mm Rolled Tungsten Compact Plates" slot="low slot 3"/>
+		<hardware type="400mm Rolled Tungsten Compact Plates" slot="low slot 4"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Faint Epsilon Scoped Warp Scrambler" slot="med slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 3"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 2"/>
+		<hardware qty="1230" slot="cargo" type="Hail S"/>
+		<hardware qty="750" slot="cargo" type="Barrage S"/>
+		<hardware qty="750" slot="cargo" type="Republic Fleet EMP S"/>
+	</fitting>
+	<fitting name="MNI Kite">
+		<description value=""/>
+		<shipType value="Maulus Navy Issue"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Small Shield Extender II" slot="med slot 2"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 0"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 1"/>
+		<hardware type="Small Polycarbon Engine Housing I" slot="rig slot 0"/>
+		<hardware type="Small Low Friction Nozzle Joints I" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="400" slot="cargo" type="Barrage S"/>
+	</fitting>
+	<fitting name="LML Garmur">
+		<description value=""/>
+		<shipType value="Garmur"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="Ballistic Control System II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Caldari Navy Warp Disruptor" slot="med slot 1"/>
+		<hardware type="Small Shield Extender II" slot="med slot 2"/>
+		<hardware type="Sensor Booster II" slot="med slot 3"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Auxiliary Thrusters II" slot="rig slot 0"/>
+		<hardware type="Small Low Friction Nozzle Joints II" slot="rig slot 1"/>
+		<hardware type="Small Hyperspatial Velocity Optimizer II" slot="rig slot 2"/>
+		<hardware qty="1" slot="cargo" type="Targeting Range Script"/>
+		<hardware qty="159" slot="cargo" type="Nova Fury Light Missile"/>
+	</fitting>
+	<fitting name="Pulse Retribution">
+		<description value=""/>
+		<shipType value="Retribution"/>
+		<hardware type="Assault Damage Control II" slot="low slot 0"/>
+		<hardware type="Extruded Compact Heat Sink" slot="low slot 1"/>
+		<hardware type="Extruded Compact Heat Sink" slot="low slot 2"/>
+		<hardware type="400mm Rolled Tungsten Compact Plates" slot="low slot 3"/>
+		<hardware type="Corpii A-Type Thermal Coating" slot="low slot 4"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 2"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 3"/>
+		<hardware type="Small Energy Burst Aerator I" slot="rig slot 0"/>
+		<hardware type="Small Energy Collision Accelerator I" slot="rig slot 1"/>
+		<hardware qty="4" slot="cargo" type="Conflagration S"/>
+		<hardware qty="4" slot="cargo" type="Scorch S"/>
+	</fitting>
+	<fitting name="Hull Coercer [FW]">
+		<description value=""/>
+		<shipType value="Coercer"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Heat Sink II" slot="low slot 1"/>
+		<hardware type="Heat Sink II" slot="low slot 2"/>
+		<hardware type="Stasis Webifier II" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 2"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 3"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 4"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 5"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 6"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 7"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="8" slot="cargo" type="Conflagration S"/>
+	</fitting>
+	<fitting name="Armor Coercer [FW]">
+		<description value=""/>
+		<shipType value="Coercer"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="400mm Steel Plates II" slot="low slot 1"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 2"/>
+		<hardware type="Stasis Webifier II" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 2"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 3"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 4"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 5"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 6"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 7"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 2"/>
+		<hardware qty="8" slot="cargo" type="Conflagration S"/>
+		<hardware qty="8" slot="cargo" type="Scorch S"/>
+	</fitting>
+	<fitting name="Tristan Neut">
+		<description value=""/>
+		<shipType value="Tristan"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Multispectrum Coating II" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Small Capacitor Booster II" slot="med slot 2"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 0"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 1"/>
+		<hardware type="Small Egress Port Maximizer II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="1" slot="cargo" type="Navy Cap Booster 400"/>
+	</fitting>
+	<fitting name="Beam Kite ONI">
+		<description value="If you get tackled, load conflagration, overheat, and pray."/>
+		<shipType value="Omen Navy Issue"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 1"/>
+		<hardware type="Heat Sink II" slot="low slot 2"/>
+		<hardware type="Heat Sink II" slot="low slot 3"/>
+		<hardware type="Heat Sink II" slot="low slot 4"/>
+		<hardware type="Heat Sink II" slot="low slot 5"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 6"/>
+		<hardware type="50MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Medium Capacitor Booster II" slot="med slot 2"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 2"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 3"/>
+		<hardware type="Medium Energy Locus Coordinator I" slot="rig slot 0"/>
+		<hardware type="Medium Energy Locus Coordinator I" slot="rig slot 1"/>
+		<hardware type="Medium Energy Metastasis Adjuster I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="3" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="4" slot="cargo" type="Conflagration M"/>
+		<hardware qty="4" slot="cargo" type="Scorch M"/>
+	</fitting>
+	<fitting name="Beam Kite Omen">
+		<description value=""/>
+		<shipType value="Omen"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 1"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 2"/>
+		<hardware type="Heat Sink II" slot="low slot 3"/>
+		<hardware type="Heat Sink II" slot="low slot 4"/>
+		<hardware type="Heat Sink II" slot="low slot 5"/>
+		<hardware type="50MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Medium F-RX Compact Capacitor Booster" slot="med slot 2"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 0"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 1"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 2"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 3"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 4"/>
+		<hardware type="Medium Energy Locus Coordinator I" slot="rig slot 0"/>
+		<hardware type="Medium Ancillary Current Router I" slot="rig slot 1"/>
+		<hardware type="Medium Ancillary Current Router I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="1" slot="cargo" type="Navy Cap Booster 800"/>
+		<hardware qty="5" slot="cargo" type="Imperial Navy Multifrequency M"/>
+		<hardware qty="5" slot="cargo" type="Aurora M"/>
+	</fitting>
+	<fitting name="Armor Buff Neut Stratios">
+		<description value=""/>
+		<shipType value="Stratios"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="1600mm Steel Plates II" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 3"/>
+		<hardware type="Corelum C-Type Explosive Energized Membrane" slot="low slot 4"/>
+		<hardware type="50MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Omnidirectional Tracking Link II" slot="med slot 3"/>
+		<hardware type="Medium F-RX Compact Capacitor Booster" slot="med slot 4"/>
+		<hardware type="Medium Energy Neutralizer II" slot="hi slot 0"/>
+		<hardware type="Medium Energy Neutralizer II" slot="hi slot 1"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 2"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 3"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 4"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 0"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Medium Ancillary Current Router II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="4" slot="drone bay" type="Ogre II"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="5" slot="drone bay" type="Infiltrator II"/>
+		<hardware qty="5" slot="drone bay" type="Valkyrie II"/>
+		<hardware qty="4" slot="drone bay" type="Praetor II"/>
+		<hardware qty="1" slot="cargo" type="Tracking Speed Script"/>
+		<hardware qty="1" slot="cargo" type="Navy Cap Booster 800"/>
+	</fitting>
+	<fitting name="Spicy Coercer [FW]">
+		<description value=""/>
+		<shipType value="Coercer"/>
+		<hardware type="Extruded Compact Heat Sink" slot="low slot 0"/>
+		<hardware type="Extruded Compact Heat Sink" slot="low slot 1"/>
+		<hardware type="Extruded Compact Heat Sink" slot="low slot 2"/>
+		<hardware type="F-90 Compact Sensor Booster" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 2"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 3"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 4"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 5"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 6"/>
+		<hardware type="Small Focused Pulse Laser II" slot="hi slot 7"/>
+		<hardware type="Small Energy Burst Aerator I" slot="rig slot 0"/>
+		<hardware type="Small Energy Collision Accelerator I" slot="rig slot 1"/>
+		<hardware qty="1" slot="cargo" type="Scan Resolution Script"/>
+		<hardware qty="8" slot="cargo" type="Conflagration S"/>
+	</fitting>
+	<fitting name="Face Melt Thorax">
+		<description value="Pretend it's a really big Catalyst"/>
+		<shipType value="Thorax"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 4"/>
+		<hardware type="10MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Medium EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Medium Core Defense Field Extender I" slot="rig slot 1"/>
+		<hardware type="Medium Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="2400" slot="cargo" type="Void M"/>
+		<hardware qty="2000" slot="cargo" type="Null M"/>
+	</fitting>
+	<fitting name="Plate Vexor">
+		<description value="Probably good for solo pvp but it's designed to be bait in a cruiser gang, since vexors are engageable."/>
+		<shipType value="Vexor"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 1"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 2"/>
+		<hardware type="800mm Steel Plates II" slot="low slot 3"/>
+		<hardware type="1600mm Steel Plates II" slot="low slot 4"/>
+		<hardware type="10MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Tracking Disruptor II" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Medium Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Medium Trimark Armor Pump I" slot="rig slot 1"/>
+		<hardware type="Medium Trimark Armor Pump I" slot="rig slot 2"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="2" slot="drone bay" type="Ogre II"/>
+		<hardware qty="1" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="1" slot="cargo" type="Optimal Range Disruption Script"/>
+		<hardware qty="320" slot="cargo" type="Void S"/>
+		<hardware qty="2000" slot="cargo" type="Null M"/>
+		<hardware qty="2000" slot="cargo" type="Void M"/>
+	</fitting>
+	<fitting name="RLML Caracal">
+		<description value=""/>
+		<shipType value="Caracal"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="Ballistic Control System II" slot="low slot 2"/>
+		<hardware type="Ballistic Control System II" slot="low slot 3"/>
+		<hardware type="50MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Large Shield Extender II" slot="med slot 2"/>
+		<hardware type="Large Shield Extender II" slot="med slot 3"/>
+		<hardware type="Multispectrum Shield Hardener II" slot="med slot 4"/>
+		<hardware type="Rapid Light Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Rapid Light Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Rapid Light Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Rapid Light Missile Launcher II" slot="hi slot 3"/>
+		<hardware type="Rapid Light Missile Launcher II" slot="hi slot 4"/>
+		<hardware type="Medium EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Medium Semiconductor Memory Cell I" slot="rig slot 1"/>
+		<hardware type="Medium Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="1100" slot="cargo" type="Mjolnir Fury Light Missile"/>
+		<hardware qty="1000" slot="cargo" type="Inferno Fury Light Missile"/>
+		<hardware qty="1000" slot="cargo" type="Nova Fury Light Missile"/>
+		<hardware qty="1000" slot="cargo" type="Scourge Fury Light Missile"/>
+	</fitting>
+	<fitting name="Neutron Merlin">
+		<description value="Damage needs to be prioritized over tank, since the tank will never be strong enough for a prolonged match. Focus on melting the face."/>
+		<shipType value="Merlin"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Faint Epsilon Scoped Warp Scrambler" slot="med slot 1"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Hybrid Collision Accelerator II" slot="rig slot 2"/>
+		<hardware qty="1240" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Atron Tackle">
+		<description value="Rails are for drones. The nos is so you can hold scram on a ship with bad tracking but heavy neuting power. This way, you'll be able to keep holding tackle on them no matter how many neutralizers are on you."/>
+		<shipType value="Atron"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="200mm Rolled Tungsten Compact Plates" slot="low slot 1"/>
+		<hardware type="Small Armor Repairer II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 0"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 1"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 2"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 3"/>
+		<hardware type="Small Ionic Field Projector II" slot="rig slot 0"/>
+		<hardware type="Small Polycarbon Engine Housing I" slot="rig slot 1"/>
+		<hardware type="Small Auxiliary Thrusters I" slot="rig slot 2"/>
+		<hardware qty="1600" slot="cargo" type="Javelin S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Hull Tank Thorax">
+		<description value="MELT THE FACE"/>
+		<shipType value="Thorax"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 4"/>
+		<hardware type="50MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Warp Scrambler II" slot="med slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="2400" slot="cargo" type="Null M"/>
+		<hardware qty="2000" slot="cargo" type="Void M"/>
+	</fitting>
+	<fitting name="Hull Tank ENI">
+		<description value="MELT THE FACE"/>
+		<shipType value="Exequror Navy Issue"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="Mark I Compact Reinforced Bulkheads" slot="low slot 4"/>
+		<hardware type="Mark I Compact Reinforced Bulkheads" slot="low slot 5"/>
+		<hardware type="50MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 1"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Warp Scrambler II" slot="med slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2400" slot="cargo" type="Void M"/>
+		<hardware qty="2000" slot="cargo" type="Null M"/>
+	</fitting>
+	<fitting name="Hull Tank 200mm Algos">
+		<description value=""/>
+		<shipType value="Algos"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 2"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 1"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 3"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 4"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 5"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead I"/>
+		<hardware qty="1600" slot="cargo" type="Hail S"/>
+		<hardware qty="1000" slot="cargo" type="Republic Fleet Depleted Uranium S"/>
+		<hardware qty="1000" slot="cargo" type="Republic Fleet EMP S"/>
+		<hardware qty="1000" slot="cargo" type="Barrage S"/>
+	</fitting>
+	<fitting name="Dual Rep Dragoon">
+		<description value=""/>
+		<shipType value="Dragoon"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 2"/>
+		<hardware type="Small Armor Repairer II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="Small Energy Nosferatu II" slot="hi slot 3"/>
+		<hardware type="Small Energy Nosferatu II" slot="hi slot 4"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 1"/>
+		<hardware type="Small Nanobot Accelerator I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1360" slot="cargo" type="Hail S"/>
+		<hardware qty="1000" slot="cargo" type="Barrage S"/>
+	</fitting>
+	<fitting name="Triple Rep Dragoon">
+		<description value=""/>
+		<shipType value="Dragoon"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Small Armor Repairer II" slot="low slot 2"/>
+		<hardware type="Small Armor Repairer II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 0"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 1"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 2"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 3"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 4"/>
+		<hardware type="Small Auxiliary Nano Pump II" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump II" slot="rig slot 1"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+	</fitting>
+	<fitting name="Hull Dragoon">
+		<description value=""/>
+		<shipType value="Dragoon"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Mark I Compact Reinforced Bulkheads" slot="low slot 2"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 3"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 3"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 4"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1360" slot="cargo" type="Hail S"/>
+		<hardware qty="1000" slot="cargo" type="Barrage S"/>
+	</fitting>
+	<fitting name="Stabber Bump Issue">
+		<description value=""/>
+		<shipType value="Stabber Fleet Issue"/>
+		<hardware type="IFFA Compact Damage Control" slot="low slot 0"/>
+		<hardware type="Overdrive Injector System II" slot="low slot 1"/>
+		<hardware type="Inertial Stabilizers II" slot="low slot 2"/>
+		<hardware type="Type-D Restrained Nanofiber Structure" slot="low slot 3"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 4"/>
+		<hardware type="Co-Processor II" slot="low slot 5"/>
+		<hardware type="500MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Warp Disruptor II" slot="med slot 2"/>
+		<hardware type="Small F-RX Compact Capacitor Booster" slot="med slot 3"/>
+		<hardware type="Expanded Probe Launcher I" slot="hi slot 0"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 1"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 2"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 3"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 4"/>
+		<hardware type="Medium Hyperspatial Velocity Optimizer I" slot="rig slot 0"/>
+		<hardware type="Medium Hyperspatial Velocity Optimizer I" slot="rig slot 1"/>
+		<hardware type="Medium Hyperspatial Velocity Optimizer I" slot="rig slot 2"/>
+		<hardware qty="8" slot="drone bay" type="Warrior II"/>
+		<hardware qty="29" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="1800" slot="cargo" type="Hail S"/>
+		<hardware qty="800" slot="cargo" type="Republic Fleet Phased Plasma S"/>
+		<hardware qty="60" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="8" slot="cargo" type="Sisters Combat Scanner Probe"/>
+		<hardware qty="8" slot="cargo" type="Sisters Core Scanner Probe"/>
+		<hardware qty="1000" slot="cargo" type="Barrage S"/>
+	</fitting>
+	<fitting name="Beam Legion">
+		<description value=""/>
+		<shipType value="Legion"/>
+		<hardware type="Legion Defensive - Covert Reconfiguration" slot="subsystem slot 1"/>
+		<hardware type="Legion Core - Dissolution Sequencer" slot="subsystem slot 0"/>
+		<hardware type="Legion Offensive - Liquid Crystal Magnifiers" slot="subsystem slot 2"/>
+		<hardware type="Legion Propulsion - Intercalated Nanofibers" slot="subsystem slot 3"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Tracking Enhancer II" slot="low slot 1"/>
+		<hardware type="Heat Sink II" slot="low slot 2"/>
+		<hardware type="Heat Sink II" slot="low slot 3"/>
+		<hardware type="Overdrive Injector System II" slot="low slot 4"/>
+		<hardware type="Medium Ancillary Armor Repairer" slot="low slot 5"/>
+		<hardware type="Gistum B-Type 50MN Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small Capacitor Booster II" slot="med slot 2"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 0"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 1"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 2"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 3"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 4"/>
+		<hardware type="Heavy Beam Laser II" slot="hi slot 5"/>
+		<hardware type="Sisters Expanded Probe Launcher" slot="hi slot 6"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 7"/>
+		<hardware type="Medium Energy Metastasis Adjuster II" slot="rig slot 0"/>
+		<hardware type="Medium Polycarbon Engine Housing II" slot="rig slot 1"/>
+		<hardware type="Medium Ancillary Current Router I" slot="rig slot 2"/>
+		<hardware qty="182" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="18" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="12" slot="cargo" type="Imperial Navy Multifrequency M"/>
+		<hardware qty="6" slot="cargo" type="Aurora M"/>
+		<hardware qty="6" slot="cargo" type="Gleam M"/>
+		<hardware qty="6" slot="cargo" type="Conflagration M"/>
+		<hardware qty="6" slot="cargo" type="Scorch M"/>
+		<hardware qty="6" slot="cargo" type="Imperial Navy Radio M"/>
+		<hardware qty="6" slot="cargo" type="Imperial Navy Standard M"/>
+		<hardware qty="6" slot="cargo" type="Imperial Navy Xray M"/>
+		<hardware qty="8" slot="cargo" type="Sisters Combat Scanner Probe"/>
+		<hardware qty="8" slot="cargo" type="Sisters Core Scanner Probe"/>
+		<hardware qty="1" slot="cargo" type="Optimal Range Script"/>
+		<hardware qty="1" slot="cargo" type="Tracking Speed Script"/>
+		<hardware qty="6" slot="cargo" type="Heavy Pulse Laser II"/>
+		<hardware qty="1" slot="cargo" type="Tracking Computer II"/>
+	</fitting>
+	<fitting name="Cormorant Kite">
+		<description value=""/>
+		<shipType value="Cormorant"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Tracking Enhancer II" slot="low slot 1"/>
+		<hardware type="5MN Cold-Gas Enduring Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small Shield Extender II" slot="med slot 2"/>
+		<hardware type="150mm Railgun II" slot="hi slot 0"/>
+		<hardware type="150mm Railgun II" slot="hi slot 1"/>
+		<hardware type="150mm Railgun II" slot="hi slot 2"/>
+		<hardware type="150mm Railgun II" slot="hi slot 3"/>
+		<hardware type="150mm Railgun II" slot="hi slot 4"/>
+		<hardware type="150mm Railgun II" slot="hi slot 5"/>
+		<hardware type="150mm Railgun II" slot="hi slot 6"/>
+		<hardware type="Small Auxiliary Thrusters I" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Thrusters I" slot="rig slot 1"/>
+		<hardware type="Small Hybrid Collision Accelerator I" slot="rig slot 2"/>
+		<hardware qty="1280" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+		<hardware qty="1000" slot="cargo" type="Javelin S"/>
+	</fitting>
+	<fitting name="Cormorant Brawl">
+		<description value=""/>
+		<shipType value="Cormorant"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 5"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 6"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 0"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="1560" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+	</fitting>
+	<fitting name="Scram-Kite Shield Kestrel">
+		<description value=""/>
+		<shipType value="Kestrel"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 3"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="950" slot="cargo" type="Nova Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="60" slot="cargo" type="Nanite Repair Paste"/>
+	</fitting>
+	<fitting name="Armor Kestrel">
+		<description value=""/>
+		<shipType value="Kestrel"/>
+		<hardware type="400mm Rolled Tungsten Compact Plates" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Stasis Webifier II" slot="med slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 3"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Kinetic Armor Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 2"/>
+		<hardware qty="950" slot="cargo" type="Nova Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="60" slot="cargo" type="Nanite Repair Paste"/>
+	</fitting>
+	<fitting name="Atron Anti-Kite">
+		<description value=""/>
+		<shipType value="Atron"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 1"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="58" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1240" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Atron Brawl">
+		<description value=""/>
+		<shipType value="Atron"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Small Hybrid Collision Accelerator I" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="58" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1240" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Anti-Kite Breacher">
+		<description value="This is an anti-kite fit, so do not use rage rockets, as they apply damage poorly to fast, small targets. Use faction rockets instead."/>
+		<shipType value="Breacher"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 1"/>
+		<hardware type="Overdrive Injector System II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 2"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Auxiliary Thrusters I" slot="rig slot 0"/>
+		<hardware type="Small Polycarbon Engine Housing I" slot="rig slot 1"/>
+		<hardware type="Small Bay Loading Accelerator I" slot="rig slot 2"/>
+		<hardware qty="2" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="36" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="900" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="Blaster Daredevil">
+		<description value=""/>
+		<shipType value="Daredevil"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 3"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Hybrid Collision Accelerator I" slot="rig slot 2"/>
+		<hardware qty="8" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="160" slot="cargo" type="Void S"/>
+	</fitting>
+	<fitting name="Triple Tank Dragoon">
+		<description value="Engagement profile: brawlers, scram-kiters. For scram kiters switch to barrage ammo. Do not engage kiters unless you have support/range advantage, you won't catch them. If you must fight a kiter, use Warrior IIs and only the armor repper. The OIS can be swapped with a SAR."/>
+		<shipType value="Dragoon"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Co-Processor II" slot="low slot 2"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Faint Epsilon Scoped Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 3"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 4"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Warrior II"/>
+		<hardware qty="5" slot="drone bay" type="Acolyte II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="27" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="1360" slot="cargo" type="Barrage S"/>
+		<hardware qty="1000" slot="cargo" type="Hail S"/>
+	</fitting>
+	<fitting name="Rocket Dragoon">
+		<description value="Scram kite everything. Don't use rage rockets on small fast ships, they apply poorly. Use faction rockets instead."/>
+		<shipType value="Dragoon"/>
+		<hardware type="IFFA Compact Damage Control" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Small Armor Repairer II" slot="low slot 2"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 3"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 4"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Warrior II"/>
+		<hardware qty="5" slot="drone bay" type="Acolyte II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1150" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Nova Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Scourge Rage Rocket"/>
+	</fitting>
+	<fitting name="Vigilant Brawl">
+		<description value=""/>
+		<shipType value="Vigilant"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 1"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 4"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 5"/>
+		<hardware type="10MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Stasis Webifier II" slot="med slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="2400" slot="cargo" type="Void M"/>
+		<hardware qty="2000" slot="cargo" type="Null M"/>
+	</fitting>
+	<fitting name="200mm Brawler Wolf">
+		<description value=""/>
+		<shipType value="Wolf"/>
+		<hardware type="EFFA Compact Assault Damage Control" slot="low slot 0"/>
+		<hardware type="Multispectrum Coating II" slot="low slot 1"/>
+		<hardware type="Federation Navy 200mm Steel Plates" slot="low slot 2"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 3"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 4"/>
+		<hardware type="5MN Quad LiF Restrained Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Faint Epsilon Scoped Warp Scrambler" slot="med slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 3"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 4"/>
+		<hardware type="Small Explosive Armor Reinforcer II" slot="rig slot 0"/>
+		<hardware type="Small Projectile Burst Aerator II" slot="rig slot 1"/>
+		<hardware qty="108" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="2080" slot="cargo" type="Republic Fleet Phased Plasma S"/>
+		<hardware qty="2000" slot="cargo" type="Barrage S"/>
+		<hardware qty="2000" slot="cargo" type="Hail S"/>
+		<hardware qty="1600" slot="cargo" type="Republic Fleet EMP S"/>
+		<hardware qty="1600" slot="cargo" type="Republic Fleet Fusion S"/>
+	</fitting>
+	<fitting name="280mm Kite Thrasher">
+		<description value=""/>
+		<shipType value="Thrasher"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small Shield Extender II" slot="med slot 2"/>
+		<hardware type="280mm Howitzer Artillery II" slot="hi slot 0"/>
+		<hardware type="280mm Howitzer Artillery II" slot="hi slot 1"/>
+		<hardware type="280mm Howitzer Artillery II" slot="hi slot 2"/>
+		<hardware type="280mm Howitzer Artillery II" slot="hi slot 3"/>
+		<hardware type="280mm Howitzer Artillery II" slot="hi slot 4"/>
+		<hardware type="280mm Howitzer Artillery II" slot="hi slot 5"/>
+		<hardware type="280mm Howitzer Artillery II" slot="hi slot 6"/>
+		<hardware type="Small Polycarbon Engine Housing II" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Thrusters II" slot="rig slot 1"/>
+		<hardware type="Small EM Shield Reinforcer II" slot="rig slot 2"/>
+		<hardware qty="2140" slot="cargo" type="Quake S"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet Depleted Uranium S"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet EMP S"/>
+	</fitting>
+	<fitting name="Battle Heron">
+		<description value=""/>
+		<shipType value="Heron"/>
+		<hardware type="Navy Micro Auxiliary Power Core" slot="low slot 0"/>
+		<hardware type="Damage Control II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 1"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 2"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 4"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="150mm Light AutoCannon II" slot="hi slot 2"/>
+		<hardware type="Small Kinetic Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 2"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="54" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="850" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="910" slot="cargo" type="Hail S"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="Neutron MASB Merlin">
+		<description value=""/>
+		<shipType value="Merlin"/>
+		<hardware type="IFFA Compact Damage Control" slot="low slot 0"/>
+		<hardware type="Vortex Compact Magnetic Field Stabilizer" slot="low slot 1"/>
+		<hardware type="Vortex Compact Magnetic Field Stabilizer" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Small Shield Extender II" slot="med slot 2"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 2"/>
+		<hardware qty="9" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="1240" slot="cargo" type="Void S"/>
+		<hardware qty="18" slot="cargo" type="Navy Cap Booster 100"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="220mm XLASB Stabber">
+		<description value=""/>
+		<shipType value="Stabber"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Co-Processor II" slot="low slot 1"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 2"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 3"/>
+		<hardware type="10MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="X-Large Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="220mm Vulcan AutoCannon II" slot="hi slot 0"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 1"/>
+		<hardware type="220mm Vulcan AutoCannon II" slot="hi slot 2"/>
+		<hardware type="220mm Vulcan AutoCannon II" slot="hi slot 3"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 4"/>
+		<hardware type="220mm Vulcan AutoCannon II" slot="hi slot 5"/>
+		<hardware type="Medium Ancillary Current Router I" slot="rig slot 0"/>
+		<hardware type="Medium EM Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Medium Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="27" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="2640" slot="cargo" type="Hail M"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet EMP M"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet Fusion M"/>
+		<hardware qty="2000" slot="cargo" type="Barrage M"/>
+	</fitting>
+	<fitting name="Buffer Shield 425mm Stabber">
+		<description value=""/>
+		<shipType value="Stabber"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 1"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 2"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 3"/>
+		<hardware type="10MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Large Shield Extender II" slot="med slot 2"/>
+		<hardware type="Large Shield Extender II" slot="med slot 3"/>
+		<hardware type="425mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="425mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="425mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="425mm AutoCannon II" slot="hi slot 3"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 4"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 5"/>
+		<hardware type="Medium EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Medium Core Defense Field Extender I" slot="rig slot 1"/>
+		<hardware type="Medium Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2480" slot="cargo" type="Hail M"/>
+		<hardware qty="2000" slot="cargo" type="Barrage M"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet EMP M"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet Fusion M"/>
+	</fitting>
+	<fitting name="Hull-SAAR Comet">
+		<description value=""/>
+		<shipType value="Federation Navy Comet"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Energy Nosferatu II" slot="hi slot 2"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="58" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Hullxor">
+		<description value=""/>
+		<shipType value="Vexor"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 1"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 4"/>
+		<hardware type="10MN Afterburner II" slot="med slot 0"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 1"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 2"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Medium Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="2" slot="drone bay" type="Ogre II"/>
+		<hardware qty="1" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2320" slot="cargo" type="Void M"/>
+		<hardware qty="2000" slot="cargo" type="Null M"/>
+	</fitting>
+	<fitting name="Hullperion">
+		<description value=""/>
+		<shipType value="Hyperion"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 1"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 2"/>
+		<hardware type="Large Ancillary Armor Repairer" slot="low slot 3"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 4"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 5"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 6"/>
+		<hardware type="500MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="100MN Y-S8 Compact Afterburner" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="Stasis Webifier II" slot="med slot 3"/>
+		<hardware type="Stasis Webifier II" slot="med slot 4"/>
+		<hardware type="Neutron Blaster Cannon II" slot="hi slot 0"/>
+		<hardware type="Neutron Blaster Cannon II" slot="hi slot 1"/>
+		<hardware type="Neutron Blaster Cannon II" slot="hi slot 2"/>
+		<hardware type="Neutron Blaster Cannon II" slot="hi slot 3"/>
+		<hardware type="Neutron Blaster Cannon II" slot="hi slot 4"/>
+		<hardware type="Neutron Blaster Cannon II" slot="hi slot 5"/>
+		<hardware type="Large Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Large Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Large Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Ogre II"/>
+		<hardware qty="64" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="2480" slot="cargo" type="Void L"/>
+		<hardware qty="2000" slot="cargo" type="Null L"/>
+	</fitting>
+	<fitting name="Hecate Hull Tank">
+		<description value="BLAP BLAP"/>
+		<shipType value="Hecate"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 1"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 1"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 2"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Expanded Probe Launcher I" slot="hi slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 5"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="8" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="2400" slot="cargo" type="Void S"/>
+		<hardware qty="16" slot="cargo" type="Sisters Combat Scanner Probe"/>
+		<hardware qty="2000" slot="cargo" type="Null S"/>
+	</fitting>
+	<fitting name="Dual Prop Comet">
+		<description value=""/>
+		<shipType value="Federation Navy Comet"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 1"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="58" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Cormorant Brawl MASB">
+		<description value=""/>
+		<shipType value="Cormorant"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 5"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 6"/>
+		<hardware type="Small EM Shield Reinforcer II" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer II" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender II" slot="rig slot 2"/>
+		<hardware qty="27" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="1560" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+	</fitting>
+	<fitting name="Hull Kikimora">
+		<description value=""/>
+		<shipType value="Kikimora"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 2"/>
+		<hardware type="Entropic Radiation Sink II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small F-RX Compact Capacitor Booster" slot="med slot 2"/>
+		<hardware type="Light Entropic Disintegrator II" slot="hi slot 0"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware qty="1" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="1500" slot="cargo" type="Occult S"/>
+		<hardware qty="1000" slot="cargo" type="Mystic S"/>
+		<hardware qty="1000" slot="cargo" type="Baryon Exotic Plasma S"/>
+	</fitting>
+	<fitting name="Shield Kikimora">
+		<description value=""/>
+		<shipType value="Kikimora"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Overdrive Injector System II" slot="low slot 1"/>
+		<hardware type="Entropic Radiation Sink II" slot="low slot 2"/>
+		<hardware type="Entropic Radiation Sink II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Caldari Navy Medium Shield Extender" slot="med slot 2"/>
+		<hardware type="Light Entropic Disintegrator II" slot="hi slot 0"/>
+		<hardware type="Small Hyperspatial Velocity Optimizer II" slot="rig slot 0"/>
+		<hardware type="Small Hyperspatial Velocity Optimizer II" slot="rig slot 1"/>
+		<hardware type="Small Hyperspatial Velocity Optimizer II" slot="rig slot 2"/>
+		<hardware qty="1500" slot="cargo" type="Baryon Exotic Plasma S"/>
+		<hardware qty="1000" slot="cargo" type="Occult S"/>
+		<hardware qty="1000" slot="cargo" type="Mystic S"/>
+	</fitting>
+	<fitting name="MNI Hull">
+		<description value=""/>
+		<shipType value="Maulus Navy Issue"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 1"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 2"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 3"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Small Capacitor Booster II" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="8" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="5" slot="cargo" type="Navy Cap Booster 100"/>
+		<hardware qty="240" slot="cargo" type="Hail S"/>
+	</fitting>
+	<fitting name="2x Mag Stab Maulus">
+		<description value=""/>
+		<shipType value="Maulus"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Ancillary Current Router II" slot="rig slot 0"/>
+		<hardware type="Small Core Defense Field Extender II" slot="rig slot 1"/>
+		<hardware type="Small EM Shield Reinforcer II" slot="rig slot 2"/>
+		<hardware qty="4" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2" slot="drone bay" type="Warrior II"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Disruptor Astero">
+		<description value=""/>
+		<shipType value="Astero"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 1"/>
+		<hardware type="Corpii A-Type Small Armor Repairer" slot="low slot 2"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 3"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="'Seed' Micro Capacitor Booster I" slot="med slot 1"/>
+		<hardware type="A-211 Enduring Guidance Disruptor" slot="med slot 2"/>
+		<hardware type="Warp Scrambler II" slot="med slot 3"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 0"/>
+		<hardware type="Small Ghoul Compact Energy Nosferatu" slot="hi slot 1"/>
+		<hardware type="Small Explosive Armor Reinforcer II" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump II" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="5" slot="drone bay" type="Caldari Navy Hornet"/>
+		<hardware qty="13" slot="cargo" type="Navy Cap Booster 25"/>
+		<hardware qty="1" slot="cargo" type="Missile Precision Disruption Script"/>
+		<hardware qty="1" slot="cargo" type="Mobile Depot"/>
+		<hardware qty="1" slot="cargo" type="Core Probe Launcher I"/>
+		<hardware qty="8" slot="cargo" type="Sisters Core Scanner Probe"/>
+		<hardware qty="15" slot="cargo" type="Navy Cap Booster 100"/>
+		<hardware qty="1" slot="cargo" type="Warp Scrambler II"/>
+		<hardware qty="1" slot="cargo" type="F-90 Compact Sensor Booster"/>
+		<hardware qty="1" slot="cargo" type="Scan Resolution Script"/>
+		<hardware qty="1" slot="cargo" type="Baker Nunn Enduring Tracking Disruptor I"/>
+		<hardware qty="1" slot="cargo" type="Tracking Speed Disruption Script"/>
+	</fitting>
+	<fitting name="Shield Astero">
+		<description value=""/>
+		<shipType value="Astero"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 1"/>
+		<hardware type="AE-K Compact Drone Damage Amplifier" slot="low slot 2"/>
+		<hardware type="AE-K Compact Drone Damage Amplifier" slot="low slot 3"/>
+		<hardware type="Coreli B-Type 5MN Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Caldari Navy Warp Disruptor" slot="med slot 1"/>
+		<hardware type="Republic Fleet Medium Shield Extender" slot="med slot 2"/>
+		<hardware type="Republic Fleet Small Shield Extender" slot="med slot 3"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 0"/>
+		<hardware type="Sisters Core Probe Launcher" slot="hi slot 1"/>
+		<hardware type="Small EM Shield Reinforcer II" slot="rig slot 0"/>
+		<hardware type="Small Core Defense Field Extender II" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="5" slot="drone bay" type="Caldari Navy Hornet"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="8" slot="cargo" type="Sisters Core Scanner Probe"/>
+	</fitting>
+	<fitting name="10MN Coercer [FW]">
+		<description value=""/>
+		<shipType value="Coercer"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Multispectrum Coating II" slot="low slot 1"/>
+		<hardware type="Heat Sink II" slot="low slot 2"/>
+		<hardware type="10MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Dual Light Beam Laser II" slot="hi slot 0"/>
+		<hardware type="Dual Light Beam Laser II" slot="hi slot 1"/>
+		<hardware type="Dual Light Beam Laser II" slot="hi slot 2"/>
+		<hardware type="Dual Light Beam Laser II" slot="hi slot 3"/>
+		<hardware type="Dual Light Beam Laser II" slot="hi slot 4"/>
+		<hardware type="Dual Light Beam Laser II" slot="hi slot 5"/>
+		<hardware type="Dual Light Beam Laser II" slot="hi slot 6"/>
+		<hardware type="Dual Light Beam Laser II" slot="hi slot 7"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="16" slot="cargo" type="Imperial Navy Gamma S"/>
+		<hardware qty="8" slot="cargo" type="Imperial Navy Standard S"/>
+		<hardware qty="8" slot="cargo" type="Imperial Navy Xray S"/>
+		<hardware qty="8" slot="cargo" type="Imperial Navy Multifrequency S"/>
+	</fitting>
+	<fitting name="Rocket Talwar">
+		<description value=""/>
+		<shipType value="Talwar"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Ballistic Control System II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 4"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 5"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 6"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 1"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 2"/>
+		<hardware qty="8" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1350" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="Hull Kestrel">
+		<description value=""/>
+		<shipType value="Kestrel"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 1"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 3"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="950" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+		<hardware qty="60" slot="cargo" type="Nanite Repair Paste"/>
+	</fitting>
+	<fitting name="LML Kestrel">
+		<description value=""/>
+		<shipType value="Kestrel"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small Shield Extender II" slot="med slot 2"/>
+		<hardware type="Small F-RX Compact Capacitor Booster" slot="med slot 3"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 3"/>
+		<hardware type="Small Auxiliary Thrusters II" slot="rig slot 0"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Bay Loading Accelerator I" slot="rig slot 2"/>
+		<hardware qty="48" slot="cargo" type="Navy Cap Booster 25"/>
+		<hardware qty="962" slot="cargo" type="Scourge Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Inferno Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Nova Fury Light Missile"/>
+	</fitting>
+	<fitting name="Crucifier Hull">
+		<description value=""/>
+		<shipType value="Crucifier"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Heat Sink II" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Tracking Disruptor II" slot="med slot 2"/>
+		<hardware type="Tracking Disruptor II" slot="med slot 3"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="2" slot="cargo" type="Optimal Range Disruption Script"/>
+		<hardware qty="2" slot="cargo" type="Conflagration S"/>
+		<hardware qty="2" slot="cargo" type="Scorch S"/>
+		<hardware qty="2" slot="cargo" type="Imperial Navy Multifrequency S"/>
+		<hardware qty="2" slot="cargo" type="Tracking Speed Disruption Script"/>
+		<hardware qty="2" slot="cargo" type="Missile Precision Disruption Script"/>
+		<hardware qty="2" slot="cargo" type="Missile Range Disruption Script"/>
+		<hardware qty="1" slot="cargo" type="Guidance Disruptor II"/>
+	</fitting>
+	<fitting name="Suitonia's Kestrel">
+		<description value=""/>
+		<shipType value="Kestrel"/>
+		<hardware type="Ballistic Control System II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 3"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 0"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 1"/>
+		<hardware type="Small Processor Overclocking Unit II" slot="rig slot 2"/>
+		<hardware qty="950" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+		<hardware qty="60" slot="cargo" type="Nanite Repair Paste"/>
+	</fitting>
+	<fitting name="Rocket Jackdaw">
+		<description value=""/>
+		<shipType value="Jackdaw"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="Ballistic Control System II" slot="low slot 2"/>
+		<hardware type="5MN Quad LiF Restrained Microwarpdrive" slot="med slot 0"/>
+		<hardware type="1MN Afterburner II" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="Stasis Webifier II" slot="med slot 3"/>
+		<hardware type="Republic Fleet Medium Shield Extender" slot="med slot 4"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Expanded Probe Launcher I" slot="hi slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 4"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 5"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Low Friction Nozzle Joints I" slot="rig slot 1"/>
+		<hardware type="Small Bay Loading Accelerator II" slot="rig slot 2"/>
+		<hardware qty="1250" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="16" slot="cargo" type="Sisters Combat Scanner Probe"/>
+		<hardware qty="1000" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="Suitonia's Hecate">
+		<description value="Imported from https://zkillboard.com/kill/81311956/"/>
+		<shipType value="Hecate"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Damage Control II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Expanded Probe Launcher I" slot="hi slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 5"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="2400" slot="cargo" type="Void S"/>
+		<hardware qty="2000" slot="cargo" type="Null S"/>
+		<hardware qty="8" slot="cargo" type="Sisters Combat Scanner Probe"/>
+	</fitting>
+	<fitting name="Suitonia's Merlin">
+		<description value=""/>
+		<shipType value="Merlin"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Faint Epsilon Scoped Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 0"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="1240" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Suitonia's Maulus Navy Issue">
+		<description value="Imported from https://zkillboard.com/kill/81897417/"/>
+		<shipType value="Maulus Navy Issue"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="Upgraded Multispectrum Coating I" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="150mm Railgun II" slot="hi slot 0"/>
+		<hardware type="150mm Railgun II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Warrior II"/>
+		<hardware qty="80" slot="cargo" type="Javelin S"/>
+	</fitting>
+	<fitting name="200mm Hull Thrasher">
+		<description value=""/>
+		<shipType value="Thrasher"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 0"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 1"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 3"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 4"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 5"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 6"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="840" slot="cargo" type="Hail S"/>
+	</fitting>
+	<fitting name="Assault Caracal">
+		<description value="Fight at the edge of scram range."/>
+		<shipType value="Caracal"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="Ballistic Control System II" slot="low slot 2"/>
+		<hardware type="Ballistic Control System II" slot="low slot 3"/>
+		<hardware type="50MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Large F-S9 Regolith Compact Shield Extender" slot="med slot 3"/>
+		<hardware type="Large F-S9 Regolith Compact Shield Extender" slot="med slot 4"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 3"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 4"/>
+		<hardware type="Medium Ancillary Current Router I" slot="rig slot 0"/>
+		<hardware type="Medium EM Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Medium Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="2330" slot="cargo" type="Nova Rage Heavy Assault Missile"/>
+		<hardware qty="2000" slot="cargo" type="Inferno Rage Heavy Assault Missile"/>
+		<hardware qty="2000" slot="cargo" type="Mjolnir Rage Heavy Assault Missile"/>
+		<hardware qty="2000" slot="cargo" type="Scourge Rage Heavy Assault Missile"/>
+	</fitting>
+	<fitting name="Rocket Breacher">
+		<description value=""/>
+		<shipType value="Breacher"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Co-Processor II" slot="low slot 1"/>
+		<hardware type="Ballistic Control System II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Bay Loading Accelerator I" slot="rig slot 2"/>
+		<hardware qty="2" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="18" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="900" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="Shield Breacher">
+		<description value=""/>
+		<shipType value="Breacher"/>
+		<hardware type="Co-Processor II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="Ballistic Control System II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 0"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 1"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 2"/>
+		<hardware qty="2" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="900" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="Hull Slicer">
+		<description value=""/>
+		<shipType value="Imperial Navy Slicer"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Co-Processor II" slot="low slot 1"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 2"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 3"/>
+		<hardware type="Heat Sink II" slot="low slot 4"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Dual Light Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="78" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="2" slot="cargo" type="Conflagration S"/>
+		<hardware qty="2" slot="cargo" type="Scorch S"/>
+	</fitting>
+	<fitting name="Maulus MASB-Blaster">
+		<description value=""/>
+		<shipType value="Maulus"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 0"/>
+		<hardware type="Damage Control II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Ancillary Current Router II" slot="rig slot 0"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 1"/>
+		<hardware type="Small EM Shield Reinforcer II" slot="rig slot 2"/>
+		<hardware qty="4" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="27" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Maulus Triple Tank">
+		<description value=""/>
+		<shipType value="Maulus"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Micro Auxiliary Power Core I" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 1"/>
+		<hardware type="X5 Enduring Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="4" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="58" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="27" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Maulus Dual Web Hull">
+		<description value=""/>
+		<shipType value="Maulus"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 1"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 2"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Stasis Webifier II" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="4" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Passive Shield Algos">
+		<description value=""/>
+		<shipType value="Algos"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 2"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 0"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 1"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 2"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 3"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 4"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="1" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Arty Dual Rep Algos">
+		<description value=""/>
+		<shipType value="Algos"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Small Armor Repairer II" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Stasis Webifier II" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="250mm Light Artillery Cannon II" slot="hi slot 0"/>
+		<hardware type="250mm Light Artillery Cannon II" slot="hi slot 1"/>
+		<hardware type="250mm Light Artillery Cannon II" slot="hi slot 2"/>
+		<hardware type="250mm Light Artillery Cannon II" slot="hi slot 3"/>
+		<hardware type="250mm Light Artillery Cannon II" slot="hi slot 4"/>
+		<hardware type="Small Energy Nosferatu II" slot="hi slot 5"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 1"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1200" slot="cargo" type="Republic Fleet Depleted Uranium S"/>
+		<hardware qty="1000" slot="cargo" type="Quake S"/>
+		<hardware qty="1000" slot="cargo" type="Republic Fleet Fusion S"/>
+		<hardware qty="1000" slot="cargo" type="Republic Fleet EMP S"/>
+	</fitting>
+	<fitting name="Armor Proteus">
+		<description value=""/>
+		<shipType value="Proteus"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 0"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware type="Proteus Defensive - Covert Reconfiguration" slot="subsystem slot 1"/>
+		<hardware type="Proteus Core - Augmented Fusion Reactor" slot="subsystem slot 0"/>
+		<hardware type="Proteus Propulsion - Hyperspatial Optimization" slot="subsystem slot 3"/>
+		<hardware type="Proteus Offensive - Hybrid Encoding Platform" slot="subsystem slot 2"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 0"/>
+		<hardware type="Federation Navy 1600mm Steel Plates" slot="low slot 1"/>
+		<hardware type="10MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Federation Navy 800mm Steel Plates" slot="low slot 2"/>
+		<hardware type="Imperial Navy Multispectrum Energized Membrane" slot="low slot 3"/>
+		<hardware type="Shadow Serpentis Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Centii A-Type Multispectrum Coating" slot="low slot 4"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 2"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Sisters Expanded Probe Launcher" slot="hi slot 5"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 6"/>
+		<hardware type="Reactive Armor Hardener" slot="low slot 5"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 7"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Warrior II"/>
+		<hardware qty="2480" slot="cargo" type="Void M"/>
+		<hardware qty="8" slot="cargo" type="Sisters Combat Scanner Probe"/>
+		<hardware qty="2000" slot="cargo" type="Null M"/>
+	</fitting>
+	<fitting name="MNI Armor-AC">
+		<description value=""/>
+		<shipType value="Maulus Navy Issue"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="200mm Steel Plates II" slot="low slot 1"/>
+		<hardware type="Multispectrum Coating II" slot="low slot 2"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="250mm Light Artillery Cannon II" slot="hi slot 0"/>
+		<hardware type="250mm Light Artillery Cannon II" slot="hi slot 1"/>
+		<hardware type="Small Targeting System Subcontroller II" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="80" slot="cargo" type="Republic Fleet Titanium Sabot S"/>
+	</fitting>
+	<fitting name="Rocket Condor">
+		<description value=""/>
+		<shipType value="Condor"/>
+		<hardware type="Ballistic Control System II" slot="low slot 0"/>
+		<hardware type="Ballistic Control System II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 0"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 1"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 2"/>
+		<hardware qty="900" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="Tristan Shield-Kite">
+		<description value="Autocannons are for drones, apply WD at least possible minute."/>
+		<shipType value="Tristan"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Co-Processor II" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 1"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="3" slot="drone bay" type="Warrior II"/>
+		<hardware qty="990" slot="cargo" type="Barrage S"/>
+		<hardware qty="750" slot="cargo" type="Hail S"/>
+	</fitting>
+	<fitting name="Tristan Armor Brawl">
+		<description value=""/>
+		<shipType value="Tristan"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="200mm Steel Plates II" slot="low slot 1"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 2"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 1"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 2"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 0"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 1"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="1150" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+		<hardware qty="750" slot="cargo" type="Javelin S"/>
+		<hardware qty="750" slot="cargo" type="Spike S"/>
+	</fitting>
+	<fitting name="Hull Astero">
+		<description value=""/>
+		<shipType value="Astero"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Centii A-Type Small Armor Repairer" slot="low slot 2"/>
+		<hardware type="Reinforced Bulkheads II" slot="low slot 3"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Small Capacitor Booster II" slot="med slot 3"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 0"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="5" slot="drone bay" type="Caldari Navy Hornet"/>
+		<hardware qty="2" slot="cargo" type="Navy Cap Booster 200"/>
+	</fitting>
+	<fitting name="Polarized Hecate">
+		<description value=""/>
+		<shipType value="Hecate"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Initiated Compact Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 3"/>
+		<hardware type="Polarized Light Neutron Blaster" slot="hi slot 0"/>
+		<hardware type="Polarized Light Neutron Blaster" slot="hi slot 1"/>
+		<hardware type="Polarized Light Neutron Blaster" slot="hi slot 2"/>
+		<hardware type="Polarized Light Neutron Blaster" slot="hi slot 3"/>
+		<hardware type="Polarized Light Neutron Blaster" slot="hi slot 4"/>
+		<hardware type="Expanded Probe Launcher I" slot="hi slot 5"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="3200" slot="cargo" type="Void S"/>
+		<hardware qty="16" slot="cargo" type="Sisters Combat Scanner Probe"/>
+		<hardware qty="2000" slot="cargo" type="Null S"/>
+	</fitting>
+	<fitting name="Rocket Heretic">
+		<description value="Imported from https://zkillboard.com/kill/83577102/"/>
+		<shipType value="Heretic"/>
+		<hardware type="Multispectrum Coating II" slot="low slot 0"/>
+		<hardware type="IFFA Compact Damage Control" slot="low slot 1"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 2"/>
+		<hardware type="5MN Quad LiF Restrained Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 3"/>
+		<hardware type="Interdiction Sphere Launcher I" slot="hi slot 4"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 5"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 6"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 7"/>
+		<hardware type="Small Bay Loading Accelerator II" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Nano Pump I" slot="rig slot 1"/>
+		<hardware qty="350" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="3" slot="cargo" type="Surgical Warp Disrupt Probe"/>
+	</fitting>
+	<fitting name="Dual Prop CNH">
+		<description value="Imported from https://zkillboard.com/kill/87726714/"/>
+		<shipType value="Caldari Navy Hookbill"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Stasis Webifier II" slot="med slot 3"/>
+		<hardware type="Warp Scrambler II" slot="med slot 4"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="900" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="CNH Rocket Hull">
+		<description value="Imported from https://zkillboard.com/kill/87726698/"/>
+		<shipType value="Caldari Navy Hookbill"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 0"/>
+		<hardware type="IFFA Compact Damage Control" slot="low slot 1"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 3"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 4"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Warhead Calefaction Catalyst I" slot="rig slot 2"/>
+		<hardware qty="68" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="27" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="900" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Nova Rage Rocket"/>
+	</fitting>
+	<fitting name="GNI Neutron-Rocket">
+		<description value=""/>
+		<shipType value="Griffin Navy Issue"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Small Shield Extender II" slot="med slot 3"/>
+		<hardware type="EM Shield Amplifier II" slot="med slot 4"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Small Processor Overclocking Unit I" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer I" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 2"/>
+		<hardware qty="1" slot="drone bay" type="Acolyte II"/>
+		<hardware qty="2160" slot="cargo" type="Void S"/>
+		<hardware qty="800" slot="cargo" type="Nova Rage Rocket"/>
+		<hardware qty="2000" slot="cargo" type="Null S"/>
+		<hardware qty="2000" slot="cargo" type="Caldari Navy Antimatter Charge S"/>
+		<hardware qty="50" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="750" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="750" slot="cargo" type="Scourge Rage Rocket"/>
+	</fitting>
+	<fitting name="Dual SASB LML Condor">
+		<description value=""/>
+		<shipType value="Condor"/>
+		<hardware type="Ballistic Control System II" slot="low slot 0"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small Ancillary Shield Booster" slot="med slot 2"/>
+		<hardware type="Small Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Bay Loading Accelerator I" slot="rig slot 0"/>
+		<hardware type="Small Warhead Calefaction Catalyst I" slot="rig slot 1"/>
+		<hardware qty="18" slot="cargo" type="Navy Cap Booster 25"/>
+		<hardware qty="159" slot="cargo" type="Caldari Navy Scourge Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Inferno Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Nova Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Scourge Fury Light Missile"/>
+	</fitting>
+	<fitting name="TD Kite Condor">
+		<description value=""/>
+		<shipType value="Condor"/>
+		<hardware type="Ballistic Control System II" slot="low slot 0"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 1"/>
+		<hardware type="5MN Quad LiF Restrained Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Balmer Series Compact Tracking Disruptor I" slot="med slot 2"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Light Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Small Ancillary Current Router II" slot="rig slot 0"/>
+		<hardware type="Small Auxiliary Thrusters I" slot="rig slot 1"/>
+		<hardware type="Small Processor Overclocking Unit I" slot="rig slot 2"/>
+		<hardware qty="1" slot="cargo" type="Optimal Range Disruption Script"/>
+		<hardware qty="27" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="159" slot="cargo" type="Caldari Navy Scourge Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Inferno Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Mjolnir Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Nova Fury Light Missile"/>
+		<hardware qty="750" slot="cargo" type="Scourge Fury Light Missile"/>
+	</fitting>
+	<fitting name="Active Armor Comet">
+		<description value=""/>
+		<shipType value="Federation Navy Comet"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="200mm Steel Plates II" slot="low slot 1"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 2"/>
+		<hardware type="Small Armor Repairer II" slot="low slot 3"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Stasis Webifier II" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 2"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+		<hardware qty="50" slot="cargo" type="Nanite Repair Paste"/>
+	</fitting>
+	<fitting name="Shield Maulus">
+		<description value=""/>
+		<shipType value="Maulus"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 0"/>
+		<hardware type="Damage Control II" slot="low slot 1"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 0"/>
+		<hardware type="Small Core Defense Field Extender I" slot="rig slot 1"/>
+		<hardware type="Small EM Shield Reinforcer I" slot="rig slot 2"/>
+		<hardware qty="4" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2" slot="drone bay" type="Warrior II"/>
+		<hardware qty="1160" slot="cargo" type="Void S"/>
+		<hardware qty="1000" slot="cargo" type="Null S"/>
+		<hardware qty="1000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+	</fitting>
+	<fitting name="Shield Astero 2">
+		<description value=""/>
+		<shipType value="Astero"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 1"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 2"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 3"/>
+		<hardware type="Coreli B-Type 5MN Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Caldari Navy Warp Disruptor" slot="med slot 1"/>
+		<hardware type="Republic Fleet Medium Shield Extender" slot="med slot 2"/>
+		<hardware type="Republic Fleet Medium Shield Extender" slot="med slot 3"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 0"/>
+		<hardware type="Small EM Shield Reinforcer II" slot="rig slot 0"/>
+		<hardware type="Small Core Defense Field Extender II" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="5" slot="drone bay" type="Caldari Navy Hornet"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+	</fitting>
+	<fitting name="Nano Shield Astero">
+		<description value=""/>
+		<shipType value="Astero"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 1"/>
+		<hardware type="Micro Auxiliary Power Core II" slot="low slot 2"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 3"/>
+		<hardware type="Coreli B-Type 5MN Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Caldari Navy Warp Disruptor" slot="med slot 1"/>
+		<hardware type="Republic Fleet Medium Shield Extender" slot="med slot 2"/>
+		<hardware type="Republic Fleet Medium Shield Extender" slot="med slot 3"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 0"/>
+		<hardware type="Sisters Core Probe Launcher" slot="hi slot 1"/>
+		<hardware type="Small EM Shield Reinforcer II" slot="rig slot 0"/>
+		<hardware type="Small Core Defense Field Extender II" slot="rig slot 1"/>
+		<hardware type="Small Core Defense Field Extender II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="5" slot="drone bay" type="Caldari Navy Hornet"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="8" slot="cargo" type="Sisters Core Scanner Probe"/>
+	</fitting>
+	<fitting name="Nano Shield Astero 3DDA">
+		<description value=""/>
+		<shipType value="Astero"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 0"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 3"/>
+		<hardware type="Coreli A-Type 5MN Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Caldari Navy Warp Disruptor" slot="med slot 1"/>
+		<hardware type="Republic Fleet Medium Shield Extender" slot="med slot 2"/>
+		<hardware type="Pithum C-Type EM Shield Amplifier" slot="med slot 3"/>
+		<hardware type="Sisters Core Probe Launcher" slot="hi slot 0"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 1"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 0"/>
+		<hardware type="Small Thermal Shield Reinforcer II" slot="rig slot 1"/>
+		<hardware type="Small Polycarbon Engine Housing II" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="5" slot="drone bay" type="Acolyte II"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="8" slot="cargo" type="Sisters Core Scanner Probe"/>
+		<hardware qty="1" slot="cargo" type="Zor's Custom Navigation Hyper-Link"/>
+		<hardware qty="1" slot="cargo" type="Eifyr and Co. 'Rogue' Navigation NN-603"/>
+	</fitting>
+	<fitting name="Rocket Hawk">
+		<description value=""/>
+		<shipType value="Hawk"/>
+		<hardware type="Assault Damage Control II" slot="low slot 0"/>
+		<hardware type="Co-Processor II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Faint Epsilon Scoped Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Fleeting Compact Stasis Webifier" slot="med slot 2"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 3"/>
+		<hardware type="Medium Ancillary Shield Booster" slot="med slot 4"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 0"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 1"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 2"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 3"/>
+		<hardware type="Small EM Shield Reinforcer II" slot="rig slot 0"/>
+		<hardware type="Small Bay Loading Accelerator II" slot="rig slot 1"/>
+		<hardware qty="81" slot="cargo" type="Navy Cap Booster 50"/>
+		<hardware qty="1200" slot="cargo" type="Scourge Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Nova Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="400" slot="cargo" type="Caldari Navy Inferno Rocket"/>
+		<hardware qty="400" slot="cargo" type="Caldari Navy Mjolnir Rocket"/>
+		<hardware qty="400" slot="cargo" type="Caldari Navy Nova Rocket"/>
+		<hardware qty="800" slot="cargo" type="Caldari Navy Scourge Rocket"/>
+		<hardware qty="75" slot="cargo" type="Nanite Repair Paste"/>
+	</fitting>
+	<fitting name="Armor Kikimora">
+		<description value=""/>
+		<shipType value="Kikimora"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Small Ancillary Armor Repairer" slot="low slot 1"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 2"/>
+		<hardware type="Entropic Radiation Sink II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small F-RX Compact Capacitor Booster" slot="med slot 2"/>
+		<hardware type="Light Entropic Disintegrator II" slot="hi slot 0"/>
+		<hardware type="Small Explosive Armor Reinforcer II" slot="rig slot 0"/>
+		<hardware type="Small Kinetic Armor Reinforcer II" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware qty="8" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="1500" slot="cargo" type="Occult S"/>
+		<hardware qty="1000" slot="cargo" type="Mystic S"/>
+		<hardware qty="1000" slot="cargo" type="Baryon Exotic Plasma S"/>
+	</fitting>
+	<fitting name="Hull Kikimora DPS">
+		<description value=""/>
+		<shipType value="Kikimora"/>
+		<hardware type="Nanofiber Internal Structure II" slot="low slot 0"/>
+		<hardware type="Entropic Radiation Sink II" slot="low slot 1"/>
+		<hardware type="Entropic Radiation Sink II" slot="low slot 2"/>
+		<hardware type="Entropic Radiation Sink II" slot="low slot 3"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Disruptor II" slot="med slot 1"/>
+		<hardware type="Small F-RX Compact Capacitor Booster" slot="med slot 2"/>
+		<hardware type="Light Entropic Disintegrator II" slot="hi slot 0"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware qty="1" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="1500" slot="cargo" type="Occult S"/>
+		<hardware qty="1000" slot="cargo" type="Mystic S"/>
+		<hardware qty="1000" slot="cargo" type="Baryon Exotic Plasma S"/>
+	</fitting>
+	<fitting name="Hauler Sunesis">
+		<description value=""/>
+		<shipType value="Sunesis"/>
+		<hardware type="Expanded Cargohold II" slot="low slot 0"/>
+		<hardware type="Expanded Cargohold II" slot="low slot 1"/>
+		<hardware type="Expanded Cargohold II" slot="low slot 2"/>
+		<hardware type="Inertial Stabilizers II" slot="low slot 3"/>
+		<hardware type="5MN Quad LiF Restrained Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 1"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 2"/>
+		<hardware type="Improved Cloaking Device II" slot="hi slot 0"/>
+		<hardware type="Core Probe Launcher I" slot="hi slot 1"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 2"/>
+		<hardware type="125mm Gatling AutoCannon II" slot="hi slot 3"/>
+		<hardware type="Small Cargohold Optimization II" slot="rig slot 0"/>
+		<hardware type="Small Cargohold Optimization II" slot="rig slot 1"/>
+		<hardware type="Small Low Friction Nozzle Joints II" slot="rig slot 2"/>
+		<hardware qty="4" slot="drone bay" type="Hornet EC-300"/>
+		<hardware qty="4" slot="drone bay" type="Warrior II"/>
+		<hardware qty="400" slot="cargo" type="Hail S"/>
+	</fitting>
+	<fitting name="Plate Rail Algos">
+		<description value=""/>
+		<shipType value="Algos"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Multispectrum Energized Membrane II" slot="low slot 1"/>
+		<hardware type="400mm Steel Plates II" slot="low slot 2"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Stasis Webifier II" slot="med slot 1"/>
+		<hardware type="Warp Scrambler II" slot="med slot 2"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 0"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 1"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 2"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 3"/>
+		<hardware type="75mm Gatling Rail II" slot="hi slot 4"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 2"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="2000" slot="cargo" type="Federation Navy Antimatter Charge S"/>
+		<hardware qty="60" slot="cargo" type="Nanite Repair Paste"/>
+	</fitting>
+	<fitting name="Max Neut Algos">
+		<description value=""/>
+		<shipType value="Algos"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 1"/>
+		<hardware type="Drone Damage Amplifier II" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="J5b Enduring Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Small Capacitor Booster II" slot="med slot 2"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 0"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 1"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 2"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 3"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 4"/>
+		<hardware type="Small Energy Neutralizer II" slot="hi slot 5"/>
+		<hardware type="Small Egress Port Maximizer II" slot="rig slot 0"/>
+		<hardware type="Small Egress Port Maximizer II" slot="rig slot 1"/>
+		<hardware type="Small Ancillary Current Router I" slot="rig slot 2"/>
+		<hardware qty="2" slot="drone bay" type="Hammerhead II"/>
+		<hardware qty="3" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Republic Fleet Warrior"/>
+		<hardware qty="1" slot="cargo" type="Navy Cap Booster 400"/>
+	</fitting>
+	<fitting name="Hull Thrasher">
+		<description value=""/>
+		<shipType value="Thrasher"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 1"/>
+		<hardware type="1MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 3"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 4"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 5"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 6"/>
+		<hardware type="Rocket Launcher II" slot="hi slot 7"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 0"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 1"/>
+		<hardware type="Small Transverse Bulkhead II" slot="rig slot 2"/>
+		<hardware qty="2840" slot="cargo" type="Hail S"/>
+		<hardware qty="1050" slot="cargo" type="Inferno Rage Rocket"/>
+		<hardware qty="2000" slot="cargo" type="Barrage S"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet EMP S"/>
+		<hardware qty="1000" slot="cargo" type="Mjolnir Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Nova Rage Rocket"/>
+		<hardware qty="1000" slot="cargo" type="Scourge Rage Rocket"/>
+	</fitting>
+	<fitting name="200mm Thrasher">
+		<description value=""/>
+		<shipType value="Thrasher"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 1"/>
+		<hardware type="5MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Medium Shield Extender II" slot="med slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 0"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 1"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 2"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 3"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 4"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 5"/>
+		<hardware type="200mm AutoCannon II" slot="hi slot 6"/>
+		<hardware type="Small Projectile Burst Aerator I" slot="rig slot 0"/>
+		<hardware type="Small Projectile Collision Accelerator I" slot="rig slot 1"/>
+		<hardware qty="2840" slot="cargo" type="Hail S"/>
+		<hardware qty="2000" slot="cargo" type="Barrage S"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet Fusion S"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet EMP S"/>
+	</fitting>
+	<fitting name="Takuya Gogiko's Machariel">
+		<description value="Imported from https://zkillboard.com/kill/87937898/"/>
+		<shipType value="Machariel"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="Reactive Armor Hardener" slot="low slot 1"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 2"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 3"/>
+		<hardware type="Gyrostabilizer II" slot="low slot 4"/>
+		<hardware type="Large Ancillary Armor Repairer" slot="low slot 5"/>
+		<hardware type="500MN Y-T8 Compact Microwarpdrive" slot="med slot 0"/>
+		<hardware type="Tracking Computer II" slot="med slot 1"/>
+		<hardware type="Heavy Stasis Grappler II" slot="med slot 2"/>
+		<hardware type="Large Micro Jump Drive" slot="med slot 3"/>
+		<hardware type="Warp Disruptor II" slot="med slot 4"/>
+		<hardware type="Heavy F-RX Compact Capacitor Booster" slot="med slot 5"/>
+		<hardware type="800mm Repeating Cannon II" slot="hi slot 0"/>
+		<hardware type="800mm Repeating Cannon II" slot="hi slot 1"/>
+		<hardware type="800mm Repeating Cannon II" slot="hi slot 2"/>
+		<hardware type="800mm Repeating Cannon II" slot="hi slot 3"/>
+		<hardware type="Heavy Gremlin Compact Energy Neutralizer" slot="hi slot 4"/>
+		<hardware type="800mm Repeating Cannon II" slot="hi slot 5"/>
+		<hardware type="800mm Repeating Cannon II" slot="hi slot 6"/>
+		<hardware type="800mm Repeating Cannon II" slot="hi slot 7"/>
+		<hardware type="Large Ancillary Current Router I" slot="rig slot 0"/>
+		<hardware type="Large Projectile Ambit Extension II" slot="rig slot 1"/>
+		<hardware type="Large Projectile Ambit Extension I" slot="rig slot 2"/>
+		<hardware qty="4" slot="drone bay" type="Acolyte II"/>
+		<hardware qty="5" slot="drone bay" type="Acolyte EV-300"/>
+		<hardware qty="5" slot="drone bay" type="Hornet EC-300"/>
+		<hardware qty="2" slot="drone bay" type="Caldari Navy Vespa"/>
+		<hardware qty="1064" slot="cargo" type="Nanite Repair Paste"/>
+		<hardware qty="1" slot="cargo" type="Optimal Range Script"/>
+		<hardware qty="5" slot="cargo" type="Navy Cap Booster 800"/>
+		<hardware qty="2840" slot="cargo" type="Hail L"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet Phased Plasma L"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet EMP L"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet Fusion L"/>
+		<hardware qty="2000" slot="cargo" type="Republic Fleet Depleted Uranium L"/>
+		<hardware qty="2000" slot="cargo" type="Barrage L"/>
+	</fitting>
+	<fitting name="Active Armor Proteus">
+		<description value=""/>
+		<shipType value="Proteus"/>
+		<hardware type="Medium Auxiliary Nano Pump II" slot="rig slot 0"/>
+		<hardware type="Medium Auxiliary Nano Pump II" slot="rig slot 1"/>
+		<hardware type="Medium Explosive Armor Reinforcer II" slot="rig slot 2"/>
+		<hardware type="Proteus Defensive - Covert Reconfiguration" slot="subsystem slot 1"/>
+		<hardware type="Proteus Core - Augmented Fusion Reactor" slot="subsystem slot 0"/>
+		<hardware type="Proteus Propulsion - Hyperspatial Optimization" slot="subsystem slot 3"/>
+		<hardware type="Proteus Offensive - Hybrid Encoding Platform" slot="subsystem slot 2"/>
+		<hardware type="Imperial Navy Multispectrum Energized Membrane" slot="low slot 0"/>
+		<hardware type="Coreli A-Type Multispectrum Coating" slot="low slot 1"/>
+		<hardware type="10MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Imperial Navy 800mm Steel Plates" slot="low slot 2"/>
+		<hardware type="Centum B-Type Medium Armor Repairer" slot="low slot 3"/>
+		<hardware type="Shadow Serpentis Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Medium Capacitor Booster II" slot="med slot 2"/>
+		<hardware type="'Meditation' Medium Armor Repairer I" slot="low slot 4"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 5"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 6"/>
+		<hardware type="Reactive Armor Hardener" slot="low slot 5"/>
+		<hardware type="Sisters Expanded Probe Launcher" slot="hi slot 7"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Warrior II"/>
+		<hardware qty="23" slot="cargo" type="Navy Cap Booster 400"/>
+		<hardware qty="2480" slot="cargo" type="Void M"/>
+		<hardware qty="8" slot="cargo" type="Sisters Combat Scanner Probe"/>
+		<hardware qty="2000" slot="cargo" type="Null M"/>
+	</fitting>
+	<fitting name="Armor Proteus v2">
+		<description value=""/>
+		<shipType value="Proteus"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 0"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware type="Proteus Defensive - Covert Reconfiguration" slot="subsystem slot 1"/>
+		<hardware type="Proteus Core - Augmented Fusion Reactor" slot="subsystem slot 0"/>
+		<hardware type="Proteus Propulsion - Hyperspatial Optimization" slot="subsystem slot 3"/>
+		<hardware type="Proteus Offensive - Hybrid Encoding Platform" slot="subsystem slot 2"/>
+		<hardware type="Reactive Armor Hardener" slot="low slot 0"/>
+		<hardware type="Centii A-Type Multispectrum Coating" slot="low slot 1"/>
+		<hardware type="10MN Afterburner II" slot="med slot 0"/>
+		<hardware type="Imperial Navy Multispectrum Energized Membrane" slot="low slot 2"/>
+		<hardware type="Imperial Navy 1600mm Steel Plates" slot="low slot 3"/>
+		<hardware type="Shadow Serpentis Warp Scrambler" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 4"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 2"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Sisters Expanded Probe Launcher" slot="hi slot 5"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 6"/>
+		<hardware type="Magnetic Field Stabilizer II" slot="low slot 5"/>
+		<hardware type="Heavy Neutron Blaster II" slot="hi slot 7"/>
+		<hardware qty="5" slot="drone bay" type="Hobgoblin II"/>
+		<hardware qty="5" slot="drone bay" type="Warrior II"/>
+		<hardware qty="2480" slot="cargo" type="Void M"/>
+		<hardware qty="8" slot="cargo" type="Sisters Combat Scanner Probe"/>
+		<hardware qty="2000" slot="cargo" type="Null M"/>
+	</fitting>
+	<fitting name="HAM Armor Legion">
+		<description value="with full set of mid-grade amulets, the tank gets up to 75k"/>
+		<shipType value="Legion"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 0"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware type="Legion Defensive - Covert Reconfiguration" slot="subsystem slot 1"/>
+		<hardware type="Legion Offensive - Assault Optimization" slot="subsystem slot 2"/>
+		<hardware type="Legion Core - Augmented Antimatter Reactor" slot="subsystem slot 0"/>
+		<hardware type="Legion Propulsion - Wake Limiter" slot="subsystem slot 3"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 0"/>
+		<hardware type="Reactive Armor Hardener" slot="low slot 1"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 3"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 4"/>
+		<hardware type="Imperial Navy Multispectrum Energized Membrane" slot="low slot 2"/>
+		<hardware type="10MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 5"/>
+		<hardware type="Medium Gremlin Compact Energy Neutralizer" slot="hi slot 6"/>
+		<hardware type="Medium Gremlin Compact Energy Neutralizer" slot="hi slot 7"/>
+		<hardware type="Federation Navy 1600mm Steel Plates" slot="low slot 3"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Centii A-Type Multispectrum Coating" slot="low slot 4"/>
+		<hardware type="Ballistic Control System II" slot="low slot 5"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="2330" slot="cargo" type="Nova Rage Heavy Assault Missile"/>
+		<hardware qty="2000" slot="cargo" type="Inferno Rage Heavy Assault Missile"/>
+		<hardware qty="2000" slot="cargo" type="Mjolnir Rage Heavy Assault Missile"/>
+		<hardware qty="2000" slot="cargo" type="Scourge Rage Heavy Assault Missile"/>
+	</fitting>
+	<fitting name="HAM Armor Legion II">
+		<description value="with full set of mid-grade amulets, the tank gets up to 75k"/>
+		<shipType value="Legion"/>
+		<hardware type="Medium Ancillary Current Router II" slot="rig slot 0"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware type="Legion Defensive - Covert Reconfiguration" slot="subsystem slot 1"/>
+		<hardware type="Legion Offensive - Assault Optimization" slot="subsystem slot 2"/>
+		<hardware type="Legion Core - Energy Parasitic Complex" slot="subsystem slot 0"/>
+		<hardware type="Legion Propulsion - Wake Limiter" slot="subsystem slot 3"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 0"/>
+		<hardware type="Centii A-Type Multispectrum Coating" slot="low slot 1"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 0"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 1"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 2"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 3"/>
+		<hardware type="Heavy Assault Missile Launcher II" slot="hi slot 4"/>
+		<hardware type="Reactive Armor Hardener" slot="low slot 2"/>
+		<hardware type="10MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 5"/>
+		<hardware type="Medium Energy Neutralizer II" slot="hi slot 6"/>
+		<hardware type="Medium Energy Neutralizer II" slot="hi slot 7"/>
+		<hardware type="Federation Navy 1600mm Steel Plates" slot="low slot 3"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Ballistic Control System II" slot="low slot 4"/>
+		<hardware type="Cap Recharger II" slot="med slot 3"/>
+		<hardware qty="5" slot="drone bay" type="'Augmented' Hobgoblin"/>
+		<hardware qty="330" slot="cargo" type="Nova Rage Heavy Assault Missile"/>
+	</fitting>
+	<fitting name="Pulse Armor Legion">
+		<description value=""/>
+		<shipType value="Legion"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 0"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 1"/>
+		<hardware type="Medium Trimark Armor Pump II" slot="rig slot 2"/>
+		<hardware type="Legion Defensive - Covert Reconfiguration" slot="subsystem slot 1"/>
+		<hardware type="Legion Offensive - Liquid Crystal Magnifiers" slot="subsystem slot 2"/>
+		<hardware type="Legion Core - Augmented Antimatter Reactor" slot="subsystem slot 0"/>
+		<hardware type="Legion Propulsion - Wake Limiter" slot="subsystem slot 3"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 0"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 1"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 2"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 3"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 4"/>
+		<hardware type="Heavy Pulse Laser II" slot="hi slot 5"/>
+		<hardware type="Power Diagnostic System II" slot="low slot 0"/>
+		<hardware type="Reactive Armor Hardener" slot="low slot 1"/>
+		<hardware type="Coreli A-Type Multispectrum Coating" slot="low slot 2"/>
+		<hardware type="Imperial Navy 1600mm Steel Plates" slot="low slot 3"/>
+		<hardware type="10MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Stasis Webifier II" slot="med slot 2"/>
+		<hardware type="Covert Ops Cloaking Device II" slot="hi slot 6"/>
+		<hardware type="Sisters Expanded Probe Launcher" slot="hi slot 7"/>
+		<hardware type="Heat Sink II" slot="low slot 4"/>
+		<hardware type="Heat Sink II" slot="low slot 5"/>
+		<hardware qty="6" slot="cargo" type="Conflagration M"/>
+		<hardware qty="8" slot="cargo" type="Sisters Combat Scanner Probe"/>
+	</fitting>
+	<fitting name="Plate RAH Catalyst">
+		<description value=""/>
+		<shipType value="Catalyst"/>
+		<hardware type="Damage Control II" slot="low slot 0"/>
+		<hardware type="200mm Rolled Tungsten Compact Plates" slot="low slot 1"/>
+		<hardware type="Reactive Armor Hardener" slot="low slot 2"/>
+		<hardware type="1MN Y-S8 Compact Afterburner" slot="med slot 0"/>
+		<hardware type="Warp Scrambler II" slot="med slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 0"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 1"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 2"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 3"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 4"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 5"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 6"/>
+		<hardware type="Light Neutron Blaster II" slot="hi slot 7"/>
+		<hardware type="Small Explosive Armor Reinforcer I" slot="rig slot 0"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 1"/>
+		<hardware type="Small Trimark Armor Pump I" slot="rig slot 2"/>
+		<hardware qty="2640" slot="cargo" type="Void S"/>
+		<hardware qty="2000" slot="cargo" type="Null S"/>
+	</fitting>
+</fittings>
